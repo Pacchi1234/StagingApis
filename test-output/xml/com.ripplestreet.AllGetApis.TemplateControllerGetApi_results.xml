@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="7"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="9.028">
+  <properties />
+  
+  
+            <testcase name="AllEmailList" time="1.983" classname="com.ripplestreet.AllGetApis.TemplateControllerGetApi" />
+                <testcase name="PreviewTemplateContent" time="1.219" classname="com.ripplestreet.AllGetApis.TemplateControllerGetApi" />
+                <testcase name="GetTemplateListByTransactionalTypeAndEventId" time="1.099" classname="com.ripplestreet.AllGetApis.TemplateControllerGetApi" />
+                <testcase name="GettemplateByTrasactionalType" time="1.132" classname="com.ripplestreet.AllGetApis.TemplateControllerGetApi" />
+                <testcase name="DownloadCSVLoader" time="1.263" classname="com.ripplestreet.AllGetApis.TemplateControllerGetApi" />
+                <testcase name="template" time="1.224" classname="com.ripplestreet.AllGetApis.TemplateControllerGetApi" />
+                <testcase name="getTransactionalTemplateById" time="1.108" classname="com.ripplestreet.AllGetApis.TemplateControllerGetApi" />
+      
+</testsuite>

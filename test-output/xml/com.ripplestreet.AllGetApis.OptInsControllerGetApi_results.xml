@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="3.296">
+  <properties />
+  
+  
+            <testcase name="GetRewardCountByEventIdAndPreferenceforPerson" time="1.101" classname="com.ripplestreet.AllGetApis.OptInsControllerGetApi" />
+                <testcase name="getOptInById" time="1.060" classname="com.ripplestreet.AllGetApis.OptInsControllerGetApi" />
+                <testcase name="getListOptInByEventId" time="1.135" classname="com.ripplestreet.AllGetApis.OptInsControllerGetApi" />
+      
+</testsuite>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2.520">
+  <properties />
+  
+  
+            <testcase name="getAllRewardCatalogItems" time="2.520" classname="com.ripplestreet.AllGetApis.RewardCatalogControllerGetAPi" />
+      
+</testsuite>

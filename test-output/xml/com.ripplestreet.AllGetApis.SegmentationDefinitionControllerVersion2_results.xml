@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="3.226">
+  <properties />
+  
+  
+            <testcase name="getGetSegmentDefinitionByFolderIdAndSegmentId" time="1.097" classname="com.ripplestreet.AllGetApis.SegmentationDefinitionControllerVersion2" />
+                <testcase name="getAllSegments" time="1.091" classname="com.ripplestreet.AllGetApis.SegmentationDefinitionControllerVersion2" />
+                <testcase name="getSegmentDefinitionById" time="1.038" classname="com.ripplestreet.AllGetApis.SegmentationDefinitionControllerVersion2" />
+      
+</testsuite>

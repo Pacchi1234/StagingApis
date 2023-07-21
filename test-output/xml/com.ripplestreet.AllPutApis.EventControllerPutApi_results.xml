@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="3.509">
+  <properties />
+  
+  
+            <testcase name="updateComment" time="1.189" classname="com.ripplestreet.AllPutApis.EventControllerPutApi" />
+                <testcase name="updateEventPacksCount" time="1.141" classname="com.ripplestreet.AllPutApis.EventControllerPutApi" />
+                <testcase name="updateEventSubscriptions" time="1.179" classname="com.ripplestreet.AllPutApis.EventControllerPutApi" />
+      
+</testsuite>

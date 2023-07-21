@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2.178">
+  <properties />
+  
+  
+            <testcase name="getAgencyById" time="1.034" classname="com.ripplestreet.AllGetApis.AgencyControllerGetApi" />
+                <testcase name="findAllAgencies" time="1.144" classname="com.ripplestreet.AllGetApis.AgencyControllerGetApi" />
+      
+</testsuite>

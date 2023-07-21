@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2.306">
+  <properties />
+  
+  
+            <testcase name="getAllJobByTypeAndId" time="1.066" classname="com.ripplestreet.AllGetApis.jobControllerGetApi" />
+                <testcase name="getAllListOfJobsBySourcetype" time="1.240" classname="com.ripplestreet.AllGetApis.jobControllerGetApi" />
+      
+</testsuite>

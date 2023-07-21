@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="3.378">
+  <properties />
+  
+  
+            <testcase name="getTriggerDefinition" time="1.137" classname="com.ripplestreet.AllGetApis.TriggerControllerGetApi" />
+                <testcase name="getTriggerInfoByTableNameAndOperation" time="1.106" classname="com.ripplestreet.AllGetApis.TriggerControllerGetApi" />
+                <testcase name="GetAllTriggers" time="1.135" classname="com.ripplestreet.AllGetApis.TriggerControllerGetApi" />
+      
+</testsuite>

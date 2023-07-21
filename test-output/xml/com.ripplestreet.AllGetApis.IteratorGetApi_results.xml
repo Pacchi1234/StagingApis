@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="9.877">
+  <properties />
+  
+  
+            <testcase name="getAllAGamesByAllDirectionsUsingIterator" time="2.510" classname="com.ripplestreet.AllGetApis.IteratorGetApi" />
+                <testcase name="discoverEventsByAllEventType" time="7.367" classname="com.ripplestreet.AllGetApis.IteratorGetApi" />
+      
+</testsuite>

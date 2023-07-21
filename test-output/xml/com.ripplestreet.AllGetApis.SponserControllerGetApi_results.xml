@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="3.362">
+  <properties />
+  
+  
+            <testcase name="findAllsponsorAssetsbysponsorId" time="1.064" classname="com.ripplestreet.AllGetApis.SponserControllerGetApi" />
+                <testcase name="getAllSponsors" time="1.147" classname="com.ripplestreet.AllGetApis.SponserControllerGetApi" />
+                <testcase name="findSponsorById" time="1.151" classname="com.ripplestreet.AllGetApis.SponserControllerGetApi" />
+      
+</testsuite>

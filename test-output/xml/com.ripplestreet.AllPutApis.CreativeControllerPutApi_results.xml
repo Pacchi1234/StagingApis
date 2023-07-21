@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="6.719">
+  <properties />
+  
+  
+            <testcase name="ReOrganizeHeroPlayListItems" time="1.139" classname="com.ripplestreet.AllPutApis.CreativeControllerPutApi" />
+                <testcase name="UpdateHeroPlayListItems" time="1.160" classname="com.ripplestreet.AllPutApis.CreativeControllerPutApi" />
+                <testcase name="updateBannerIdandEventId" time="1.157" classname="com.ripplestreet.AllPutApis.CreativeControllerPutApi" />
+                <testcase name="updateFavors" time="2.110" classname="com.ripplestreet.AllPutApis.CreativeControllerPutApi" />
+                <testcase name="reOrganizeFavors" time="1.153" classname="com.ripplestreet.AllPutApis.CreativeControllerPutApi" />
+      
+</testsuite>

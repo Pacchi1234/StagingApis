@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="5.534">
+  <properties />
+  
+  
+            <testcase name="FindIfUserExistInGivenSegment" time="1.076" classname="com.ripplestreet.AllGetApis.SegmentationDataControllerGetApi" />
+                <testcase name="GetUserDetailsOfaSegment" time="1.147" classname="com.ripplestreet.AllGetApis.SegmentationDataControllerGetApi" />
+                <testcase name="GetUsersOfaSegment" time="1.104" classname="com.ripplestreet.AllGetApis.SegmentationDataControllerGetApi" />
+                <testcase name="GetSegmentIdBySegmentName" time="1.096" classname="com.ripplestreet.AllGetApis.SegmentationDataControllerGetApi" />
+                <testcase name="GetSegmentsOfaUser" time="1.111" classname="com.ripplestreet.AllGetApis.SegmentationDataControllerGetApi" />
+      
+</testsuite>

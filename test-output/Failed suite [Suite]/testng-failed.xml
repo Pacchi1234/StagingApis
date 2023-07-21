@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Suite]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)(failed)">
+    <classes>
+      <class name="com.ripplestreet.AllGetApis.CommunityControllerGetApi">
+        <methods>
+          <include name="getAllUsersByEventAndParticipantType"/>
+          <include name="getUserDetails"/>
+          <include name="getAllEventsByUserAndParticipantType"/>
+          <include name="getUserListByFilters"/>
+          <include name="getUserParticipationBits"/>
+          <include name="BaseURI"/>
+          <include name="StatusCode"/>
+          <include name="getUserProfile"/>
+          <include name="getUserEventParticipationBit"/>
+        </methods>
+      </class> <!-- com.ripplestreet.AllGetApis.CommunityControllerGetApi -->
+      <class name="com.ripplestreet.AllGetApis.SurveyControllerGetApi">
+        <methods>
+          <include name="getSurveyStatusByEventIdAndPid"/>
+          <include name="BaseURI"/>
+          <include name="StatusCode"/>
+        </methods>
+      </class> <!-- com.ripplestreet.AllGetApis.SurveyControllerGetApi -->
+      <class name="com.ripplestreet.AllGetApis.EventFeedControllerGetApi">
+        <methods>
+          <include name="getFeedInfoById"/>
+          <include name="getPhotoFeedByEventId"/>
+          <include name="getReviewFeedByEventId"/>
+          <include name="BaseURI"/>
+          <include name="StatusCode"/>
+        </methods>
+      </class> <!-- com.ripplestreet.AllGetApis.EventFeedControllerGetApi -->
+      <class name="com.ripplestreet.AllGetApis.WorkFlowTemplateControllerGetApi">
+        <methods>
+          <include name="getStepFunctionByArn"/>
+          <include name="BaseURI"/>
+          <include name="StatusCode"/>
+        </methods>
+      </class> <!-- com.ripplestreet.AllGetApis.WorkFlowTemplateControllerGetApi -->
+      <class name="com.ripplestreet.AllGetApis.OptInsControllerGetApi">
+        <methods>
+          <include name="BaseURI"/>
+          <include name="getOptInById"/>
+          <include name="StatusCode"/>
+        </methods>
+      </class> <!-- com.ripplestreet.AllGetApis.OptInsControllerGetApi -->
+      <class name="com.ripplestreet.AllGetApis.TriggerControllerGetApi">
+        <methods>
+          <include name="getTriggerInfoByTableNameAndOperation"/>
+          <include name="BaseURI"/>
+          <include name="StatusCode"/>
+        </methods>
+      </class> <!-- com.ripplestreet.AllGetApis.TriggerControllerGetApi -->
+      <class name="com.ripplestreet.AllGetApis.SegmentationDefinitionControllerVersion2">
+        <methods>
+          <include name="getSegmentDefinitionById"/>
+          <include name="BaseURI"/>
+          <include name="StatusCode"/>
+        </methods>
+      </class> <!-- com.ripplestreet.AllGetApis.SegmentationDefinitionControllerVersion2 -->
+      <class name="com.ripplestreet.AllGetApis.GameControllerGetApi">
+        <methods>
+          <include name="getWinningoptionBasedOnTheProbability"/>
+          <include name="getGameBygameId"/>
+          <include name="BaseURI"/>
+          <include name="StatusCode"/>
+        </methods>
+      </class> <!-- com.ripplestreet.AllGetApis.GameControllerGetApi -->
+      <class name="com.ripplestreet.AllGetApis.SponserControllerGetApi">
+        <methods>
+          <include name="getAllSponsors"/>
+          <include name="BaseURI"/>
+          <include name="StatusCode"/>
+        </methods>
+      </class> <!-- com.ripplestreet.AllGetApis.SponserControllerGetApi -->
+      <class name="com.ripplestreet.AllGetApis.NotificationControllerGetApi">
+        <methods>
+          <include name="SearchCampaignforNotification"/>
+          <include name="isEmailExistInSuppressionList"/>
+          <include name="GetStatusByNotificationId"/>
+          <include name="BaseURI"/>
+          <include name="StatusCode"/>
+          <include name="getAllNotification"/>
+        </methods>
+      </class> <!-- com.ripplestreet.AllGetApis.NotificationControllerGetApi -->
+      <class name="com.ripplestreet.AllGetApis.AchievementProgramControllerGetApi">
+        <methods>
+          <include name="GetListofAchievementPrograms"/>
+          <include name="BaseURI"/>
+          <include name="StatusCode"/>
+        </methods>
+      </class> <!-- com.ripplestreet.AllGetApis.AchievementProgramControllerGetApi -->
+      <class name="com.ripplestreet.AllGetApis.SegmentationDataControllerGetApi">
+        <methods>
+          <include name="GetUsersOfaSegment"/>
+          <include name="GetUserDetailsOfaSegment"/>
+          <include name="BaseURI"/>
+          <include name="GetSegmentsOfaUser"/>
+          <include name="StatusCode"/>
+        </methods>
+      </class> <!-- com.ripplestreet.AllGetApis.SegmentationDataControllerGetApi -->
+      <class name="com.ripplestreet.AllGetApis.AchievementControllerGetApi">
+        <methods>
+          <include name="BaseURI"/>
+          <include name="StatusCode"/>
+          <include name="getAchivements"/>
+        </methods>
+      </class> <!-- com.ripplestreet.AllGetApis.AchievementControllerGetApi -->
+      <class name="com.ripplestreet.AllGetApis.UgcControllerGetApi">
+        <methods>
+          <include name="getImageRecognitionResponse"/>
+          <include name="getUgcDetailsById"/>
+          <include name="getUgcDetailsByTaskId"/>
+          <include name="BaseURI"/>
+          <include name="StatusCode"/>
+        </methods>
+      </class> <!-- com.ripplestreet.AllGetApis.UgcControllerGetApi -->
+      <class name="com.ripplestreet.AllGetApis.ReviewControllerGetApi">
+        <methods>
+          <include name="getReviewsByTaskId"/>
+          <include name="BaseURI"/>
+          <include name="StatusCode"/>
+        </methods>
+      </class> <!-- com.ripplestreet.AllGetApis.ReviewControllerGetApi -->
+      <class name="com.ripplestreet.AllGetApis.TemplateControllerGetApi">
+        <methods>
+          <include name="template"/>
+          <include name="getTransactionalTemplateById"/>
+          <include name="GettemplateByTrasactionalType"/>
+          <include name="PreviewTemplateContent"/>
+          <include name="GetTemplateListByTransactionalTypeAndEventId"/>
+          <include name="BaseURI"/>
+          <include name="StatusCode"/>
+        </methods>
+      </class> <!-- com.ripplestreet.AllGetApis.TemplateControllerGetApi -->
+      <class name="com.ripplestreet.AllGetApis.FAQcontrollerGetApi">
+        <methods>
+          <include name="getFAQbyEventId"/>
+          <include name="GetlistofFaqTopicItemsbyFaqTopicId"/>
+          <include name="getFAQById"/>
+          <include name="getlistofFaqTopicbyFaqId"/>
+          <include name="getFAQTopicitemsById"/>
+          <include name="BaseURI"/>
+          <include name="StatusCode"/>
+        </methods>
+      </class> <!-- com.ripplestreet.AllGetApis.FAQcontrollerGetApi -->
+      <class name="com.ripplestreet.AllGetApis.RewardControllerGetApi">
+        <methods>
+          <include name="getRewardByName"/>
+          <include name="searchItems"/>
+          <include name="getRewardSummaryByEventId"/>
+          <include name="getRewardCount"/>
+          <include name="BaseURI"/>
+          <include name="StatusCode"/>
+        </methods>
+      </class> <!-- com.ripplestreet.AllGetApis.RewardControllerGetApi -->
+      <class name="com.ripplestreet.AllGetApis.ActivityGroupControllerGetApi">
+        <methods>
+          <include name="BaseURI"/>
+          <include name="GetListofActivityGroups"/>
+          <include name="StatusCode"/>
+        </methods>
+      </class> <!-- com.ripplestreet.AllGetApis.ActivityGroupControllerGetApi -->
+      <class name="com.ripplestreet.AllGetApis.RewardDeliveryControllerGetApi">
+        <methods>
+          <include name="getRewardDeleverie"/>
+          <include name="getRewardDeleveries"/>
+          <include name="BaseURI"/>
+          <include name="StatusCode"/>
+        </methods>
+      </class> <!-- com.ripplestreet.AllGetApis.RewardDeliveryControllerGetApi -->
+      <class name="com.ripplestreet.AllGetApis.IteratorGetApi">
+        <methods>
+          <include name="discoverEventsByAllEventType"/>
+          <include name="BaseURI"/>
+          <include name="StatusCode"/>
+          <include name="getAllAGamesByAllDirectionsUsingIterator"/>
+        </methods>
+      </class> <!-- com.ripplestreet.AllGetApis.IteratorGetApi -->
+      <class name="com.ripplestreet.AllGetApis.EventControllerGetApi">
+        <methods>
+          <include name="getAllMileStonesByEvent"/>
+          <include name="getEventDetailBySlug"/>
+          <include name="getAllProductByEvents"/>
+          <include name="getFilteredEvents"/>
+          <include name="getCurrentMileStonesByEvent"/>
+          <include name="getpackAndApplicationCountByEventId"/>
+          <include name="getAllSubscriptionsByServiceName"/>
+          <include name="getByEventName"/>
+          <include name="getAllServices"/>
+          <include name="StatusCode"/>
+          <include name="getEventDetailForWorkFlow"/>
+          <include name="getEventMileStoneByIdAndDate"/>
+          <include name="getAllSubscriptionsByEvent"/>
+          <include name="getProductDetailEventIdAndProductId"/>
+          <include name="getEventById"/>
+          <include name="BaseURI"/>
+        </methods>
+      </class> <!-- com.ripplestreet.AllGetApis.EventControllerGetApi -->
+      <class name="com.ripplestreet.AllGetApis.CreativeControllerGetApi">
+        <methods>
+          <include name="findAllHeroPlaylistByModelId"/>
+          <include name="findHeroPlaylistById"/>
+          <include name="findAllHeroPlaylistItemsByPlayListId"/>
+          <include name="finAllBannerByEventId"/>
+          <include name="getFavorByEventIdAndId"/>
+          <include name="getBannerByEventIdandId"/>
+          <include name="BaseURI"/>
+          <include name="StatusCode"/>
+        </methods>
+      </class> <!-- com.ripplestreet.AllGetApis.CreativeControllerGetApi -->
+      <class name="com.ripplestreet.AllGetApis.userFamilyControllerGetApi">
+        <methods>
+          <include name="StatusCode"/>
+          <include name="BaseURI"/>
+          <include name="getUserChildern"/>
+        </methods>
+      </class> <!-- com.ripplestreet.AllGetApis.userFamilyControllerGetApi -->
+      <class name="com.ripplestreet.AllGetApis.EventDetailControllerGetApi">
+        <methods>
+          <include name="getListoftargetsByEventId"/>
+          <include name="findAllMilestonesTypeByEventtypes"/>
+          <include name="getBasicEventDetailByEventID"/>
+          <include name="findAllmileStonesByEvent"/>
+          <include name="BaseURI"/>
+          <include name="StatusCode"/>
+          <include name="findMileStoneById"/>
+        </methods>
+      </class> <!-- com.ripplestreet.AllGetApis.EventDetailControllerGetApi -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->

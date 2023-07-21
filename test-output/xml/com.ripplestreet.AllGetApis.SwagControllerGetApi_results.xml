@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2.274">
+  <properties />
+  
+  
+            <testcase name="getSwagList" time="1.196" classname="com.ripplestreet.AllGetApis.SwagControllerGetApi" />
+                <testcase name="getSwag" time="1.078" classname="com.ripplestreet.AllGetApis.SwagControllerGetApi" />
+      
+</testsuite>

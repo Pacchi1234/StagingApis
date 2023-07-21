@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="3.537">
+  <properties />
+  
+  
+            <testcase name="updateFAQTopics" time="1.173" classname="com.ripplestreet.AllPutApis.FAQSControllerPutApi" />
+                <testcase name="updateFAQTopicItems" time="1.207" classname="com.ripplestreet.AllPutApis.FAQSControllerPutApi" />
+                <testcase name="updateFAQ" time="1.157" classname="com.ripplestreet.AllPutApis.FAQSControllerPutApi" />
+      
+</testsuite>

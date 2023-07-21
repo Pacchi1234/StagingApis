@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="3.425">
+  <properties />
+  
+  
+            <testcase name="GetListofAchievementsforTriggerId" time="1.104" classname="com.ripplestreet.AllGetApis.AchievementControllerGetApi" />
+                <testcase name="GetListofAchievements" time="1.180" classname="com.ripplestreet.AllGetApis.AchievementControllerGetApi" />
+                <testcase name="getAchivements" time="1.141" classname="com.ripplestreet.AllGetApis.AchievementControllerGetApi" />
+      
+</testsuite>

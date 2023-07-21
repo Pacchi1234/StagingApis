@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="4.654">
+  <properties />
+  
+  
+            <testcase name="getDeliverySystemAttributeValue" time="1.110" classname="com.ripplestreet.AllGetApis.RewardDeliveryControllerGetApi" />
+                <testcase name="getRewardDeleveries" time="1.123" classname="com.ripplestreet.AllGetApis.RewardDeliveryControllerGetApi" />
+                <testcase name="getAllRewardDeliveriesByPersonId" time="1.327" classname="com.ripplestreet.AllGetApis.RewardDeliveryControllerGetApi" />
+                <testcase name="getRewardDeleverie" time="1.094" classname="com.ripplestreet.AllGetApis.RewardDeliveryControllerGetApi" />
+      
+</testsuite>

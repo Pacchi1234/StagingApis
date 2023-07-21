@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2.113">
+  <properties />
+  
+  
+            <testcase name="getListOfRoles" time="1.055" classname="com.ripplestreet.AllGetApis.RoleControllerGetApi" />
+                <testcase name="getLlistOfPeopleByRoleID" time="1.058" classname="com.ripplestreet.AllGetApis.RoleControllerGetApi" />
+      
+</testsuite>
