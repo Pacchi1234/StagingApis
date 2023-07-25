@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="1.097">
+           time="1.491">
   <properties />
   
   
-            <testcase name="getAssetById" time="1.097" classname="com.ripplestreet.AllGetApis.AssetControllerGetApi" />
+            <testcase name="getAssetById" time="1.491" classname="com.ripplestreet.AllGetApis.AssetControllerGetApi" />
       
 </testsuite>

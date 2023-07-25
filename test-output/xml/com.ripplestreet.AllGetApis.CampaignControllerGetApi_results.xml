@@ -4,11 +4,11 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="2.206">
+           time="3.099">
   <properties />
   
   
-            <testcase name="findCampaignById" time="1.098" classname="com.ripplestreet.AllGetApis.CampaignControllerGetApi" />
-                <testcase name="findAllCampaingn" time="1.108" classname="com.ripplestreet.AllGetApis.CampaignControllerGetApi" />
+            <testcase name="findAllCampaingn" time="1.588" classname="com.ripplestreet.AllGetApis.CampaignControllerGetApi" />
+                <testcase name="findCampaignById" time="1.511" classname="com.ripplestreet.AllGetApis.CampaignControllerGetApi" />
       
 </testsuite>

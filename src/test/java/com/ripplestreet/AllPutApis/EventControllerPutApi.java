@@ -22,6 +22,7 @@ public class EventControllerPutApi extends genricUtilities {
 		Testcase = 191;
 		File file = new File(devApiPath);
 		FileInputStream fis = new FileInputStream(file);
+		@SuppressWarnings("resource")
 		XSSFWorkbook workbook = new XSSFWorkbook(fis);
 		XSSFSheet sheet = workbook.getSheet(ExcelSheetPageName);
 		XSSFRow row2 = sheet.getRow(Testcase);
@@ -38,6 +39,7 @@ public class EventControllerPutApi extends genricUtilities {
 		Testcase = 192;
 		File file = new File(devApiPath);
 		FileInputStream fis = new FileInputStream(file);
+		@SuppressWarnings("resource")
 		XSSFWorkbook workbook = new XSSFWorkbook(fis);
 
 		XSSFSheet sheet = workbook.getSheet(ExcelSheetPageName);

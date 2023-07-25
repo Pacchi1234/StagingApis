@@ -3,34 +3,13 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.ripplestreet.AllGetApis.IteratorGetApi">
-        <methods>
-          <include name="BaseURI"/>
-          <include name="getAllAGamesByAllDirectionsUsingIterator"/>
-          <include name="StatusCode"/>
-        </methods>
-      </class> <!-- com.ripplestreet.AllGetApis.IteratorGetApi -->
-      <class name="com.ripplestreet.AllGetApis.WorkFlowTemplateControllerGetApi">
-        <methods>
-          <include name="getStepFunctionByArn"/>
-          <include name="BaseURI"/>
-          <include name="StatusCode"/>
-        </methods>
-      </class> <!-- com.ripplestreet.AllGetApis.WorkFlowTemplateControllerGetApi -->
-      <class name="com.ripplestreet.AllGetApis.EventDetailControllerGetApi">
-        <methods>
-          <include name="findAllMilestonesTypeByEventtypes"/>
-          <include name="BaseURI"/>
-          <include name="StatusCode"/>
-        </methods>
-      </class> <!-- com.ripplestreet.AllGetApis.EventDetailControllerGetApi -->
       <class name="com.ripplestreet.AllGetApis.EventControllerGetApi">
         <methods>
           <include name="getEventDetailForWorkFlow"/>
           <include name="getEventMileStoneByIdAndDate"/>
           <include name="getEventDetailBySlug"/>
-          <include name="getFilteredEvents"/>
           <include name="getCurrentMileStonesByEvent"/>
+          <include name="getFilteredEvents"/>
           <include name="getpackAndApplicationCountByEventId"/>
           <include name="getProductDetailEventIdAndProductId"/>
           <include name="getByEventName"/>
@@ -57,8 +36,8 @@
       <class name="com.ripplestreet.FilterApis.EventControllerFiltersGetApi">
         <methods>
           <include name="BaseURI"/>
-          <include name="geFilterdEvent"/>
           <include name="StatusCode"/>
+          <include name="geFilterdEvent"/>
         </methods>
       </class> <!-- com.ripplestreet.FilterApis.EventControllerFiltersGetApi -->
       <class name="com.ripplestreet.AllGetApis.SegmentationFolderControllerGetApi">
@@ -75,13 +54,6 @@
           <include name="StatusCode"/>
         </methods>
       </class> <!-- com.ripplestreet.AllPutApis.reviewControllerPutApi -->
-      <class name="com.ripplestreet.genricUtilities.GetApiFilters">
-        <methods>
-          <include name="test"/>
-          <include name="BaseURI"/>
-          <include name="StatusCode"/>
-        </methods>
-      </class> <!-- com.ripplestreet.genricUtilities.GetApiFilters -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

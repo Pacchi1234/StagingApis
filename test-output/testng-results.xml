@@ -1,25 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-21T14:48:37 IST" name="Default suite" finished-at="2023-07-21T14:48:45 IST" duration-ms="8238">
+  <suite started-at="2023-07-25T13:02:12 IST" name="Default suite" finished-at="2023-07-25T13:02:16 IST" duration-ms="4445">
     <groups>
+      <group name="event-campaign-manager">
+        <method signature="SurveyControllerGetApi.getSurveyStatusByEventIdAndPid()[pri:179, instance:com.ripplestreet.AllGetApis.SurveyControllerGetApi@5890e879]" name="getSurveyStatusByEventIdAndPid" class="com.ripplestreet.AllGetApis.SurveyControllerGetApi"/>
+      </group> <!-- event-campaign-manager -->
     </groups>
-    <test started-at="2023-07-21T14:48:37 IST" name="Default test" finished-at="2023-07-21T14:48:45 IST" duration-ms="8238">
-      <class name="com.ripplestreet.FilterApis.EventControllerFiltersGetApi">
-        <test-method is-config="true" signature="BaseURI()[pri:0, instance:com.ripplestreet.FilterApis.EventControllerFiltersGetApi@451001e5]" started-at="2023-07-21T14:48:37 IST" name="BaseURI" finished-at="2023-07-21T14:48:37 IST" duration-ms="307" status="PASS">
+    <test started-at="2023-07-25T13:02:12 IST" name="Default test" finished-at="2023-07-25T13:02:16 IST" duration-ms="4445">
+      <class name="com.ripplestreet.AllGetApis.SurveyControllerGetApi">
+        <test-method is-config="true" signature="BaseURI()[pri:0, instance:com.ripplestreet.AllGetApis.SurveyControllerGetApi@5890e879]" started-at="2023-07-25T13:02:12 IST" name="BaseURI" finished-at="2023-07-25T13:02:12 IST" duration-ms="485" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BaseURI -->
-        <test-method signature="DiscoverEventFilters()[pri:0, instance:com.ripplestreet.FilterApis.EventControllerFiltersGetApi@451001e5]" started-at="2023-07-21T14:48:37 IST" name="DiscoverEventFilters" finished-at="2023-07-21T14:48:45 IST" duration-ms="7768" status="PASS">
+        <test-method signature="getSurveyStatusByEventIdAndPid()[pri:179, instance:com.ripplestreet.AllGetApis.SurveyControllerGetApi@5890e879]" started-at="2023-07-25T13:02:12 IST" name="getSurveyStatusByEventIdAndPid" finished-at="2023-07-25T13:02:15 IST" duration-ms="2603" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- DiscoverEventFilters -->
-        <test-method is-config="true" signature="StatusCode()[pri:0, instance:com.ripplestreet.FilterApis.EventControllerFiltersGetApi@451001e5]" started-at="2023-07-21T14:48:45 IST" name="StatusCode" finished-at="2023-07-21T14:48:45 IST" duration-ms="120" status="PASS">
+        </test-method> <!-- getSurveyStatusByEventIdAndPid -->
+        <test-method is-config="true" signature="StatusCode()[pri:0, instance:com.ripplestreet.AllGetApis.SurveyControllerGetApi@5890e879]" started-at="2023-07-25T13:02:15 IST" name="StatusCode" finished-at="2023-07-25T13:02:16 IST" duration-ms="1284" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StatusCode -->
-      </class> <!-- com.ripplestreet.FilterApis.EventControllerFiltersGetApi -->
+      </class> <!-- com.ripplestreet.AllGetApis.SurveyControllerGetApi -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

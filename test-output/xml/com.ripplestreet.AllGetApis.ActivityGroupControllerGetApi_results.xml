@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="Test"
-           tests="4"
+           tests="8"
            failures="1"
            errors="0"
-           skipped="0"
-           time="11.407">
+           skipped="6"
+           time="16.219">
   <properties />
-            <testcase name="StatusCode" time="7.109" classname="com.ripplestreet.AllGetApis.ActivityGroupControllerGetApi">
+            <testcase name="StatusCode" time="13.169" classname="com.ripplestreet.AllGetApis.ActivityGroupControllerGetApi">
                 <failure type="java.lang.IllegalArgumentException"
                   message="The maximum length of cell contents (text) is 32767 characters"
               >
 <![CDATA[java.lang.IllegalArgumentException: The maximum length of cell contents (text) is 32767 characters
   org.apache.poi.ss.usermodel.CellBase.checkLength(CellBase.java:292)
   org.apache.poi.ss.usermodel.CellBase.setCellValue(CellBase.java:273)
-  com.ripplestreet.genricUtilities.genricUtilities.StatusCode(genricUtilities.java:133)
+  com.ripplestreet.genricUtilities.genricUtilities.StatusCode(genricUtilities.java:185)
   jdk.internal.reflect.GeneratedMethodAccessor117.invoke(Unknown Source)
   java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
   java.base/java.lang.reflect.Method.invoke(Method.java:568)
@@ -51,9 +51,25 @@
 
           </testcase>
   
+            <testcase name="BaseURI" time="0.0" classname="com.ripplestreet.AllGetApis.ActivityGroupControllerGetApi">
+          <skipped />
+    </testcase>
+            <testcase name="BaseURI" time="0.0" classname="com.ripplestreet.AllGetApis.ActivityGroupControllerGetApi">
+          <skipped />
+    </testcase>
+            <testcase name="StatusCode" time="0.0" classname="com.ripplestreet.AllGetApis.ActivityGroupControllerGetApi">
+          <skipped />
+    </testcase>
+            <testcase name="StatusCode" time="0.0" classname="com.ripplestreet.AllGetApis.ActivityGroupControllerGetApi">
+          <skipped />
+    </testcase>
+            <testcase name="GetActivityGroup" time="0.0" classname="com.ripplestreet.AllGetApis.ActivityGroupControllerGetApi">
+          <skipped />
+    </testcase>
+            <testcase name="GetActivityGroupsByyEventId" time="0.0" classname="com.ripplestreet.AllGetApis.ActivityGroupControllerGetApi">
+          <skipped />
+    </testcase>
   
-            <testcase name="GetActivityGroup" time="1.136" classname="com.ripplestreet.AllGetApis.ActivityGroupControllerGetApi" />
-                <testcase name="GetActivityGroupsByyEventId" time="1.170" classname="com.ripplestreet.AllGetApis.ActivityGroupControllerGetApi" />
-                <testcase name="GetListofActivityGroups" time="1.992" classname="com.ripplestreet.AllGetApis.ActivityGroupControllerGetApi" />
+            <testcase name="GetListofActivityGroups" time="3.050" classname="com.ripplestreet.AllGetApis.ActivityGroupControllerGetApi" />
       
 </testsuite>

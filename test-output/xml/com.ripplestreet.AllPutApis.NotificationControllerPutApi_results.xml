@@ -4,14 +4,14 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="5.959">
+           time="8.235">
   <properties />
   
   
-            <testcase name="sendPublishUnpublishNotification" time="1.120" classname="com.ripplestreet.AllPutApis.NotificationControllerPutApi" />
-                <testcase name="resetNotificationReceipentId" time="1.206" classname="com.ripplestreet.AllPutApis.NotificationControllerPutApi" />
-                <testcase name="resetNotificationStatus" time="1.180" classname="com.ripplestreet.AllPutApis.NotificationControllerPutApi" />
-                <testcase name="resetNotificationRecepientData" time="1.224" classname="com.ripplestreet.AllPutApis.NotificationControllerPutApi" />
-                <testcase name="deleteFileUploadByCampaignId" time="1.229" classname="com.ripplestreet.AllPutApis.NotificationControllerPutApi" />
+            <testcase name="deleteFileUploadByCampaignId" time="1.670" classname="com.ripplestreet.AllPutApis.NotificationControllerPutApi" />
+                <testcase name="sendPublishUnpublishNotification" time="1.579" classname="com.ripplestreet.AllPutApis.NotificationControllerPutApi" />
+                <testcase name="resetNotificationReceipentId" time="1.661" classname="com.ripplestreet.AllPutApis.NotificationControllerPutApi" />
+                <testcase name="resetNotificationRecepientData" time="1.667" classname="com.ripplestreet.AllPutApis.NotificationControllerPutApi" />
+                <testcase name="resetNotificationStatus" time="1.658" classname="com.ripplestreet.AllPutApis.NotificationControllerPutApi" />
       
 </testsuite>

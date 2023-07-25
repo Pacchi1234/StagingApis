@@ -4,11 +4,11 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="2.306">
+           time="3.156">
   <properties />
   
   
-            <testcase name="getAllJobByTypeAndId" time="1.066" classname="com.ripplestreet.AllGetApis.jobControllerGetApi" />
-                <testcase name="getAllListOfJobsBySourcetype" time="1.240" classname="com.ripplestreet.AllGetApis.jobControllerGetApi" />
+            <testcase name="getAllJobByTypeAndId" time="1.593" classname="com.ripplestreet.AllGetApis.jobControllerGetApi" />
+                <testcase name="getAllListOfJobsBySourcetype" time="1.563" classname="com.ripplestreet.AllGetApis.jobControllerGetApi" />
       
 </testsuite>

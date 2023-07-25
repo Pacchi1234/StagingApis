@@ -4,11 +4,11 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="2.255">
+           time="3.227">
   <properties />
   
   
-            <testcase name="UpdateAreceiptRecord" time="1.138" classname="com.ripplestreet.AllPutApis.ReceiptControllerPutApi" />
-                <testcase name="UpdateReceiptDatarecorder" time="1.117" classname="com.ripplestreet.AllPutApis.ReceiptControllerPutApi" />
+            <testcase name="UpdateReceiptDatarecorder" time="1.560" classname="com.ripplestreet.AllPutApis.ReceiptControllerPutApi" />
+                <testcase name="UpdateAreceiptRecord" time="1.667" classname="com.ripplestreet.AllPutApis.ReceiptControllerPutApi" />
       
 </testsuite>

@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="1.080">
+           time="1.526">
   <properties />
   
   
-            <testcase name="getCouponsByActivityId" time="1.080" classname="com.ripplestreet.AllGetApis.CouponControllerGetApi" />
+            <testcase name="getCouponsByActivityId" time="1.526" classname="com.ripplestreet.AllGetApis.CouponControllerGetApi" />
       
 </testsuite>

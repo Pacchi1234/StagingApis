@@ -4,13 +4,13 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="4.654">
+           time="6.255">
   <properties />
   
   
-            <testcase name="getDeliverySystemAttributeValue" time="1.110" classname="com.ripplestreet.AllGetApis.RewardDeliveryControllerGetApi" />
-                <testcase name="getRewardDeleveries" time="1.123" classname="com.ripplestreet.AllGetApis.RewardDeliveryControllerGetApi" />
-                <testcase name="getAllRewardDeliveriesByPersonId" time="1.327" classname="com.ripplestreet.AllGetApis.RewardDeliveryControllerGetApi" />
-                <testcase name="getRewardDeleverie" time="1.094" classname="com.ripplestreet.AllGetApis.RewardDeliveryControllerGetApi" />
+            <testcase name="getDeliverySystemAttributeValue" time="1.541" classname="com.ripplestreet.AllGetApis.RewardDeliveryControllerGetApi" />
+                <testcase name="getAllRewardDeliveriesByPersonId" time="1.749" classname="com.ripplestreet.AllGetApis.RewardDeliveryControllerGetApi" />
+                <testcase name="getRewardDeleverie" time="1.546" classname="com.ripplestreet.AllGetApis.RewardDeliveryControllerGetApi" />
+                <testcase name="getRewardDeleveries" time="1.419" classname="com.ripplestreet.AllGetApis.RewardDeliveryControllerGetApi" />
       
 </testsuite>

@@ -4,15 +4,15 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="6.553">
+           time="8.734">
   <properties />
   
   
-            <testcase name="getReward" time="1.079" classname="com.ripplestreet.AllGetApis.RewardControllerGetApi" />
-                <testcase name="getRewardSummaryByEventId" time="1.058" classname="com.ripplestreet.AllGetApis.RewardControllerGetApi" />
-                <testcase name="getAllReward" time="1.152" classname="com.ripplestreet.AllGetApis.RewardControllerGetApi" />
-                <testcase name="searchItems" time="1.088" classname="com.ripplestreet.AllGetApis.RewardControllerGetApi" />
-                <testcase name="getRewardCount" time="1.102" classname="com.ripplestreet.AllGetApis.RewardControllerGetApi" />
-                <testcase name="getRewardByName" time="1.074" classname="com.ripplestreet.AllGetApis.RewardControllerGetApi" />
+            <testcase name="getReward" time="1.372" classname="com.ripplestreet.AllGetApis.RewardControllerGetApi" />
+                <testcase name="getRewardCount" time="1.586" classname="com.ripplestreet.AllGetApis.RewardControllerGetApi" />
+                <testcase name="getAllReward" time="1.523" classname="com.ripplestreet.AllGetApis.RewardControllerGetApi" />
+                <testcase name="getRewardSummaryByEventId" time="1.481" classname="com.ripplestreet.AllGetApis.RewardControllerGetApi" />
+                <testcase name="getRewardByName" time="1.434" classname="com.ripplestreet.AllGetApis.RewardControllerGetApi" />
+                <testcase name="searchItems" time="1.338" classname="com.ripplestreet.AllGetApis.RewardControllerGetApi" />
       
 </testsuite>

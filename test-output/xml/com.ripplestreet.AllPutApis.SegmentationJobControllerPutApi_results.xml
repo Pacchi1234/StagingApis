@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="1.103">
+           time="1.501">
   <properties />
   
   
-            <testcase name="createASegmentJob" time="1.103" classname="com.ripplestreet.AllPutApis.SegmentationJobControllerPutApi" />
+            <testcase name="createASegmentJob" time="1.501" classname="com.ripplestreet.AllPutApis.SegmentationJobControllerPutApi" />
       
 </testsuite>

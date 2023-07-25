@@ -4,11 +4,11 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="0.915">
+           time="2.800">
   <properties />
   
   
-            <testcase name="GetUserEnrollments" time="0.466" classname="com.ripplestreet.AllGetApis.EnrollmentControllerGetApi" />
-                <testcase name="EnrollmentList" time="0.449" classname="com.ripplestreet.AllGetApis.EnrollmentControllerGetApi" />
+            <testcase name="GetUserEnrollments" time="1.340" classname="com.ripplestreet.AllGetApis.EnrollmentControllerGetApi" />
+                <testcase name="EnrollmentList" time="1.460" classname="com.ripplestreet.AllGetApis.EnrollmentControllerGetApi" />
       
 </testsuite>

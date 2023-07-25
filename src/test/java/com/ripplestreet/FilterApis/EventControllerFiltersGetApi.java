@@ -14,7 +14,7 @@ public class EventControllerFiltersGetApi extends genricUtilities {
 	@Test
 	public void DiscoverEventFilters() throws NumberFormatException, IOException {
 		Testcase = 252;
-		List<String> evenTypes = Arrays.asList("UPCOMINGEVENTS", "OPENEVENTS", "CURRENTEVENTS", "PASTEVENTS");
+		
 
 		for (String evenTypes1 : evenTypes) {
 			response = RestAssured.given().queryParams("page", page, "size", size, "eventType", evenTypes1)
@@ -42,15 +42,13 @@ public class EventControllerFiltersGetApi extends genricUtilities {
 		map1.put("isChatterBox", true);
 		map1.put("isFeatured", true);
 		map1.put("isListed", true);
-		
-
-		/*
 
 		map2.put("isActive", false);
 		map2.put("isChatterBox", false);
 		map2.put("isFeatured", false);
 		map2.put("isListed", false);
-		*/
+		
+
 		System.out.println(map1);
 		String s = map1.toString();
 		ArrayList<String> keys = new ArrayList<>(map1.keySet());
@@ -61,7 +59,7 @@ public class EventControllerFiltersGetApi extends genricUtilities {
 			response = RestAssured.given().queryParam(key, value).get("/event/events/getAllEvents/_search");
 			genricUtilities.StatusCode();
 			Testcase++;
-			
+
 			ArrayList<String> keys1 = new ArrayList<>(map2.keySet());
 			for (int i1 = 0; i1 < map2.size(); i1++) {
 

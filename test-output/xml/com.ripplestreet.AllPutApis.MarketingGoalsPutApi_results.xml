@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="1.136">
+           time="1.768">
   <properties />
   
   
-            <testcase name="updateMArketingGoalForEvent" time="1.136" classname="com.ripplestreet.AllPutApis.MarketingGoalsPutApi" />
+            <testcase name="updateMArketingGoalForEvent" time="1.768" classname="com.ripplestreet.AllPutApis.MarketingGoalsPutApi" />
       
 </testsuite>

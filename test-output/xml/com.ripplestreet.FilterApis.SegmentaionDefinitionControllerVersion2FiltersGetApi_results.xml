@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="5.122">
+           time="5.067">
   <properties />
   
   
-            <testcase name="getAllSegments" time="5.122" classname="com.ripplestreet.FilterApis.SegmentaionDefinitionControllerVersion2FiltersGetApi" />
+            <testcase name="getAllSegments" time="5.067" classname="com.ripplestreet.FilterApis.SegmentaionDefinitionControllerVersion2FiltersGetApi" />
       
 </testsuite>

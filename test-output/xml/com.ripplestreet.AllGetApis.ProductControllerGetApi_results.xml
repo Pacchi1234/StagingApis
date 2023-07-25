@@ -4,11 +4,11 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="2.159">
+           time="3.112">
   <properties />
   
   
-            <testcase name="getProductsById" time="1.091" classname="com.ripplestreet.AllGetApis.ProductControllerGetApi" />
-                <testcase name="getListOfProdutsByEventID" time="1.068" classname="com.ripplestreet.AllGetApis.ProductControllerGetApi" />
+            <testcase name="getListOfProdutsByEventID" time="1.594" classname="com.ripplestreet.AllGetApis.ProductControllerGetApi" />
+                <testcase name="getProductsById" time="1.518" classname="com.ripplestreet.AllGetApis.ProductControllerGetApi" />
       
 </testsuite>

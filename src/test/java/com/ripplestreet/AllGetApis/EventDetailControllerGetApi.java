@@ -39,7 +39,7 @@ public class EventDetailControllerGetApi extends genricUtilities {
 	@Test(priority=161,groups="event-campaign-manager")
 	public void findAllMilestonesTypeByEventtypes() {
 		response= RestAssured.given().param("eventType", eventType)
-				.get("/event-campaign-manager/v1/milestoneTypes/{eventType}/list");
+				.get("/event-campaign-manager/v1/milestoneTypes/list");
 		Testcase = 161;
 
 	}

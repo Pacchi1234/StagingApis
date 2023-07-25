@@ -4,11 +4,11 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="2.292">
+           time="3.100">
   <properties />
   
   
-            <testcase name="UpdateASegment" time="1.175" classname="com.ripplestreet.AllPutApis.SegmentationDefinitionVersion2ControllerPutApi" />
-                <testcase name="refreshUserCountBySgment" time="1.117" classname="com.ripplestreet.AllPutApis.SegmentationDefinitionVersion2ControllerPutApi" />
+            <testcase name="refreshUserCountBySgment" time="1.607" classname="com.ripplestreet.AllPutApis.SegmentationDefinitionVersion2ControllerPutApi" />
+                <testcase name="UpdateASegment" time="1.493" classname="com.ripplestreet.AllPutApis.SegmentationDefinitionVersion2ControllerPutApi" />
       
 </testsuite>

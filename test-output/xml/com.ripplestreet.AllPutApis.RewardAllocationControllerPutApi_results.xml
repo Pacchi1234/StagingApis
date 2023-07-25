@@ -4,12 +4,12 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="3.455">
+           time="4.555">
   <properties />
   
   
-            <testcase name="updateRewarditemAllocation" time="1.186" classname="com.ripplestreet.AllPutApis.RewardAllocationControllerPutApi" />
-                <testcase name="UpdateAllocatedRewardItemToReadyForDelevery" time="1.120" classname="com.ripplestreet.AllPutApis.RewardAllocationControllerPutApi" />
-                <testcase name="UpdateAllocatedRewardItemStatus" time="1.149" classname="com.ripplestreet.AllPutApis.RewardAllocationControllerPutApi" />
+            <testcase name="updateRewarditemAllocation" time="1.472" classname="com.ripplestreet.AllPutApis.RewardAllocationControllerPutApi" />
+                <testcase name="UpdateAllocatedRewardItemToReadyForDelevery" time="1.488" classname="com.ripplestreet.AllPutApis.RewardAllocationControllerPutApi" />
+                <testcase name="UpdateAllocatedRewardItemStatus" time="1.595" classname="com.ripplestreet.AllPutApis.RewardAllocationControllerPutApi" />
       
 </testsuite>

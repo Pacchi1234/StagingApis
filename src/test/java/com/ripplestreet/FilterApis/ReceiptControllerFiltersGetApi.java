@@ -14,8 +14,8 @@ public class ReceiptControllerFiltersGetApi extends genricUtilities {
 	@Test
 	public void getReceiptList() throws NumberFormatException, IOException {
 		Testcase = 293;
-		List<String> action = Arrays.asList("INITIATED", "APPROVED", "PENDING", "REJECTED");
-		for (String actions : action) {
+		List<String> receiptstatus = Arrays.asList("INITIATED", "APPROVED", "PENDING", "REJECTED");
+		for (String actions : receiptstatus) {
 			response = RestAssured.get("/common-service/v1/receipt/list?action=" + actions + "&eventId=" + eventId);
 			genricUtilities.StatusCode();
 			Testcase++;

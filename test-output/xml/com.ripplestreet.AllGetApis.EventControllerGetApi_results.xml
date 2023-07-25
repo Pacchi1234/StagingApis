@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="Test"
-           tests="39"
+           tests="35"
            failures="1"
            errors="0"
-           skipped="33"
-           time="5.891">
+           skipped="27"
+           time="10.401">
   <properties />
-            <testcase name="StatusCode" time="0.263" classname="com.ripplestreet.AllGetApis.EventControllerGetApi">
+            <testcase name="StatusCode" time="0.429" classname="com.ripplestreet.AllGetApis.EventControllerGetApi">
                 <failure type="java.lang.IllegalArgumentException"
                   message="The maximum length of cell contents (text) is 32767 characters"
               >
 <![CDATA[java.lang.IllegalArgumentException: The maximum length of cell contents (text) is 32767 characters
   org.apache.poi.ss.usermodel.CellBase.checkLength(CellBase.java:292)
   org.apache.poi.ss.usermodel.CellBase.setCellValue(CellBase.java:273)
-  com.ripplestreet.genricUtilities.genricUtilities.StatusCode(genricUtilities.java:133)
+  com.ripplestreet.genricUtilities.genricUtilities.StatusCode(genricUtilities.java:185)
   jdk.internal.reflect.GeneratedMethodAccessor117.invoke(Unknown Source)
   java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
   java.base/java.lang.reflect.Method.invoke(Method.java:568)
@@ -54,16 +54,10 @@
             <testcase name="StatusCode" time="0.0" classname="com.ripplestreet.AllGetApis.EventControllerGetApi">
           <skipped />
     </testcase>
+            <testcase name="StatusCode" time="0.0" classname="com.ripplestreet.AllGetApis.EventControllerGetApi">
+          <skipped />
+    </testcase>
             <testcase name="BaseURI" time="0.0" classname="com.ripplestreet.AllGetApis.EventControllerGetApi">
-          <skipped />
-    </testcase>
-            <testcase name="StatusCode" time="0.0" classname="com.ripplestreet.AllGetApis.EventControllerGetApi">
-          <skipped />
-    </testcase>
-            <testcase name="StatusCode" time="0.0" classname="com.ripplestreet.AllGetApis.EventControllerGetApi">
-          <skipped />
-    </testcase>
-            <testcase name="StatusCode" time="0.0" classname="com.ripplestreet.AllGetApis.EventControllerGetApi">
           <skipped />
     </testcase>
             <testcase name="BaseURI" time="0.0" classname="com.ripplestreet.AllGetApis.EventControllerGetApi">
@@ -81,19 +75,10 @@
             <testcase name="BaseURI" time="0.0" classname="com.ripplestreet.AllGetApis.EventControllerGetApi">
           <skipped />
     </testcase>
-            <testcase name="BaseURI" time="0.0" classname="com.ripplestreet.AllGetApis.EventControllerGetApi">
-          <skipped />
-    </testcase>
-            <testcase name="StatusCode" time="0.0" classname="com.ripplestreet.AllGetApis.EventControllerGetApi">
-          <skipped />
-    </testcase>
             <testcase name="StatusCode" time="0.0" classname="com.ripplestreet.AllGetApis.EventControllerGetApi">
           <skipped />
     </testcase>
             <testcase name="BaseURI" time="0.0" classname="com.ripplestreet.AllGetApis.EventControllerGetApi">
-          <skipped />
-    </testcase>
-            <testcase name="StatusCode" time="0.0" classname="com.ripplestreet.AllGetApis.EventControllerGetApi">
           <skipped />
     </testcase>
             <testcase name="BaseURI" time="0.0" classname="com.ripplestreet.AllGetApis.EventControllerGetApi">
@@ -111,50 +96,49 @@
             <testcase name="BaseURI" time="0.0" classname="com.ripplestreet.AllGetApis.EventControllerGetApi">
           <skipped />
     </testcase>
-            <testcase name="BaseURI" time="0.0" classname="com.ripplestreet.AllGetApis.EventControllerGetApi">
+            <testcase name="StatusCode" time="0.0" classname="com.ripplestreet.AllGetApis.EventControllerGetApi">
+          <skipped />
+    </testcase>
+            <testcase name="StatusCode" time="0.0" classname="com.ripplestreet.AllGetApis.EventControllerGetApi">
           <skipped />
     </testcase>
             <testcase name="BaseURI" time="0.0" classname="com.ripplestreet.AllGetApis.EventControllerGetApi">
-          <skipped />
-    </testcase>
-            <testcase name="getAllServices" time="0.0" classname="com.ripplestreet.AllGetApis.EventControllerGetApi">
-          <skipped />
-    </testcase>
-            <testcase name="getFilteredEvents" time="0.0" classname="com.ripplestreet.AllGetApis.EventControllerGetApi">
-          <skipped />
-    </testcase>
-            <testcase name="getEventDetailForWorkFlow" time="0.0" classname="com.ripplestreet.AllGetApis.EventControllerGetApi">
-          <skipped />
-    </testcase>
-            <testcase name="getCurrentMileStonesByEvent" time="0.0" classname="com.ripplestreet.AllGetApis.EventControllerGetApi">
-          <skipped />
-    </testcase>
-            <testcase name="getAllSubscriptionsByEvent" time="0.0" classname="com.ripplestreet.AllGetApis.EventControllerGetApi">
-          <skipped />
-    </testcase>
-            <testcase name="getProductDetailEventIdAndProductId" time="0.0" classname="com.ripplestreet.AllGetApis.EventControllerGetApi">
-          <skipped />
-    </testcase>
-            <testcase name="getEventDetailBySlug" time="0.0" classname="com.ripplestreet.AllGetApis.EventControllerGetApi">
-          <skipped />
-    </testcase>
-            <testcase name="getEventMileStoneByIdAndDate" time="0.0" classname="com.ripplestreet.AllGetApis.EventControllerGetApi">
-          <skipped />
-    </testcase>
-            <testcase name="getByEventName" time="0.0" classname="com.ripplestreet.AllGetApis.EventControllerGetApi">
-          <skipped />
-    </testcase>
-            <testcase name="getEventById" time="0.0" classname="com.ripplestreet.AllGetApis.EventControllerGetApi">
           <skipped />
     </testcase>
             <testcase name="getpackAndApplicationCountByEventId" time="0.0" classname="com.ripplestreet.AllGetApis.EventControllerGetApi">
           <skipped />
     </testcase>
+            <testcase name="getEventMileStoneByIdAndDate" time="0.0" classname="com.ripplestreet.AllGetApis.EventControllerGetApi">
+          <skipped />
+    </testcase>
+            <testcase name="getEventDetailBySlug" time="0.0" classname="com.ripplestreet.AllGetApis.EventControllerGetApi">
+          <skipped />
+    </testcase>
+            <testcase name="getEventDetailForWorkFlow" time="0.0" classname="com.ripplestreet.AllGetApis.EventControllerGetApi">
+          <skipped />
+    </testcase>
+            <testcase name="getEventById" time="0.0" classname="com.ripplestreet.AllGetApis.EventControllerGetApi">
+          <skipped />
+    </testcase>
+            <testcase name="getFilteredEvents" time="0.0" classname="com.ripplestreet.AllGetApis.EventControllerGetApi">
+          <skipped />
+    </testcase>
+            <testcase name="getByEventName" time="0.0" classname="com.ripplestreet.AllGetApis.EventControllerGetApi">
+          <skipped />
+    </testcase>
+            <testcase name="getCurrentMileStonesByEvent" time="0.0" classname="com.ripplestreet.AllGetApis.EventControllerGetApi">
+          <skipped />
+    </testcase>
+            <testcase name="getProductDetailEventIdAndProductId" time="0.0" classname="com.ripplestreet.AllGetApis.EventControllerGetApi">
+          <skipped />
+    </testcase>
   
-            <testcase name="getAllEvents" time="1.147" classname="com.ripplestreet.AllGetApis.EventControllerGetApi" />
-                <testcase name="getAllCurrentMileStoneByEvent" time="1.145" classname="com.ripplestreet.AllGetApis.EventControllerGetApi" />
-                <testcase name="getAllSubscriptionsByServiceName" time="1.121" classname="com.ripplestreet.AllGetApis.EventControllerGetApi" />
-                <testcase name="getAllProductByEvents" time="1.129" classname="com.ripplestreet.AllGetApis.EventControllerGetApi" />
-                <testcase name="getAllMileStonesByEvent" time="1.086" classname="com.ripplestreet.AllGetApis.EventControllerGetApi" />
+            <testcase name="getAllMileStonesByEvent" time="1.336" classname="com.ripplestreet.AllGetApis.EventControllerGetApi" />
+                <testcase name="getAllCurrentMileStoneByEvent" time="1.537" classname="com.ripplestreet.AllGetApis.EventControllerGetApi" />
+                <testcase name="getAllEvents" time="1.236" classname="com.ripplestreet.AllGetApis.EventControllerGetApi" />
+                <testcase name="getAllSubscriptionsByServiceName" time="1.518" classname="com.ripplestreet.AllGetApis.EventControllerGetApi" />
+                <testcase name="getAllProductByEvents" time="1.521" classname="com.ripplestreet.AllGetApis.EventControllerGetApi" />
+                <testcase name="getAllSubscriptionsByEvent" time="1.505" classname="com.ripplestreet.AllGetApis.EventControllerGetApi" />
+                <testcase name="getAllServices" time="1.319" classname="com.ripplestreet.AllGetApis.EventControllerGetApi" />
       
 </testsuite>

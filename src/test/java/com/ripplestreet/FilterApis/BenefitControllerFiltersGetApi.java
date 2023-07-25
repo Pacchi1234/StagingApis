@@ -14,8 +14,8 @@ public class BenefitControllerFiltersGetApi extends genricUtilities {
 	@Test
 	public void getListOfBenefit() throws NumberFormatException, IOException {
 		Testcase = 285;
-		List<String> type = Arrays.asList("ALL", "BADGE", "STATUS");
-		for (String types : type) {
+		
+		for (String types : Benefittype) {
 			response = RestAssured.get("benefits-platform/v1/benefit/list?type=" + types);
 			genricUtilities.StatusCode();
 			Testcase++;

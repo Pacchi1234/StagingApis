@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="1.134">
+           time="1.595">
   <properties />
   
   
-            <testcase name="softDeleteByAssetId" time="1.134" classname="com.ripplestreet.AllPutApis.AssetControllerPutApi" />
+            <testcase name="softDeleteByAssetId" time="1.595" classname="com.ripplestreet.AllPutApis.AssetControllerPutApi" />
       
 </testsuite>

@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="1.195">
+           time="1.463">
   <properties />
   
   
-            <testcase name="getRewardAllocation" time="1.195" classname="com.ripplestreet.AllGetApis.RewardAllocationcontrollerGetApi" />
+            <testcase name="getRewardAllocation" time="1.463" classname="com.ripplestreet.AllGetApis.RewardAllocationcontrollerGetApi" />
       
 </testsuite>

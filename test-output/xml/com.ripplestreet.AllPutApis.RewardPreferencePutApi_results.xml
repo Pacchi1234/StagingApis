@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="1.133">
+           time="1.597">
   <properties />
   
   
-            <testcase name="updaterewardPreference" time="1.133" classname="com.ripplestreet.AllPutApis.RewardPreferencePutApi" />
+            <testcase name="updaterewardPreference" time="1.597" classname="com.ripplestreet.AllPutApis.RewardPreferencePutApi" />
       
 </testsuite>

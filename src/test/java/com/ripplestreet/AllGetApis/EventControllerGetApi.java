@@ -14,7 +14,7 @@ public class EventControllerGetApi extends genricUtilities implements ITestListe
 	public void getAllCurrentMileStoneByEvent() throws IOException {
 		RestAssured.baseURI = baseURI;
 		response = RestAssured.given().when().get("/event/events/getAllCurrentMileStonesByEvent/" + eventId);
-	//	Testcase = 1;
+	Testcase = 1;
 	}
 
 	@Test(groups = "event")

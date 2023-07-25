@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="1.192">
+           time="1.660">
   <properties />
   
   
-            <testcase name="updateOptionById" time="1.192" classname="com.ripplestreet.AllPutApis.GameOptionsControllertPutApi" />
+            <testcase name="updateOptionById" time="1.660" classname="com.ripplestreet.AllPutApis.GameOptionsControllertPutApi" />
       
 </testsuite>

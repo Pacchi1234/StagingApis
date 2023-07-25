@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.ripplestreet.FilterApis.CommunityServiceFiltersgetApi">
+      <class name="com.ripplestreet.AllPutApis.ApplicationsControllerPutApi">
         <methods>
-          <include name="getAllAdressEntriesByPersonId"/>
+          <include name="updateApplications"/>
           <include name="BaseURI"/>
           <include name="StatusCode"/>
         </methods>
-      </class> <!-- com.ripplestreet.FilterApis.CommunityServiceFiltersgetApi -->
+      </class> <!-- com.ripplestreet.AllPutApis.ApplicationsControllerPutApi -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

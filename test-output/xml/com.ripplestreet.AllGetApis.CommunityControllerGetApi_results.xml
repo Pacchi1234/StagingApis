@@ -4,18 +4,18 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="76.658">
+           time="65.721">
   <properties />
   
   
-            <testcase name="getAllEventsByUserAndParticipantType" time="1.158" classname="com.ripplestreet.AllGetApis.CommunityControllerGetApi" />
-                <testcase name="getUserDetails" time="1.120" classname="com.ripplestreet.AllGetApis.CommunityControllerGetApi" />
-                <testcase name="GettingDetailOfHeadHostByPersonId" time="1.070" classname="com.ripplestreet.AllGetApis.CommunityControllerGetApi" />
-                <testcase name="getAllAddressEntriesByPersonId" time="5.822" classname="com.ripplestreet.AllGetApis.CommunityControllerGetApi" />
-                <testcase name="getUserListByFilters" time="63.034" classname="com.ripplestreet.AllGetApis.CommunityControllerGetApi" />
-                <testcase name="getAllUsersByEventAndParticipantType" time="1.128" classname="com.ripplestreet.AllGetApis.CommunityControllerGetApi" />
-                <testcase name="getUserParticipationBits" time="1.112" classname="com.ripplestreet.AllGetApis.CommunityControllerGetApi" />
-                <testcase name="getUserProfile" time="1.118" classname="com.ripplestreet.AllGetApis.CommunityControllerGetApi" />
-                <testcase name="getUserEventParticipationBit" time="1.096" classname="com.ripplestreet.AllGetApis.CommunityControllerGetApi" />
+            <testcase name="getUserProfile" time="1.524" classname="com.ripplestreet.AllGetApis.CommunityControllerGetApi" />
+                <testcase name="getUserEventParticipationBit" time="1.470" classname="com.ripplestreet.AllGetApis.CommunityControllerGetApi" />
+                <testcase name="getAllAddressEntriesByPersonId" time="1.332" classname="com.ripplestreet.AllGetApis.CommunityControllerGetApi" />
+                <testcase name="GettingDetailOfHeadHostByPersonId" time="1.589" classname="com.ripplestreet.AllGetApis.CommunityControllerGetApi" />
+                <testcase name="getAllUsersByEventAndParticipantType" time="1.513" classname="com.ripplestreet.AllGetApis.CommunityControllerGetApi" />
+                <testcase name="getUserDetails" time="1.506" classname="com.ripplestreet.AllGetApis.CommunityControllerGetApi" />
+                <testcase name="getUserParticipationBits" time="1.193" classname="com.ripplestreet.AllGetApis.CommunityControllerGetApi" />
+                <testcase name="getUserListByFilters" time="54.056" classname="com.ripplestreet.AllGetApis.CommunityControllerGetApi" />
+                <testcase name="getAllEventsByUserAndParticipantType" time="1.538" classname="com.ripplestreet.AllGetApis.CommunityControllerGetApi" />
       
 </testsuite>

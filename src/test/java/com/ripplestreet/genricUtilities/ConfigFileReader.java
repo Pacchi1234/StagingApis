@@ -914,5 +914,13 @@ public class ConfigFileReader {
 		else
 			throw new RuntimeException("goalId Is not mentioned in the configuration.properties file");
 	}
+	public String getpostApiPath() {
+		String postApipath = properties.getProperty("postApipath");
+		if (postApipath != null)
+			return postApipath;
+		else
+			throw new RuntimeException("postApipath Is not mentioned in the configuration.properties file");
+	}
+	
 
 }

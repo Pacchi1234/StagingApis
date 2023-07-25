@@ -4,17 +4,17 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="9.761">
+           time="12.122">
   <properties />
   
   
-            <testcase name="FindHeroplaylistitemById" time="1.070" classname="com.ripplestreet.AllGetApis.CreativeControllerGetApi" />
-                <testcase name="finAllBannerByEventId" time="1.049" classname="com.ripplestreet.AllGetApis.CreativeControllerGetApi" />
-                <testcase name="findAllHeroPlaylistByModelId" time="1.109" classname="com.ripplestreet.AllGetApis.CreativeControllerGetApi" />
-                <testcase name="findAllHeroPlaylistItemsByPlayListId" time="1.113" classname="com.ripplestreet.AllGetApis.CreativeControllerGetApi" />
-                <testcase name="FinfAllfavousByEventId" time="1.105" classname="com.ripplestreet.AllGetApis.CreativeControllerGetApi" />
-                <testcase name="findHeroPlaylistById" time="1.115" classname="com.ripplestreet.AllGetApis.CreativeControllerGetApi" />
-                <testcase name="getFavorByEventIdAndId" time="2.104" classname="com.ripplestreet.AllGetApis.CreativeControllerGetApi" />
-                <testcase name="getBannerByEventIdandId" time="1.096" classname="com.ripplestreet.AllGetApis.CreativeControllerGetApi" />
+            <testcase name="FinfAllfavousByEventId" time="1.538" classname="com.ripplestreet.AllGetApis.CreativeControllerGetApi" />
+                <testcase name="findHeroPlaylistById" time="1.547" classname="com.ripplestreet.AllGetApis.CreativeControllerGetApi" />
+                <testcase name="FindHeroplaylistitemById" time="1.441" classname="com.ripplestreet.AllGetApis.CreativeControllerGetApi" />
+                <testcase name="finAllBannerByEventId" time="1.514" classname="com.ripplestreet.AllGetApis.CreativeControllerGetApi" />
+                <testcase name="getFavorByEventIdAndId" time="1.558" classname="com.ripplestreet.AllGetApis.CreativeControllerGetApi" />
+                <testcase name="getBannerByEventIdandId" time="1.443" classname="com.ripplestreet.AllGetApis.CreativeControllerGetApi" />
+                <testcase name="findAllHeroPlaylistItemsByPlayListId" time="1.526" classname="com.ripplestreet.AllGetApis.CreativeControllerGetApi" />
+                <testcase name="findAllHeroPlaylistByModelId" time="1.555" classname="com.ripplestreet.AllGetApis.CreativeControllerGetApi" />
       
 </testsuite>

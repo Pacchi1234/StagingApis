@@ -4,11 +4,11 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="2.236">
+           time="3.154">
   <properties />
   
   
-            <testcase name="ReopenActivity" time="1.126" classname="com.ripplestreet.AllPutApis.ActivityControllerPutApi" />
-                <testcase name="UpdateActivity" time="1.110" classname="com.ripplestreet.AllPutApis.ActivityControllerPutApi" />
+            <testcase name="ReopenActivity" time="1.612" classname="com.ripplestreet.AllPutApis.ActivityControllerPutApi" />
+                <testcase name="UpdateActivity" time="1.542" classname="com.ripplestreet.AllPutApis.ActivityControllerPutApi" />
       
 </testsuite>

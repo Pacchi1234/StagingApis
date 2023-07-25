@@ -4,12 +4,12 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="3.509">
+           time="5.111">
   <properties />
   
   
-            <testcase name="updateComment" time="1.189" classname="com.ripplestreet.AllPutApis.EventControllerPutApi" />
-                <testcase name="updateEventPacksCount" time="1.141" classname="com.ripplestreet.AllPutApis.EventControllerPutApi" />
-                <testcase name="updateEventSubscriptions" time="1.179" classname="com.ripplestreet.AllPutApis.EventControllerPutApi" />
+            <testcase name="updateEventPacksCount" time="1.635" classname="com.ripplestreet.AllPutApis.EventControllerPutApi" />
+                <testcase name="updateEventSubscriptions" time="1.595" classname="com.ripplestreet.AllPutApis.EventControllerPutApi" />
+                <testcase name="updateComment" time="1.881" classname="com.ripplestreet.AllPutApis.EventControllerPutApi" />
       
 </testsuite>

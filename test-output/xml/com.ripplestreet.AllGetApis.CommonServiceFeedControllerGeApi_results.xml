@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="1.122">
+           time="1.530">
   <properties />
   
   
-            <testcase name="getAllFeedsForEvents" time="1.122" classname="com.ripplestreet.AllGetApis.CommonServiceFeedControllerGeApi" />
+            <testcase name="getAllFeedsForEvents" time="1.530" classname="com.ripplestreet.AllGetApis.CommonServiceFeedControllerGeApi" />
       
 </testsuite>

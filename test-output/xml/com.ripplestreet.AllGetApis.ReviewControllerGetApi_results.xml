@@ -4,12 +4,12 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="3.476">
+           time="5.140">
   <properties />
   
   
-            <testcase name="getReview" time="1.233" classname="com.ripplestreet.AllGetApis.ReviewControllerGetApi" />
-                <testcase name="getReviewsByTaskId" time="1.109" classname="com.ripplestreet.AllGetApis.ReviewControllerGetApi" />
-                <testcase name="getExternalReview" time="1.134" classname="com.ripplestreet.AllGetApis.ReviewControllerGetApi" />
+            <testcase name="getReviewsByTaskId" time="1.740" classname="com.ripplestreet.AllGetApis.ReviewControllerGetApi" />
+                <testcase name="getExternalReview" time="1.649" classname="com.ripplestreet.AllGetApis.ReviewControllerGetApi" />
+                <testcase name="getReview" time="1.751" classname="com.ripplestreet.AllGetApis.ReviewControllerGetApi" />
       
 </testsuite>

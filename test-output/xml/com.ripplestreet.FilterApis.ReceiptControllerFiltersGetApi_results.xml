@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="6.623">
+           time="6.674">
   <properties />
   
   
-            <testcase name="getReceiptList" time="6.623" classname="com.ripplestreet.FilterApis.ReceiptControllerFiltersGetApi" />
+            <testcase name="getReceiptList" time="6.674" classname="com.ripplestreet.FilterApis.ReceiptControllerFiltersGetApi" />
       
 </testsuite>

@@ -4,11 +4,11 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="2.202">
+           time="3.053">
   <properties />
   
   
-            <testcase name="getGameOptionBySlug" time="1.118" classname="com.ripplestreet.AllGetApis.gameOptionControllerGetApi" />
-                <testcase name="getListOfOptionsByGameId" time="1.084" classname="com.ripplestreet.AllGetApis.gameOptionControllerGetApi" />
+            <testcase name="getGameOptionBySlug" time="1.546" classname="com.ripplestreet.AllGetApis.gameOptionControllerGetApi" />
+                <testcase name="getListOfOptionsByGameId" time="1.507" classname="com.ripplestreet.AllGetApis.gameOptionControllerGetApi" />
       
 </testsuite>

@@ -4,11 +4,11 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="2.274">
+           time="2.889">
   <properties />
   
   
-            <testcase name="getSwagList" time="1.196" classname="com.ripplestreet.AllGetApis.SwagControllerGetApi" />
-                <testcase name="getSwag" time="1.078" classname="com.ripplestreet.AllGetApis.SwagControllerGetApi" />
+            <testcase name="getSwag" time="1.407" classname="com.ripplestreet.AllGetApis.SwagControllerGetApi" />
+                <testcase name="getSwagList" time="1.482" classname="com.ripplestreet.AllGetApis.SwagControllerGetApi" />
       
 </testsuite>

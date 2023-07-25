@@ -1,140 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="Test"
            tests="5"
-           failures="1"
+           failures="0"
            errors="0"
            skipped="0"
-           time="4.330">
+           time="7.541">
   <properties />
-            <testcase name="findAllMilestonesTypeByEventtypes" time="0.002" classname="com.ripplestreet.AllGetApis.EventDetailControllerGetApi">
-                <failure type="java.lang.IllegalArgumentException"
-                  message="Invalid number of path parameters. Expected 1, was 0. Undefined path parameters are: eventType."
-              >
-<![CDATA[java.lang.IllegalArgumentException: Invalid number of path parameters. Expected 1, was 0. Undefined path parameters are: eventType.
-  java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-  java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-  java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-  java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-  java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-  org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
-  org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:60)
-  org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
-  org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-  io.restassured.internal.RequestSpecificationImpl.assertCorrectNumberOfPathParams(RequestSpecificationImpl.groovy:1277)
-  jdk.internal.reflect.GeneratedMethodAccessor79.invoke(Unknown Source)
-  java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-  java.base/java.lang.reflect.Method.invoke(Method.java:568)
-  org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
-  groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
-  groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1348)
-  groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1103)
-  groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1009)
-  groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:792)
-  io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
-  org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
-  org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
-  org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:176)
-  io.restassured.internal.RequestSpecificationImpl.sendRequest(RequestSpecificationImpl.groovy:1161)
-  io.restassured.internal.RequestSpecificationImpl.this$2$sendRequest(RequestSpecificationImpl.groovy)
-  jdk.internal.reflect.GeneratedMethodAccessor76.invoke(Unknown Source)
-  java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-  java.base/java.lang.reflect.Method.invoke(Method.java:568)
-  org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
-  groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
-  groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1348)
-  groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1103)
-  groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1009)
-  groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:792)
-  io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
-  org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
-  org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:166)
-  io.restassured.internal.filter.SendRequestFilter.filter(SendRequestFilter.groovy:30)
-  io.restassured.filter.Filter$filter.call(Unknown Source)
-  org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
-  io.restassured.filter.Filter$filter$0.call(Unknown Source)
-  io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
-  io.restassured.filter.time.TimingFilter.filter(TimingFilter.java:56)
-  io.restassured.filter.Filter$filter$0.call(Unknown Source)
-  org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
-  io.restassured.filter.Filter$filter.call(Unknown Source)
-  io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
-  io.restassured.filter.FilterContext$next.call(Unknown Source)
-  io.restassured.internal.filter.CsrfFilter.filter(CsrfFilter.groovy:70)
-  io.restassured.filter.Filter$filter.call(Unknown Source)
-  org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
-  io.restassured.filter.Filter$filter.call(Unknown Source)
-  io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
-  io.restassured.filter.FilterContext$next.call(Unknown Source)
-  io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1704)
-  io.restassured.internal.RequestSpecificationImpl.this$2$applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy)
-  jdk.internal.reflect.GeneratedMethodAccessor65.invoke(Unknown Source)
-  java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-  java.base/java.lang.reflect.Method.invoke(Method.java:568)
-  org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
-  groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
-  groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1348)
-  groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1103)
-  groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1009)
-  groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:792)
-  io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
-  org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
-  org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
-  org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
-  io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1710)
-  io.restassured.internal.RequestSpecificationImpl.this$2$applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy)
-  jdk.internal.reflect.GeneratedMethodAccessor64.invoke(Unknown Source)
-  java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-  java.base/java.lang.reflect.Method.invoke(Method.java:568)
-  org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
-  groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
-  groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1348)
-  groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1103)
-  groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1009)
-  groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:792)
-  io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
-  org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
-  org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
-  org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
-  io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy:172)
-  io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy)
-  com.ripplestreet.AllGetApis.EventDetailControllerGetApi.findAllMilestonesTypeByEventtypes(EventDetailControllerGetApi.java:41)
-  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-  java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-  java.base/java.lang.reflect.Method.invoke(Method.java:568)
-  org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-  org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-  org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-  org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-  org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-  org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-  org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-  org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-  java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-  org.testng.TestRunner.privateRun(TestRunner.java:829)
-  org.testng.TestRunner.run(TestRunner.java:602)
-  org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-  org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-  org.testng.SuiteRunner.run(SuiteRunner.java:330)
-  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-  org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-  org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-  org.testng.TestNG.runSuites(TestNG.java:1099)
-  org.testng.TestNG.run(TestNG.java:1067)
-  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-      </failure>
-
-          </testcase>
   
   
-            <testcase name="findAllmileStonesByEvent" time="1.078" classname="com.ripplestreet.AllGetApis.EventDetailControllerGetApi" />
-                <testcase name="getBasicEventDetailByEventID" time="1.100" classname="com.ripplestreet.AllGetApis.EventDetailControllerGetApi" />
-                <testcase name="getListoftargetsByEventId" time="1.063" classname="com.ripplestreet.AllGetApis.EventDetailControllerGetApi" />
-                <testcase name="findMileStoneById" time="1.087" classname="com.ripplestreet.AllGetApis.EventDetailControllerGetApi" />
+            <testcase name="getBasicEventDetailByEventID" time="1.536" classname="com.ripplestreet.AllGetApis.EventDetailControllerGetApi" />
+                <testcase name="getListoftargetsByEventId" time="1.492" classname="com.ripplestreet.AllGetApis.EventDetailControllerGetApi" />
+                <testcase name="findAllMilestonesTypeByEventtypes" time="1.510" classname="com.ripplestreet.AllGetApis.EventDetailControllerGetApi" />
+                <testcase name="findMileStoneById" time="1.547" classname="com.ripplestreet.AllGetApis.EventDetailControllerGetApi" />
+                <testcase name="findAllmileStonesByEvent" time="1.456" classname="com.ripplestreet.AllGetApis.EventDetailControllerGetApi" />
       
 </testsuite>

@@ -4,11 +4,11 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="22.680">
+           time="23.433">
   <properties />
   
   
-            <testcase name="getAllAdressEntriesByPersonId" time="11.420" classname="com.ripplestreet.FilterApis.CommunityServiceFiltersgetApi" />
-                <testcase name="getAllUsersByEventAndParticipantType" time="11.260" classname="com.ripplestreet.FilterApis.CommunityServiceFiltersgetApi" />
+            <testcase name="getAllUsersByEventAndParticipantType" time="11.947" classname="com.ripplestreet.FilterApis.CommunityServiceFiltersgetApi" />
+                <testcase name="getAllAdressEntriesByPersonId" time="11.486" classname="com.ripplestreet.FilterApis.CommunityServiceFiltersgetApi" />
       
 </testsuite>

@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="1.086">
+           time="1.632">
   <properties />
   
   
-            <testcase name="UpdateOtpIn" time="1.086" classname="com.ripplestreet.AllPutApis.optInsControllerPutApi" />
+            <testcase name="UpdateOtpIn" time="1.632" classname="com.ripplestreet.AllPutApis.optInsControllerPutApi" />
       
 </testsuite>

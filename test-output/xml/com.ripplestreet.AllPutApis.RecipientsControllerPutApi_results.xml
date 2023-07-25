@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="1.165">
+           time="1.600">
   <properties />
   
   
-            <testcase name="deleteRecipientsByCampaignId" time="1.165" classname="com.ripplestreet.AllPutApis.RecipientsControllerPutApi" />
+            <testcase name="deleteRecipientsByCampaignId" time="1.600" classname="com.ripplestreet.AllPutApis.RecipientsControllerPutApi" />
       
 </testsuite>

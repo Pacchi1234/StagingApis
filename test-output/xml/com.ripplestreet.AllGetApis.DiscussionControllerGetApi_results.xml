@@ -4,11 +4,11 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="2.190">
+           time="2.814">
   <properties />
   
   
-            <testcase name="getDiscussion" time="1.102" classname="com.ripplestreet.AllGetApis.DiscussionControllerGetApi" />
-                <testcase name="getDiscussionListByFilters" time="1.088" classname="com.ripplestreet.AllGetApis.DiscussionControllerGetApi" />
+            <testcase name="getDiscussion" time="1.352" classname="com.ripplestreet.AllGetApis.DiscussionControllerGetApi" />
+                <testcase name="getDiscussionListByFilters" time="1.462" classname="com.ripplestreet.AllGetApis.DiscussionControllerGetApi" />
       
 </testsuite>

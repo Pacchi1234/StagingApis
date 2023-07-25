@@ -4,12 +4,12 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="3.404">
+           time="4.532">
   <properties />
   
   
-            <testcase name="UpdateEventTarget" time="1.080" classname="com.ripplestreet.AllPutApis.EventDetailControllerPutApi" />
-                <testcase name="addEventBasicDetail" time="1.179" classname="com.ripplestreet.AllPutApis.EventDetailControllerPutApi" />
-                <testcase name="updateeventEventMileStones" time="1.145" classname="com.ripplestreet.AllPutApis.EventDetailControllerPutApi" />
+            <testcase name="addEventBasicDetail" time="1.322" classname="com.ripplestreet.AllPutApis.EventDetailControllerPutApi" />
+                <testcase name="updateeventEventMileStones" time="1.604" classname="com.ripplestreet.AllPutApis.EventDetailControllerPutApi" />
+                <testcase name="UpdateEventTarget" time="1.606" classname="com.ripplestreet.AllPutApis.EventDetailControllerPutApi" />
       
 </testsuite>

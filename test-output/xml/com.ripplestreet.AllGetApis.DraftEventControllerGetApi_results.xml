@@ -4,11 +4,11 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="2.331">
+           time="2.262">
   <properties />
   
   
-            <testcase name="getListOfEventsBycampaignId" time="1.160" classname="com.ripplestreet.AllGetApis.DraftEventControllerGetApi" />
-                <testcase name="getDraftEventByEventId" time="1.171" classname="com.ripplestreet.AllGetApis.DraftEventControllerGetApi" />
+            <testcase name="getListOfEventsBycampaignId" time="1.087" classname="com.ripplestreet.AllGetApis.DraftEventControllerGetApi" />
+                <testcase name="getDraftEventByEventId" time="1.175" classname="com.ripplestreet.AllGetApis.DraftEventControllerGetApi" />
       
 </testsuite>

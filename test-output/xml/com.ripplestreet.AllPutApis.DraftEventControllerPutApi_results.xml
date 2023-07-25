@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="1.166">
+           time="1.487">
   <properties />
   
   
-            <testcase name="updateDraftEvent" time="1.166" classname="com.ripplestreet.AllPutApis.DraftEventControllerPutApi" />
+            <testcase name="updateDraftEvent" time="1.487" classname="com.ripplestreet.AllPutApis.DraftEventControllerPutApi" />
       
 </testsuite>

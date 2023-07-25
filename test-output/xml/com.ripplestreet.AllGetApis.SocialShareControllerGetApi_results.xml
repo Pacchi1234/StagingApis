@@ -4,11 +4,11 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="2.176">
+           time="2.916">
   <properties />
   
   
-            <testcase name="getReview" time="1.087" classname="com.ripplestreet.AllGetApis.SocialShareControllerGetApi" />
-                <testcase name="getAllReviews" time="1.089" classname="com.ripplestreet.AllGetApis.SocialShareControllerGetApi" />
+            <testcase name="getReview" time="1.454" classname="com.ripplestreet.AllGetApis.SocialShareControllerGetApi" />
+                <testcase name="getAllReviews" time="1.462" classname="com.ripplestreet.AllGetApis.SocialShareControllerGetApi" />
       
 </testsuite>

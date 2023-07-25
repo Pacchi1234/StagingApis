@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="1.100">
+           time="1.615">
   <properties />
   
   
-            <testcase name="updateActivityTrackerstatuses" time="1.100" classname="com.ripplestreet.AllPutApis.TrackerControllerGetApi" />
+            <testcase name="updateActivityTrackerstatuses" time="1.615" classname="com.ripplestreet.AllPutApis.TrackerControllerGetApi" />
       
 </testsuite>

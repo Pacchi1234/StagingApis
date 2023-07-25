@@ -15,14 +15,13 @@ import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-import org.testng.ITestListener;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 
-public class genricUtilities implements ITestListener {
+public class genricUtilities {
 	public static String baseURI = ConfigFileReader.getInstance().getBaseURI();
 	public static String eventId = ConfigFileReader.getInstance().getEventId();
 	public static String page = ConfigFileReader.getInstance().getPage();
@@ -135,23 +134,42 @@ public class genricUtilities implements ITestListener {
 	public static String ExcelSheetPageName2 = ConfigFileReader.getInstance().getExcelSheetPageName2();
 	public static String path = System.getProperty("user.dir")
 			+ "C:\\Users\\Prashanthchigarer\\Documents\\Workspace\\RippleStreet_API\\RippleStreet_API\\src\\test\\resources\\EventController.xlsx";
-	public static String Package1 = "com.ripplestreet.AllGetApis";
 
 	public static String PutBody;
 
 	public static Response response;
 	public static int Testcase;
+	@SuppressWarnings("rawtypes")
 	public List ls = new ArrayList();
+	@SuppressWarnings("rawtypes")
 	public LinkedHashMap map1 = new LinkedHashMap<>();
+	@SuppressWarnings("rawtypes")
 	public LinkedHashMap map2 = new LinkedHashMap<>();
+	@SuppressWarnings("rawtypes")
 	public HashMap map3 = new HashMap<>();
+
 	public List<String> rewardType = Arrays.asList("PACK", "REIMBURSEMENT", "HYBRID");
+
 	public List<String> RewardStatus = Arrays.asList("INITIATED", "INPROGRESS", "READY_FOR_DELIVERY", "DELIVERED",
 			"PARTIAL_DELIVERED", "FAILED", "PENDING_APPROVAL", "CANCELLED", "EXPIRED", "REWARDED");
 
+	public List<String> evenTypes = Arrays.asList("UPCOMINGEVENTS", "OPENEVENTS", "CURRENTEVENTS", "PASTEVENTS");
+
 	public List<String> booleanValues = Arrays.asList("TRUE", "FALSE");
 
-	public List<String> FeedControllerTypes = Arrays.asList("Discussion", "SocialAsset", "Review");
+	public List<String> FeedTypes = Arrays.asList("Discussion", "SocialAsset", "Review");
+
+	public List<String> Benefittype = Arrays.asList("ALL", "BADGE", "STATUS");
+
+	public List<String> participantType = Arrays.asList("All", "Host", "Chatterbox", "Applicant", "Reserved", "Reject",
+			"Finalist");
+
+	public List<String> SourceType = Arrays.asList("STORE_GEO_CODING", "SEGMENT_STORE_GEO_CODING", "REWARD_ALLOCATION",
+			"EXPORT_AUDIENCE", "EXPORT_ACTIVITY_CONFIG", "EXPORT_REWARD_PREFERENCE", "EXPORT_REWARD_ALLOCATION",
+			"EXPORT_REWARD_DELIVERY", "EXPORT_SEGMENT_DATA", "EXPORT_COMMUNITY", "EXPORT_UGC_VIDEO", "EXPORT_UGC_PHOTO",
+			"EXPORT_UGC_DISCUSSION", "EXPORT_UGC_REVIEW", "EXPORT_UGC_EXTERNALREVIEW");
+
+	public List<String> segmentStatus = Arrays.asList("DRAFT", "PUBLISH", "UNPUBLISH");
 
 	@BeforeMethod
 	public void BaseURI() throws InterruptedException {
@@ -184,6 +202,7 @@ public class genricUtilities implements ITestListener {
 		FileOutputStream fio = new FileOutputStream(file);
 		workbook.write(fio);
 		workbook.close();
+
 		if (cell.getCellType() == CellType.STRING) {
 			String ExpectedOutput = cell.getStringCellValue();
 			if (ExpectedOutput.equals(ActualOutput)) {
@@ -193,22 +212,20 @@ public class genricUtilities implements ITestListener {
 			} else {
 
 				System.err.println("TestCase" + " " + Testcase + " " + "Expected and actual output is Mismatching");
-				// softAssert.assertEquals(ActualOutput, cell);
 
 			}
 		} else if (cell.getCellType() == CellType.NUMERIC) {
 			int ExpectedOutput = (int) cell.getNumericCellValue();
-			
-			  int Actual_output = Integer.parseInt(ActualOutput);
-			  
-			  if (ExpectedOutput == Actual_output) {
-			  
-			  System.err.println("TestCase" + " " + Testcase + " " + "has been passed"); //
-			  //softAssert.assertEquals(ActualOutput, cell);
-			  
-			  } else { System.err.println("TestCase" + " " + Testcase + " " +
-			  "Expected and actual output is Mismatching"); }
-			 
+
+			int Actual_output = Integer.parseInt(ActualOutput);
+
+			if (ExpectedOutput == Actual_output) {
+
+				System.err.println("TestCase" + " " + Testcase + " " + "has been passed"); //
+
+			} else {
+				System.err.println("TestCase" + " " + Testcase + " " + "Expected and actual output is Mismatching");
+			}
 
 		} else if (cell.getCellType() == CellType.BOOLEAN) {
 			Boolean ExpectedOutput = cell.getBooleanCellValue();
@@ -216,7 +233,6 @@ public class genricUtilities implements ITestListener {
 			if (ExpectedOutput.equals(ActualOutput)) {
 
 				System.err.println("TestCase" + " " + Testcase + " " + "has been passed");
-				// softAssert.assertEquals(ActualOutput, cell);
 
 			} else {
 				System.err.println("TestCase" + " " + Testcase + " " + "Expected and actual output is Mismatching");

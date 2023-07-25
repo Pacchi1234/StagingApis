@@ -4,11 +4,11 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="0.860">
+           time="3.007">
   <properties />
   
   
-            <testcase name="getListOfAudiencePromotionJobsByEventId" time="0.424" classname="com.ripplestreet.AllGetApis.AudiencePromotionControllerGetApi" />
-                <testcase name="getListOfInviteOnlyUsersByEventId" time="0.436" classname="com.ripplestreet.AllGetApis.AudiencePromotionControllerGetApi" />
+            <testcase name="getListOfInviteOnlyUsersByEventId" time="1.519" classname="com.ripplestreet.AllGetApis.AudiencePromotionControllerGetApi" />
+                <testcase name="getListOfAudiencePromotionJobsByEventId" time="1.488" classname="com.ripplestreet.AllGetApis.AudiencePromotionControllerGetApi" />
       
 </testsuite>

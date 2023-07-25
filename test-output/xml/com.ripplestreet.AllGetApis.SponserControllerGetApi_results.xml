@@ -4,12 +4,12 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="3.362">
+           time="4.293">
   <properties />
   
   
-            <testcase name="findAllsponsorAssetsbysponsorId" time="1.064" classname="com.ripplestreet.AllGetApis.SponserControllerGetApi" />
-                <testcase name="getAllSponsors" time="1.147" classname="com.ripplestreet.AllGetApis.SponserControllerGetApi" />
-                <testcase name="findSponsorById" time="1.151" classname="com.ripplestreet.AllGetApis.SponserControllerGetApi" />
+            <testcase name="findAllsponsorAssetsbysponsorId" time="1.384" classname="com.ripplestreet.AllGetApis.SponserControllerGetApi" />
+                <testcase name="getAllSponsors" time="1.555" classname="com.ripplestreet.AllGetApis.SponserControllerGetApi" />
+                <testcase name="findSponsorById" time="1.354" classname="com.ripplestreet.AllGetApis.SponserControllerGetApi" />
       
 </testsuite>

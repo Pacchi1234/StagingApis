@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="Test"
-           tests="3"
+           tests="5"
            failures="1"
            errors="0"
-           skipped="0"
-           time="2.456">
+           skipped="3"
+           time="1.846">
   <properties />
-            <testcase name="StatusCode" time="0.258" classname="com.ripplestreet.AllGetApis.SegmentationFolderControllerGetApi">
+            <testcase name="StatusCode" time="0.324" classname="com.ripplestreet.AllGetApis.SegmentationFolderControllerGetApi">
                 <failure type="java.lang.IllegalArgumentException"
                   message="The maximum length of cell contents (text) is 32767 characters"
               >
 <![CDATA[java.lang.IllegalArgumentException: The maximum length of cell contents (text) is 32767 characters
   org.apache.poi.ss.usermodel.CellBase.checkLength(CellBase.java:292)
   org.apache.poi.ss.usermodel.CellBase.setCellValue(CellBase.java:273)
-  com.ripplestreet.genricUtilities.genricUtilities.StatusCode(genricUtilities.java:133)
+  com.ripplestreet.genricUtilities.genricUtilities.StatusCode(genricUtilities.java:185)
   jdk.internal.reflect.GeneratedMethodAccessor117.invoke(Unknown Source)
   java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
   java.base/java.lang.reflect.Method.invoke(Method.java:568)
@@ -51,8 +51,16 @@
 
           </testcase>
   
+            <testcase name="StatusCode" time="0.0" classname="com.ripplestreet.AllGetApis.SegmentationFolderControllerGetApi">
+          <skipped />
+    </testcase>
+            <testcase name="BaseURI" time="0.0" classname="com.ripplestreet.AllGetApis.SegmentationFolderControllerGetApi">
+          <skipped />
+    </testcase>
+            <testcase name="GetSegmentFolderFromCampaignSegment" time="0.0" classname="com.ripplestreet.AllGetApis.SegmentationFolderControllerGetApi">
+          <skipped />
+    </testcase>
   
-            <testcase name="GetSegmentFolderFromCampaignSegment" time="1.102" classname="com.ripplestreet.AllGetApis.SegmentationFolderControllerGetApi" />
-                <testcase name="getAllSegmentFolder" time="1.096" classname="com.ripplestreet.AllGetApis.SegmentationFolderControllerGetApi" />
+            <testcase name="getAllSegmentFolder" time="1.522" classname="com.ripplestreet.AllGetApis.SegmentationFolderControllerGetApi" />
       
 </testsuite>

@@ -4,13 +4,13 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="4.555">
+           time="6.149">
   <properties />
   
   
-            <testcase name="getWinningoptionBasedOnTheProbability" time="1.110" classname="com.ripplestreet.AllGetApis.GameControllerGetApi" />
-                <testcase name="getAllgames" time="1.138" classname="com.ripplestreet.AllGetApis.GameControllerGetApi" />
-                <testcase name="GetGameTrackerRedisObjByGameId" time="1.151" classname="com.ripplestreet.AllGetApis.GameControllerGetApi" />
-                <testcase name="getGameBygameId" time="1.156" classname="com.ripplestreet.AllGetApis.GameControllerGetApi" />
+            <testcase name="GetGameTrackerRedisObjByGameId" time="1.494" classname="com.ripplestreet.AllGetApis.GameControllerGetApi" />
+                <testcase name="getGameBygameId" time="1.490" classname="com.ripplestreet.AllGetApis.GameControllerGetApi" />
+                <testcase name="getWinningoptionBasedOnTheProbability" time="1.591" classname="com.ripplestreet.AllGetApis.GameControllerGetApi" />
+                <testcase name="getAllgames" time="1.574" classname="com.ripplestreet.AllGetApis.GameControllerGetApi" />
       
 </testsuite>

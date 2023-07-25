@@ -4,16 +4,16 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="9.028">
+           time="11.869">
   <properties />
   
   
-            <testcase name="AllEmailList" time="1.983" classname="com.ripplestreet.AllGetApis.TemplateControllerGetApi" />
-                <testcase name="PreviewTemplateContent" time="1.219" classname="com.ripplestreet.AllGetApis.TemplateControllerGetApi" />
-                <testcase name="GetTemplateListByTransactionalTypeAndEventId" time="1.099" classname="com.ripplestreet.AllGetApis.TemplateControllerGetApi" />
-                <testcase name="GettemplateByTrasactionalType" time="1.132" classname="com.ripplestreet.AllGetApis.TemplateControllerGetApi" />
-                <testcase name="DownloadCSVLoader" time="1.263" classname="com.ripplestreet.AllGetApis.TemplateControllerGetApi" />
-                <testcase name="template" time="1.224" classname="com.ripplestreet.AllGetApis.TemplateControllerGetApi" />
-                <testcase name="getTransactionalTemplateById" time="1.108" classname="com.ripplestreet.AllGetApis.TemplateControllerGetApi" />
+            <testcase name="template" time="1.587" classname="com.ripplestreet.AllGetApis.TemplateControllerGetApi" />
+                <testcase name="AllEmailList" time="2.205" classname="com.ripplestreet.AllGetApis.TemplateControllerGetApi" />
+                <testcase name="GetTemplateListByTransactionalTypeAndEventId" time="1.372" classname="com.ripplestreet.AllGetApis.TemplateControllerGetApi" />
+                <testcase name="PreviewTemplateContent" time="1.508" classname="com.ripplestreet.AllGetApis.TemplateControllerGetApi" />
+                <testcase name="getTransactionalTemplateById" time="1.593" classname="com.ripplestreet.AllGetApis.TemplateControllerGetApi" />
+                <testcase name="DownloadCSVLoader" time="1.604" classname="com.ripplestreet.AllGetApis.TemplateControllerGetApi" />
+                <testcase name="GettemplateByTrasactionalType" time="2.000" classname="com.ripplestreet.AllGetApis.TemplateControllerGetApi" />
       
 </testsuite>

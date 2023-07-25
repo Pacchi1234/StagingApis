@@ -4,11 +4,11 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="2.304">
+           time="3.209">
   <properties />
   
   
-            <testcase name="UpdateRewardItemsSkuAlliases" time="1.146" classname="com.ripplestreet.AllPutApis.RewardItemControllerPutApi" />
-                <testcase name="UpdateRewardIteams" time="1.158" classname="com.ripplestreet.AllPutApis.RewardItemControllerPutApi" />
+            <testcase name="UpdateRewardItemsSkuAlliases" time="1.625" classname="com.ripplestreet.AllPutApis.RewardItemControllerPutApi" />
+                <testcase name="UpdateRewardIteams" time="1.584" classname="com.ripplestreet.AllPutApis.RewardItemControllerPutApi" />
       
 </testsuite>

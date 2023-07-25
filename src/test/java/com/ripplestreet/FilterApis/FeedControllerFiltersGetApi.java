@@ -12,7 +12,7 @@ public class FeedControllerFiltersGetApi extends genricUtilities {
 	public void getAllfeedForEvents() throws NumberFormatException, IOException {
 		Testcase = 376;
 		
-		for (String feedControllerType : FeedControllerTypes) {
+		for (String feedControllerType : FeedTypes) {
 			response = RestAssured.get("/common-service/v1/feeds/" + eventId + "?pageNo=" + page + "&size=" + size
 					+ "&types=" + feedControllerType);
 			genricUtilities.StatusCode();

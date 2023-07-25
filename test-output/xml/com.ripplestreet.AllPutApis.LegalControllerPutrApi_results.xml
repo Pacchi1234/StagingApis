@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="1.140">
+           time="1.320">
   <properties />
   
   
-            <testcase name="updateLegalDisclaimer" time="1.140" classname="com.ripplestreet.AllPutApis.LegalControllerPutrApi" />
+            <testcase name="updateLegalDisclaimer" time="1.320" classname="com.ripplestreet.AllPutApis.LegalControllerPutrApi" />
       
 </testsuite>

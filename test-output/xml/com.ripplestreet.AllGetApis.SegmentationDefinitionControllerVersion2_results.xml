@@ -4,12 +4,12 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="3.226">
+           time="4.567">
   <properties />
   
   
-            <testcase name="getGetSegmentDefinitionByFolderIdAndSegmentId" time="1.097" classname="com.ripplestreet.AllGetApis.SegmentationDefinitionControllerVersion2" />
-                <testcase name="getAllSegments" time="1.091" classname="com.ripplestreet.AllGetApis.SegmentationDefinitionControllerVersion2" />
-                <testcase name="getSegmentDefinitionById" time="1.038" classname="com.ripplestreet.AllGetApis.SegmentationDefinitionControllerVersion2" />
+            <testcase name="getSegmentDefinitionById" time="1.399" classname="com.ripplestreet.AllGetApis.SegmentationDefinitionControllerVersion2" />
+                <testcase name="getAllSegments" time="1.603" classname="com.ripplestreet.AllGetApis.SegmentationDefinitionControllerVersion2" />
+                <testcase name="getGetSegmentDefinitionByFolderIdAndSegmentId" time="1.565" classname="com.ripplestreet.AllGetApis.SegmentationDefinitionControllerVersion2" />
       
 </testsuite>

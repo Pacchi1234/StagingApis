@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="1.051">
+           time="1.507">
   <properties />
   
   
-            <testcase name="searchableFields" time="1.051" classname="com.ripplestreet.AllGetApis.AudienceSearchControllerGetApi" />
+            <testcase name="searchableFields" time="1.507" classname="com.ripplestreet.AllGetApis.AudienceSearchControllerGetApi" />
       
 </testsuite>

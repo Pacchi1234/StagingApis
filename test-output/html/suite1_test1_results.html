@@ -12,13 +12,13 @@
 <body>
 <h1>Test</h1>
 <p>
-  Test duration: 72.804s
+  Test duration: 688.938s
 </p>
 
   <table class="resultsTable configTable">
     <tr><th colspan="3" class="header failedConfig">Failed Configuration</th></tr>
               <tr class="group">
-        <td colspan="3">com.ripplestreet.FilterApis.GameControllerFiltersGetApi</td>
+        <td colspan="3">com.ripplestreet.AllGetApis.ActivityControllerGetApi</td>
       </tr>
             
 <tr>
@@ -26,16 +26,18 @@
                   StatusCode
       </td>
   <td class="duration">
-    0.041s
+    0.986s
   </td>
   <td class="result">
         
     
         
 
-        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.xssf.usermodel.XSSFRow.getCell(int)&quot; because &quot;row&quot; is null</b></a><br />
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>java.lang.IllegalArgumentException: The maximum length of cell contents (text) is 32767 characters</b></a><br />
     <div class="stackTrace" id="exception-0">
-              com.ripplestreet.genricUtilities.genricUtilities.StatusCode(genricUtilities.java:177)<br />
+              org.apache.poi.ss.usermodel.CellBase.checkLength(CellBase.java:292)<br />
+              org.apache.poi.ss.usermodel.CellBase.setCellValue(CellBase.java:273)<br />
+              com.ripplestreet.genricUtilities.genricUtilities.StatusCode(genricUtilities.java:185)<br />
               java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
               java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)<br />
               java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
@@ -73,7 +75,7 @@
       </td>
 </tr>
           <tr class="group">
-        <td colspan="3">com.ripplestreet.FilterApis.NotificationControllerFiltersGetApi</td>
+        <td colspan="3">com.ripplestreet.AllGetApis.ActivityGroupControllerGetApi</td>
       </tr>
             
 <tr>
@@ -81,18 +83,19 @@
                   StatusCode
       </td>
   <td class="duration">
-    0.049s
+    13.169s
   </td>
   <td class="result">
         
     
         
 
-        <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse"><b>java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.xssf.usermodel.XSSFRow.getCell(int)&quot; because &quot;row&quot; is null</b></a><br />
+        <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse"><b>java.lang.IllegalArgumentException: The maximum length of cell contents (text) is 32767 characters</b></a><br />
     <div class="stackTrace" id="exception-1">
-              com.ripplestreet.genricUtilities.genricUtilities.StatusCode(genricUtilities.java:177)<br />
-              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
-              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)<br />
+              org.apache.poi.ss.usermodel.CellBase.checkLength(CellBase.java:292)<br />
+              org.apache.poi.ss.usermodel.CellBase.setCellValue(CellBase.java:273)<br />
+              com.ripplestreet.genricUtilities.genricUtilities.StatusCode(genricUtilities.java:185)<br />
+              jdk.internal.reflect.GeneratedMethodAccessor117.invoke(Unknown Source)<br />
               java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
               java.base/java.lang.reflect.Method.invoke(Method.java:568)<br />
               org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br />
@@ -128,7 +131,7 @@
       </td>
 </tr>
           <tr class="group">
-        <td colspan="3">com.ripplestreet.FilterApis.RewardAllocationControllerFilterApi</td>
+        <td colspan="3">com.ripplestreet.AllGetApis.EventControllerGetApi</td>
       </tr>
             
 <tr>
@@ -136,18 +139,19 @@
                   StatusCode
       </td>
   <td class="duration">
-    0.036s
+    0.429s
   </td>
   <td class="result">
         
     
         
 
-        <a href="javascript:toggleElement('exception-2', 'block')" title="Click to expand/collapse"><b>java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.xssf.usermodel.XSSFRow.getCell(int)&quot; because &quot;row&quot; is null</b></a><br />
+        <a href="javascript:toggleElement('exception-2', 'block')" title="Click to expand/collapse"><b>java.lang.IllegalArgumentException: The maximum length of cell contents (text) is 32767 characters</b></a><br />
     <div class="stackTrace" id="exception-2">
-              com.ripplestreet.genricUtilities.genricUtilities.StatusCode(genricUtilities.java:177)<br />
-              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
-              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)<br />
+              org.apache.poi.ss.usermodel.CellBase.checkLength(CellBase.java:292)<br />
+              org.apache.poi.ss.usermodel.CellBase.setCellValue(CellBase.java:273)<br />
+              com.ripplestreet.genricUtilities.genricUtilities.StatusCode(genricUtilities.java:185)<br />
+              jdk.internal.reflect.GeneratedMethodAccessor117.invoke(Unknown Source)<br />
               java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
               java.base/java.lang.reflect.Method.invoke(Method.java:568)<br />
               org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br />
@@ -183,7 +187,7 @@
       </td>
 </tr>
           <tr class="group">
-        <td colspan="3">com.ripplestreet.FilterApis.RewardDeliveryControllerFiltersGetApi</td>
+        <td colspan="3">com.ripplestreet.AllGetApis.SegmentationFolderControllerGetApi</td>
       </tr>
             
 <tr>
@@ -191,18 +195,19 @@
                   StatusCode
       </td>
   <td class="duration">
-    0.041s
+    0.324s
   </td>
   <td class="result">
         
     
         
 
-        <a href="javascript:toggleElement('exception-3', 'block')" title="Click to expand/collapse"><b>java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.xssf.usermodel.XSSFRow.getCell(int)&quot; because &quot;row&quot; is null</b></a><br />
+        <a href="javascript:toggleElement('exception-3', 'block')" title="Click to expand/collapse"><b>java.lang.IllegalArgumentException: The maximum length of cell contents (text) is 32767 characters</b></a><br />
     <div class="stackTrace" id="exception-3">
-              com.ripplestreet.genricUtilities.genricUtilities.StatusCode(genricUtilities.java:177)<br />
-              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
-              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)<br />
+              org.apache.poi.ss.usermodel.CellBase.checkLength(CellBase.java:292)<br />
+              org.apache.poi.ss.usermodel.CellBase.setCellValue(CellBase.java:273)<br />
+              com.ripplestreet.genricUtilities.genricUtilities.StatusCode(genricUtilities.java:185)<br />
+              jdk.internal.reflect.GeneratedMethodAccessor117.invoke(Unknown Source)<br />
               java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
               java.base/java.lang.reflect.Method.invoke(Method.java:568)<br />
               org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br />
@@ -238,7 +243,7 @@
       </td>
 </tr>
           <tr class="group">
-        <td colspan="3">com.ripplestreet.FilterApis.SponsorControlletFiltersGetApi</td>
+        <td colspan="3">com.ripplestreet.FilterApis.EventControllerFiltersGetApi</td>
       </tr>
             
 <tr>
@@ -246,16 +251,18 @@
                   StatusCode
       </td>
   <td class="duration">
-    0.032s
+    0.037s
   </td>
   <td class="result">
         
     
         
 
-        <a href="javascript:toggleElement('exception-4', 'block')" title="Click to expand/collapse"><b>java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.xssf.usermodel.XSSFRow.getCell(int)&quot; because &quot;row&quot; is null</b></a><br />
+        <a href="javascript:toggleElement('exception-4', 'block')" title="Click to expand/collapse"><b>java.lang.IllegalArgumentException: The maximum length of cell contents (text) is 32767 characters</b></a><br />
     <div class="stackTrace" id="exception-4">
-              com.ripplestreet.genricUtilities.genricUtilities.StatusCode(genricUtilities.java:177)<br />
+              org.apache.poi.ss.usermodel.CellBase.checkLength(CellBase.java:292)<br />
+              org.apache.poi.ss.usermodel.CellBase.setCellValue(CellBase.java:273)<br />
+              com.ripplestreet.genricUtilities.genricUtilities.StatusCode(genricUtilities.java:185)<br />
               java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
               java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)<br />
               java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
@@ -293,18 +300,2137 @@
       </td>
 </tr>
     
-      </table>
+          <tr><td colspan="3">&nbsp;</td></tr>
+      <tr><td colspan="3" class="header skippedConfig">Skipped Configuration</td></tr>
+                    <tr>
+          <td colspan="3" class="group">com.ripplestreet.AllGetApis.ActivityControllerGetApi</td>
+        </tr>
+                
+<tr>
+  <td class="method">
+                  BaseURI
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  StatusCode
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+              <tr>
+          <td colspan="3" class="group">com.ripplestreet.AllGetApis.ActivityGroupControllerGetApi</td>
+        </tr>
+                
+<tr>
+  <td class="method">
+                  BaseURI
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BaseURI
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  StatusCode
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  StatusCode
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+              <tr>
+          <td colspan="3" class="group">com.ripplestreet.AllGetApis.EventControllerGetApi</td>
+        </tr>
+                
+<tr>
+  <td class="method">
+                  BaseURI
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BaseURI
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BaseURI
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BaseURI
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BaseURI
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BaseURI
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BaseURI
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BaseURI
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  BaseURI
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  StatusCode
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  StatusCode
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  StatusCode
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  StatusCode
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  StatusCode
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  StatusCode
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  StatusCode
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  StatusCode
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  StatusCode
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+              <tr>
+          <td colspan="3" class="group">com.ripplestreet.AllGetApis.SegmentationFolderControllerGetApi</td>
+        </tr>
+                
+<tr>
+  <td class="method">
+                  BaseURI
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  StatusCode
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+            </table>
 
 
   <table class="resultsTable">
     <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
           <tr>
-        <td colspan="3" class="group">com.ripplestreet.FilterApis.GameControllerFiltersGetApi</td>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.WorkFlowTemplateControllerGetApi</td>
       </tr>
             
 <tr>
   <td class="method">
+                  getStepFunctionByArn
+      </td>
+  <td class="duration">
+    0.007s
+  </td>
+  <td class="result">
+        
+    
+        
+
+        <a href="javascript:toggleElement('exception-26', 'block')" title="Click to expand/collapse"><b>java.lang.IllegalArgumentException: Invalid number of path parameters. Expected 1, was 0. Undefined path parameters are: workflowTemplateId.</b></a><br />
+    <div class="stackTrace" id="exception-26">
+              java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)<br />
+              java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)<br />
+              java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)<br />
+              org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)<br />
+              org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:60)<br />
+              org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)<br />
+              org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)<br />
+              org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)<br />
+              org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)<br />
+              io.restassured.internal.RequestSpecificationImpl.assertCorrectNumberOfPathParams(RequestSpecificationImpl.groovy:1277)<br />
+              jdk.internal.reflect.GeneratedMethodAccessor72.invoke(Unknown Source)<br />
+              java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.base/java.lang.reflect.Method.invoke(Method.java:568)<br />
+              org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)<br />
+              groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)<br />
+              groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1348)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1103)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1009)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:792)<br />
+              io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)<br />
+              org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)<br />
+              org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)<br />
+              org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:176)<br />
+              io.restassured.internal.RequestSpecificationImpl.sendRequest(RequestSpecificationImpl.groovy:1161)<br />
+              io.restassured.internal.RequestSpecificationImpl.this$2$sendRequest(RequestSpecificationImpl.groovy)<br />
+              jdk.internal.reflect.GeneratedMethodAccessor69.invoke(Unknown Source)<br />
+              java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.base/java.lang.reflect.Method.invoke(Method.java:568)<br />
+              org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)<br />
+              groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)<br />
+              groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1348)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1103)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1009)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:792)<br />
+              io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)<br />
+              org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)<br />
+              org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:166)<br />
+              io.restassured.internal.filter.SendRequestFilter.filter(SendRequestFilter.groovy:30)<br />
+              io.restassured.filter.Filter$filter.call(Unknown Source)<br />
+              org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)<br />
+              io.restassured.filter.Filter$filter$0.call(Unknown Source)<br />
+              io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)<br />
+              io.restassured.filter.time.TimingFilter.filter(TimingFilter.java:56)<br />
+              io.restassured.filter.Filter$filter$0.call(Unknown Source)<br />
+              org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)<br />
+              io.restassured.filter.Filter$filter.call(Unknown Source)<br />
+              io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)<br />
+              io.restassured.filter.FilterContext$next.call(Unknown Source)<br />
+              io.restassured.internal.filter.CsrfFilter.filter(CsrfFilter.groovy:70)<br />
+              io.restassured.filter.Filter$filter.call(Unknown Source)<br />
+              org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)<br />
+              io.restassured.filter.Filter$filter.call(Unknown Source)<br />
+              io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)<br />
+              io.restassured.filter.FilterContext$next.call(Unknown Source)<br />
+              io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1704)<br />
+              io.restassured.internal.RequestSpecificationImpl.this$2$applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy)<br />
+              jdk.internal.reflect.GeneratedMethodAccessor58.invoke(Unknown Source)<br />
+              java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.base/java.lang.reflect.Method.invoke(Method.java:568)<br />
+              org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)<br />
+              groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)<br />
+              groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1348)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1103)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1009)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:792)<br />
+              io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)<br />
+              org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)<br />
+              org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)<br />
+              org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)<br />
+              io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1710)<br />
+              io.restassured.internal.RequestSpecificationImpl.this$2$applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy)<br />
+              jdk.internal.reflect.GeneratedMethodAccessor57.invoke(Unknown Source)<br />
+              java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.base/java.lang.reflect.Method.invoke(Method.java:568)<br />
+              org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)<br />
+              groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)<br />
+              groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1348)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1103)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1009)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:792)<br />
+              io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)<br />
+              org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)<br />
+              org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)<br />
+              org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)<br />
+              io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy:172)<br />
+              io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy)<br />
+              com.ripplestreet.AllGetApis.WorkFlowTemplateControllerGetApi.getStepFunctionByArn(WorkFlowTemplateControllerGetApi.java:34)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)<br />
+              java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.base/java.lang.reflect.Method.invoke(Method.java:568)<br />
+              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br />
+              org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)<br />
+              org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br />
+              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)<br />
+              org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br />
+              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:829)<br />
+              org.testng.TestRunner.run(TestRunner.java:602)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:437)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:330)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1176)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1099)<br />
+              org.testng.TestNG.run(TestNG.java:1067)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                </div>
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllPutApis.reviewControllerPutApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  updateExternalReview
+      </td>
+  <td class="duration">
+    0.068s
+  </td>
+  <td class="result">
+        
+    
+        
+
+        <a href="javascript:toggleElement('exception-27', 'block')" title="Click to expand/collapse"><b>java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.xssf.usermodel.XSSFCell.getStringCellValue()&quot; because &quot;cell2&quot; is null</b></a><br />
+    <div class="stackTrace" id="exception-27">
+              com.ripplestreet.AllPutApis.reviewControllerPutApi.updateExternalReview(reviewControllerPutApi.java:32)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)<br />
+              java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.base/java.lang.reflect.Method.invoke(Method.java:568)<br />
+              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br />
+              org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)<br />
+              org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br />
+              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)<br />
+              org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br />
+              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:829)<br />
+              org.testng.TestRunner.run(TestRunner.java:602)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:437)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:330)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1176)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1099)<br />
+              org.testng.TestNG.run(TestNG.java:1067)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                </div>
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.FilterApis.EventControllerFiltersGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  geFilterdEvent
+      </td>
+  <td class="duration">
+    10.727s
+  </td>
+  <td class="result">
+        
+    
+        
+
+        <a href="javascript:toggleElement('exception-28', 'block')" title="Click to expand/collapse"><b>java.lang.IllegalArgumentException: The maximum length of cell contents (text) is 32767 characters</b></a><br />
+    <div class="stackTrace" id="exception-28">
+              org.apache.poi.ss.usermodel.CellBase.checkLength(CellBase.java:292)<br />
+              org.apache.poi.ss.usermodel.CellBase.setCellValue(CellBase.java:273)<br />
+              com.ripplestreet.genricUtilities.genricUtilities.StatusCode(genricUtilities.java:185)<br />
+              com.ripplestreet.FilterApis.EventControllerFiltersGetApi.geFilterdEvent(EventControllerFiltersGetApi.java:69)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)<br />
+              java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.base/java.lang.reflect.Method.invoke(Method.java:568)<br />
+              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br />
+              org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)<br />
+              org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br />
+              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)<br />
+              org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br />
+              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:829)<br />
+              org.testng.TestRunner.run(TestRunner.java:602)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:437)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:330)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1176)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1099)<br />
+              org.testng.TestNG.run(TestNG.java:1067)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                </div>
+      </td>
+</tr>
+      </table>
+
+  <table class="resultsTable" width="100%">
+    <tr><th colspan="3" class="header skipped">Skipped Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.ActivityControllerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  getActivity
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.ActivityGroupControllerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  GetActivityGroup
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  GetActivityGroupsByyEventId
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.EventControllerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  getByEventName
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getCurrentMileStonesByEvent
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getEventById
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getEventDetailBySlug
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getEventDetailForWorkFlow
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getEventMileStoneByIdAndDate
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getFilteredEvents
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getProductDetailEventIdAndProductId
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getpackAndApplicationCountByEventId
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.SegmentationFolderControllerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  GetSegmentFolderFromCampaignSegment
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+      </table>
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.AchievementControllerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  GetListofAchievements
+      </td>
+  <td class="duration">
+    2.757s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  GetListofAchievementsforTriggerId
+      </td>
+  <td class="duration">
+    1.568s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getAchivements
+      </td>
+  <td class="duration">
+    1.464s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.AchievementProgramControllerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  GetAchievementProgram
+      </td>
+  <td class="duration">
+    1.579s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  GetListOfAchievementProgramsforAchievementId
+      </td>
+  <td class="duration">
+    1.448s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  GetListofAchievementPrograms
+      </td>
+  <td class="duration">
+    1.521s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.ActivityControllerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  getListOfActivities
+      </td>
+  <td class="duration">
+    1.415s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.ActivityGroupControllerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  GetListofActivityGroups
+      </td>
+  <td class="duration">
+    3.050s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.AgencyControllerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  findAllAgencies
+      </td>
+  <td class="duration">
+    1.550s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getAgencyById
+      </td>
+  <td class="duration">
+    1.496s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.ApplicationControllerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  getAllApplications
+      </td>
+  <td class="duration">
+    1.590s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.AssetControllerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  getAssetById
+      </td>
+  <td class="duration">
+    1.491s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.AudienceControllerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  getParticipantsWithApplicationsForEvent
+      </td>
+  <td class="duration">
+    1.621s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.AudiencePromotionControllerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  getListOfAudiencePromotionJobsByEventId
+      </td>
+  <td class="duration">
+    1.488s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getListOfInviteOnlyUsersByEventId
+      </td>
+  <td class="duration">
+    1.519s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.AudienceSearchControllerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  searchableFields
+      </td>
+  <td class="duration">
+    1.507s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.BenefitControllerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  GetListofBenefit
+      </td>
+  <td class="duration">
+    1.642s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.CampaignControllerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  findAllCampaingn
+      </td>
+  <td class="duration">
+    1.588s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  findCampaignById
+      </td>
+  <td class="duration">
+    1.511s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.CommonServiceFeedControllerGeApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  getAllFeedsForEvents
+      </td>
+  <td class="duration">
+    1.530s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.CommunityControllerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  GettingDetailOfHeadHostByPersonId
+      </td>
+  <td class="duration">
+    1.589s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getAllAddressEntriesByPersonId
+      </td>
+  <td class="duration">
+    1.332s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getAllEventsByUserAndParticipantType
+      </td>
+  <td class="duration">
+    1.538s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getAllUsersByEventAndParticipantType
+      </td>
+  <td class="duration">
+    1.513s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getUserDetails
+      </td>
+  <td class="duration">
+    1.506s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getUserEventParticipationBit
+      </td>
+  <td class="duration">
+    1.470s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getUserListByFilters
+      </td>
+  <td class="duration">
+    54.056s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getUserParticipationBits
+      </td>
+  <td class="duration">
+    1.193s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getUserProfile
+      </td>
+  <td class="duration">
+    1.524s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.ConfigurationController</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  getAllconfigs
+      </td>
+  <td class="duration">
+    1.435s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.CouponControllerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  getCouponsByActivityId
+      </td>
+  <td class="duration">
+    1.526s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.CreativeControllerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  FindHeroplaylistitemById
+      </td>
+  <td class="duration">
+    1.441s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  FinfAllfavousByEventId
+      </td>
+  <td class="duration">
+    1.538s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  finAllBannerByEventId
+      </td>
+  <td class="duration">
+    1.514s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  findAllHeroPlaylistByModelId
+      </td>
+  <td class="duration">
+    1.555s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  findAllHeroPlaylistItemsByPlayListId
+      </td>
+  <td class="duration">
+    1.526s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  findHeroPlaylistById
+      </td>
+  <td class="duration">
+    1.547s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getBannerByEventIdandId
+      </td>
+  <td class="duration">
+    1.443s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getFavorByEventIdAndId
+      </td>
+  <td class="duration">
+    1.558s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.DiscussionControllerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  getDiscussion
+      </td>
+  <td class="duration">
+    1.352s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getDiscussionListByFilters
+      </td>
+  <td class="duration">
+    1.462s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.DraftEventControllerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  getDraftEventByEventId
+      </td>
+  <td class="duration">
+    1.175s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getListOfEventsBycampaignId
+      </td>
+  <td class="duration">
+    1.087s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.EnrollmentControllerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  EnrollmentList
+      </td>
+  <td class="duration">
+    1.460s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  GetUserEnrollments
+      </td>
+  <td class="duration">
+    1.340s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.EventControllerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  getAllCurrentMileStoneByEvent
+      </td>
+  <td class="duration">
+    1.537s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getAllEvents
+      </td>
+  <td class="duration">
+    1.236s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getAllMileStonesByEvent
+      </td>
+  <td class="duration">
+    1.336s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getAllProductByEvents
+      </td>
+  <td class="duration">
+    1.521s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getAllServices
+      </td>
+  <td class="duration">
+    1.319s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getAllSubscriptionsByEvent
+      </td>
+  <td class="duration">
+    1.505s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getAllSubscriptionsByServiceName
+      </td>
+  <td class="duration">
+    1.518s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.EventDetailControllerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  findAllMilestonesTypeByEventtypes
+      </td>
+  <td class="duration">
+    1.510s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  findAllmileStonesByEvent
+      </td>
+  <td class="duration">
+    1.456s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  findMileStoneById
+      </td>
+  <td class="duration">
+    1.547s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getBasicEventDetailByEventID
+      </td>
+  <td class="duration">
+    1.536s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getListoftargetsByEventId
+      </td>
+  <td class="duration">
+    1.492s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.EventFeedControllerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  getAllFeedsForEvent
+      </td>
+  <td class="duration">
+    7.494s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getCommentFeedByEventId
+      </td>
+  <td class="duration">
+    7.083s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getFeedInfoById
+      </td>
+  <td class="duration">
+    1.552s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getPhotoFeedByEventId
+      </td>
+  <td class="duration">
+    4.042s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getReviewFeedByEventId
+      </td>
+  <td class="duration">
+    4.580s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.EventTemplateControllerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  findAllEventTemplate
+      </td>
+  <td class="duration">
+    1.524s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.FAQcontrollerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  FAQTopicByID
+      </td>
+  <td class="duration">
+    1.597s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  GetFAQDetailByEventIdforCommunity
+      </td>
+  <td class="duration">
+    1.512s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  GetlistofFaqTopicItemsbyFaqTopicId
+      </td>
+  <td class="duration">
+    1.480s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getFAQById
+      </td>
+  <td class="duration">
+    1.511s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getFAQTopicitemsById
+      </td>
+  <td class="duration">
+    1.416s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getFAQbyEventId
+      </td>
+  <td class="duration">
+    1.554s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getlistofFaqTopicbyFaqId
+      </td>
+  <td class="duration">
+    1.515s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.GameControllerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  GetGameTrackerRedisObjByGameId
+      </td>
+  <td class="duration">
+    1.494s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
                   getAllgames
+      </td>
+  <td class="duration">
+    1.574s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getGameBygameId
+      </td>
+  <td class="duration">
+    1.490s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getWinningoptionBasedOnTheProbability
+      </td>
+  <td class="duration">
+    1.591s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.IntrestesControllerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  Allcategorieslist
+      </td>
+  <td class="duration">
+    1.646s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getUserInterestByPersonId
+      </td>
+  <td class="duration">
+    1.639s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.LegalControllerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  getLegalDesclaimer
+      </td>
+  <td class="duration">
+    1.591s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.MarketingGoalsControllerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  getMarketingGoalsForEvent
+      </td>
+  <td class="duration">
+    1.515s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.MobileAppControllerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  GetListOfMyActivities
+      </td>
+  <td class="duration">
+    3.449s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.MobileCommunityControllerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  getActiveEventsDetailForUser
+      </td>
+  <td class="duration">
+    1.527s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getAllEventsByUserAndParticipantTypeApplicant
+      </td>
+  <td class="duration">
+    1.558s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.NewTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  f
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.NotificationControllerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  GetCampaignByNotificationId
+      </td>
+  <td class="duration">
+    1.615s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  GetKPIMatrixByCampaignId
       </td>
   <td class="duration">
     1.493s
@@ -314,201 +2440,1281 @@
     
         
 
-        <a href="javascript:toggleElement('exception-5', 'block')" title="Click to expand/collapse"><b>java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.xssf.usermodel.XSSFRow.getCell(int)&quot; because &quot;row&quot; is null</b></a><br />
-    <div class="stackTrace" id="exception-5">
-              com.ripplestreet.genricUtilities.genricUtilities.StatusCode(genricUtilities.java:177)<br />
-              com.ripplestreet.FilterApis.GameControllerFiltersGetApi.getAllgames(GameControllerFiltersGetApi.java:29)<br />
-              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
-              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)<br />
-              java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
-              java.base/java.lang.reflect.Method.invoke(Method.java:568)<br />
-              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br />
-              org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)<br />
-              org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)<br />
-              org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br />
-              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)<br />
-              org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)<br />
-              org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br />
-              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br />
-              java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br />
-              org.testng.TestRunner.privateRun(TestRunner.java:829)<br />
-              org.testng.TestRunner.run(TestRunner.java:602)<br />
-              org.testng.SuiteRunner.runTest(SuiteRunner.java:437)<br />
-              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)<br />
-              org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)<br />
-              org.testng.SuiteRunner.run(SuiteRunner.java:330)<br />
-              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
-              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
-              org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)<br />
-              org.testng.TestNG.runSuitesLocally(TestNG.java:1176)<br />
-              org.testng.TestNG.runSuites(TestNG.java:1099)<br />
-              org.testng.TestNG.run(TestNG.java:1067)<br />
-              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
-              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
-              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
-                </div>
       </td>
 </tr>
-          <tr>
-        <td colspan="3" class="group">com.ripplestreet.FilterApis.NotificationControllerFiltersGetApi</td>
-      </tr>
-            
+<tr>
+  <td class="method">
+                  GetStatusByNotificationId
+      </td>
+  <td class="duration">
+    1.508s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  SearchCampaignforNotification
+      </td>
+  <td class="duration">
+    1.408s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
 <tr>
   <td class="method">
                   getAllNotification
       </td>
   <td class="duration">
-    1.652s
+    1.525s
   </td>
   <td class="result">
         
     
         
 
-        <a href="javascript:toggleElement('exception-6', 'block')" title="Click to expand/collapse"><b>java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.xssf.usermodel.XSSFRow.getCell(int)&quot; because &quot;row&quot; is null</b></a><br />
-    <div class="stackTrace" id="exception-6">
-              com.ripplestreet.genricUtilities.genricUtilities.StatusCode(genricUtilities.java:177)<br />
-              com.ripplestreet.FilterApis.NotificationControllerFiltersGetApi.getAllNotification(NotificationControllerFiltersGetApi.java:23)<br />
-              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
-              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)<br />
-              java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
-              java.base/java.lang.reflect.Method.invoke(Method.java:568)<br />
-              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br />
-              org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)<br />
-              org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)<br />
-              org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br />
-              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)<br />
-              org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)<br />
-              org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br />
-              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br />
-              java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br />
-              org.testng.TestRunner.privateRun(TestRunner.java:829)<br />
-              org.testng.TestRunner.run(TestRunner.java:602)<br />
-              org.testng.SuiteRunner.runTest(SuiteRunner.java:437)<br />
-              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)<br />
-              org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)<br />
-              org.testng.SuiteRunner.run(SuiteRunner.java:330)<br />
-              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
-              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
-              org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)<br />
-              org.testng.TestNG.runSuitesLocally(TestNG.java:1176)<br />
-              org.testng.TestNG.runSuites(TestNG.java:1099)<br />
-              org.testng.TestNG.run(TestNG.java:1067)<br />
-              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
-              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
-              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
-                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  isEmailExistInSuppressionList
+      </td>
+  <td class="duration">
+    1.519s
+  </td>
+  <td class="result">
+        
+    
+        
+
       </td>
 </tr>
           <tr>
-        <td colspan="3" class="group">com.ripplestreet.FilterApis.RewardAllocationControllerFilterApi</td>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.OptInsControllerGetApi</td>
       </tr>
             
 <tr>
   <td class="method">
-                  getRewradAllocation
+                  GetRewardCountByEventIdAndPreferenceforPerson
       </td>
   <td class="duration">
-    8.134s
+    1.536s
   </td>
   <td class="result">
         
     
         
 
-        <a href="javascript:toggleElement('exception-7', 'block')" title="Click to expand/collapse"><b>java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.xssf.usermodel.XSSFRow.getCell(int)&quot; because &quot;row&quot; is null</b></a><br />
-    <div class="stackTrace" id="exception-7">
-              com.ripplestreet.genricUtilities.genricUtilities.StatusCode(genricUtilities.java:177)<br />
-              com.ripplestreet.FilterApis.RewardAllocationControllerFilterApi.getRewradAllocation(RewardAllocationControllerFilterApi.java:22)<br />
-              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
-              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)<br />
-              java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
-              java.base/java.lang.reflect.Method.invoke(Method.java:568)<br />
-              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br />
-              org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)<br />
-              org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)<br />
-              org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br />
-              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)<br />
-              org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)<br />
-              org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br />
-              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br />
-              java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br />
-              org.testng.TestRunner.privateRun(TestRunner.java:829)<br />
-              org.testng.TestRunner.run(TestRunner.java:602)<br />
-              org.testng.SuiteRunner.runTest(SuiteRunner.java:437)<br />
-              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)<br />
-              org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)<br />
-              org.testng.SuiteRunner.run(SuiteRunner.java:330)<br />
-              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
-              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
-              org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)<br />
-              org.testng.TestNG.runSuitesLocally(TestNG.java:1176)<br />
-              org.testng.TestNG.runSuites(TestNG.java:1099)<br />
-              org.testng.TestNG.run(TestNG.java:1067)<br />
-              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
-              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
-              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
-                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getListOptInByEventId
+      </td>
+  <td class="duration">
+    1.510s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getOptInById
+      </td>
+  <td class="duration">
+    1.551s
+  </td>
+  <td class="result">
+        
+    
+        
+
       </td>
 </tr>
           <tr>
-        <td colspan="3" class="group">com.ripplestreet.FilterApis.RewardDeliveryControllerFiltersGetApi</td>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.OptinInflightActivationControllerGetApi</td>
       </tr>
             
 <tr>
   <td class="method">
-                  getRewardDeleviries
+                  getAllocationTransientRecordByEventIdAndPersonId
       </td>
   <td class="duration">
-    1.651s
+    1.455s
   </td>
   <td class="result">
         
     
         
 
-        <a href="javascript:toggleElement('exception-8', 'block')" title="Click to expand/collapse"><b>java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.xssf.usermodel.XSSFRow.getCell(int)&quot; because &quot;row&quot; is null</b></a><br />
-    <div class="stackTrace" id="exception-8">
-              com.ripplestreet.genricUtilities.genricUtilities.StatusCode(genricUtilities.java:177)<br />
-              com.ripplestreet.FilterApis.RewardDeliveryControllerFiltersGetApi.getRewardDeleviries(RewardDeliveryControllerFiltersGetApi.java:20)<br />
-              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
-              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)<br />
-              java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
-              java.base/java.lang.reflect.Method.invoke(Method.java:568)<br />
-              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br />
-              org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)<br />
-              org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)<br />
-              org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br />
-              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)<br />
-              org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)<br />
-              org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br />
-              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br />
-              java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br />
-              org.testng.TestRunner.privateRun(TestRunner.java:829)<br />
-              org.testng.TestRunner.run(TestRunner.java:602)<br />
-              org.testng.SuiteRunner.runTest(SuiteRunner.java:437)<br />
-              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)<br />
-              org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)<br />
-              org.testng.SuiteRunner.run(SuiteRunner.java:330)<br />
-              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
-              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
-              org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)<br />
-              org.testng.TestNG.runSuitesLocally(TestNG.java:1176)<br />
-              org.testng.TestNG.runSuites(TestNG.java:1099)<br />
-              org.testng.TestNG.run(TestNG.java:1067)<br />
-              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
-              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
-              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
-                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getListOfAllocationTransientRecordByEventId
+      </td>
+  <td class="duration">
+    1.463s
+  </td>
+  <td class="result">
+        
+    
+        
+
       </td>
 </tr>
           <tr>
-        <td colspan="3" class="group">com.ripplestreet.FilterApis.SponsorControlletFiltersGetApi</td>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.PartyControllerGetApi</td>
       </tr>
             
+<tr>
+  <td class="method">
+                  getlistofparties
+      </td>
+  <td class="duration">
+    1.328s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.PreSignedURLControllerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  getAllFilesBynotificationId
+      </td>
+  <td class="duration">
+    1.562s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.ProductControllerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  getListOfProdutsByEventID
+      </td>
+  <td class="duration">
+    1.594s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getProductsById
+      </td>
+  <td class="duration">
+    1.518s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.ReceiptControllerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  getReceiptList
+      </td>
+  <td class="duration">
+    1.491s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getReceiptRecordWithData
+      </td>
+  <td class="duration">
+    1.539s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.RecipientsController</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  GetAllRecipientForCampaignId
+      </td>
+  <td class="duration">
+    1.198s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.ReservationControllerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  GetUserStatusCountbyEventId
+      </td>
+  <td class="duration">
+    1.411s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.ReviewControllerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  getExternalReview
+      </td>
+  <td class="duration">
+    1.649s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getReview
+      </td>
+  <td class="duration">
+    1.751s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getReviewsByTaskId
+      </td>
+  <td class="duration">
+    1.740s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.RewardAllocationcontrollerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  getRewardAllocation
+      </td>
+  <td class="duration">
+    1.463s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.RewardCatalogControllerGetAPi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  getAllRewardCatalogItems
+      </td>
+  <td class="duration">
+    2.263s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.RewardControllerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  getAllReward
+      </td>
+  <td class="duration">
+    1.523s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getReward
+      </td>
+  <td class="duration">
+    1.372s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getRewardByName
+      </td>
+  <td class="duration">
+    1.434s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getRewardCount
+      </td>
+  <td class="duration">
+    1.586s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getRewardSummaryByEventId
+      </td>
+  <td class="duration">
+    1.481s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  searchItems
+      </td>
+  <td class="duration">
+    1.338s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.RewardDeliveryControllerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  getAllRewardDeliveriesByPersonId
+      </td>
+  <td class="duration">
+    1.749s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getDeliverySystemAttributeValue
+      </td>
+  <td class="duration">
+    1.541s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getRewardDeleverie
+      </td>
+  <td class="duration">
+    1.546s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getRewardDeleveries
+      </td>
+  <td class="duration">
+    1.419s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.RewardPreferencesControllerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  getRewardPreferences
+      </td>
+  <td class="duration">
+    1.456s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.RewardsItemsControllerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  getRewarditems
+      </td>
+  <td class="duration">
+    1.561s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.RoleControllerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  getListOfRoles
+      </td>
+  <td class="duration">
+    1.564s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getLlistOfPeopleByRoleID
+      </td>
+  <td class="duration">
+    1.535s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.SegmentationDataControllerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  FindIfUserExistInGivenSegment
+      </td>
+  <td class="duration">
+    1.443s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  GetSegmentIdBySegmentName
+      </td>
+  <td class="duration">
+    1.351s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  GetSegmentsOfaUser
+      </td>
+  <td class="duration">
+    1.557s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  GetUserDetailsOfaSegment
+      </td>
+  <td class="duration">
+    1.762s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  GetUsersOfaSegment
+      </td>
+  <td class="duration">
+    1.391s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.SegmentationDefinitionControllerVersion2</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  getAllSegments
+      </td>
+  <td class="duration">
+    1.603s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getGetSegmentDefinitionByFolderIdAndSegmentId
+      </td>
+  <td class="duration">
+    1.565s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getSegmentDefinitionById
+      </td>
+  <td class="duration">
+    1.399s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.SegmentationFolderControllerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  getAllSegmentFolder
+      </td>
+  <td class="duration">
+    1.522s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.SegmentationJobsControllerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  getAllSegmentJobsForSegmentId
+      </td>
+  <td class="duration">
+    1.541s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.SocialShareControllerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  getAllReviews
+      </td>
+  <td class="duration">
+    1.462s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getReview
+      </td>
+  <td class="duration">
+    1.454s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.SponserControllerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  findAllsponsorAssetsbysponsorId
+      </td>
+  <td class="duration">
+    1.384s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  findSponsorById
+      </td>
+  <td class="duration">
+    1.354s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
 <tr>
   <td class="method">
                   getAllSponsors
+      </td>
+  <td class="duration">
+    1.555s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.SurveyControllerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  getAllLinksByEventId
+      </td>
+  <td class="duration">
+    1.282s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getSurveyListByEventIdAndPid
+      </td>
+  <td class="duration">
+    1.503s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getSurveyStatusByEventIdAndPid
+      </td>
+  <td class="duration">
+    1.466s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.SwagControllerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  getSwag
+      </td>
+  <td class="duration">
+    1.407s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getSwagList
+      </td>
+  <td class="duration">
+    1.482s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.TargetsControllerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  getAlltargets
+      </td>
+  <td class="duration">
+    1.506s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.TaskControllerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  getListOfTasks
+      </td>
+  <td class="duration">
+    1.520s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getTask
+      </td>
+  <td class="duration">
+    1.532s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.TemplateControllerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  AllEmailList
+      </td>
+  <td class="duration">
+    2.205s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  DownloadCSVLoader
+      </td>
+  <td class="duration">
+    1.604s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  GetTemplateListByTransactionalTypeAndEventId
+      </td>
+  <td class="duration">
+    1.372s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  GettemplateByTrasactionalType
+      </td>
+  <td class="duration">
+    2.000s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  PreviewTemplateContent
+      </td>
+  <td class="duration">
+    1.508s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getTransactionalTemplateById
+      </td>
+  <td class="duration">
+    1.593s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  template
+      </td>
+  <td class="duration">
+    1.587s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.TrackableLinkcontrollerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  findAllLinksForAnEvent
+      </td>
+  <td class="duration">
+    1.479s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getLinkById
+      </td>
+  <td class="duration">
+    1.523s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.TremendouesControllerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  getTremendousCampaigns
+      </td>
+  <td class="duration">
+    1.909s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getTremendousFundingSources
+      </td>
+  <td class="duration">
+    1.783s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.TriggerControllerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  GetAllTriggers
+      </td>
+  <td class="duration">
+    1.521s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getTriggerDefinition
+      </td>
+  <td class="duration">
+    1.475s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getTriggerInfoByTableNameAndOperation
+      </td>
+  <td class="duration">
+    1.510s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.UgcControllerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  downloadAsset
+      </td>
+  <td class="duration">
+    1.605s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  downloadAssetByURL
+      </td>
+  <td class="duration">
+    1.502s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getImageRecognitionResponse
+      </td>
+  <td class="duration">
+    1.472s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getUgcDetailsById
+      </td>
+  <td class="duration">
+    1.628s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getUgcDetailsByTaskId
+      </td>
+  <td class="duration">
+    1.783s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.UserAchievementControllerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  getUserAchivmentsDetails
+      </td>
+  <td class="duration">
+    1.739s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getUserProgramsDetailes
+      </td>
+  <td class="duration">
+    1.542s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.UserStatusControllerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  GetUserAndEventDataByEventIdandPersonId
+      </td>
+  <td class="duration">
+    1.447s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.WorkFlowTemplateControllerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  getEventWorkflowTemplateByEventId
       </td>
   <td class="duration">
     1.560s
@@ -518,46 +3724,1170 @@
     
         
 
-        <a href="javascript:toggleElement('exception-9', 'block')" title="Click to expand/collapse"><b>java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.xssf.usermodel.XSSFRow.getCell(int)&quot; because &quot;row&quot; is null</b></a><br />
-    <div class="stackTrace" id="exception-9">
-              com.ripplestreet.genricUtilities.genricUtilities.StatusCode(genricUtilities.java:177)<br />
-              com.ripplestreet.FilterApis.SponsorControlletFiltersGetApi.getAllSponsors(SponsorControlletFiltersGetApi.java:20)<br />
-              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
-              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)<br />
-              java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
-              java.base/java.lang.reflect.Method.invoke(Method.java:568)<br />
-              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br />
-              org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)<br />
-              org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)<br />
-              org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br />
-              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)<br />
-              org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)<br />
-              org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br />
-              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br />
-              java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br />
-              org.testng.TestRunner.privateRun(TestRunner.java:829)<br />
-              org.testng.TestRunner.run(TestRunner.java:602)<br />
-              org.testng.SuiteRunner.runTest(SuiteRunner.java:437)<br />
-              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)<br />
-              org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)<br />
-              org.testng.SuiteRunner.run(SuiteRunner.java:330)<br />
-              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
-              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
-              org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)<br />
-              org.testng.TestNG.runSuitesLocally(TestNG.java:1176)<br />
-              org.testng.TestNG.runSuites(TestNG.java:1099)<br />
-              org.testng.TestNG.run(TestNG.java:1067)<br />
-              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
-              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
-              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
-                </div>
       </td>
 </tr>
-      </table>
+<tr>
+  <td class="method">
+                  getListOfWorkFlowTemplates
+      </td>
+  <td class="duration">
+    1.491s
+  </td>
+  <td class="result">
+        
+    
+        
 
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.gameOptionControllerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  getGameOptionBySlug
+      </td>
+  <td class="duration">
+    1.546s
+  </td>
+  <td class="result">
+        
+    
+        
 
-  <table class="resultsTable">
-    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getListOfOptionsByGameId
+      </td>
+  <td class="duration">
+    1.507s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.jobControllerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  getAllJobByTypeAndId
+      </td>
+  <td class="duration">
+    1.593s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getAllListOfJobsBySourcetype
+      </td>
+  <td class="duration">
+    1.563s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.storesControllerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  getAllStoreCollection
+      </td>
+  <td class="duration">
+    1.623s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getStoreListByCollectionName
+      </td>
+  <td class="duration">
+    1.410s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllGetApis.userFamilyControllerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  getAllPetTypes
+      </td>
+  <td class="duration">
+    1.515s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getAllPetsForUser
+      </td>
+  <td class="duration">
+    1.578s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  getUserChildern
+      </td>
+  <td class="duration">
+    0.530s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllPutApis.AchivementControllerPutApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  updateAchivement
+      </td>
+  <td class="duration">
+    1.644s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllPutApis.AchivementProgrameControllerPutApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  updateAchivementPrograme
+      </td>
+  <td class="duration">
+    1.486s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllPutApis.ActivityControllerPutApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  ReopenActivity
+      </td>
+  <td class="duration">
+    1.612s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  UpdateActivity
+      </td>
+  <td class="duration">
+    1.542s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllPutApis.ActivityGroupControllerPutApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  updateActivityGroup
+      </td>
+  <td class="duration">
+    2.079s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllPutApis.AgencyControllerPutApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  updateAgency
+      </td>
+  <td class="duration">
+    1.602s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllPutApis.ApplicationsControllerPutApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  updateApplications
+      </td>
+  <td class="duration">
+    0.685s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllPutApis.AssetControllerPutApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  softDeleteByAssetId
+      </td>
+  <td class="duration">
+    1.595s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllPutApis.BenefitControllerPutApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  updateBenefit
+      </td>
+  <td class="duration">
+    1.633s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllPutApis.CampaignControllerPutApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  updateCampaign
+      </td>
+  <td class="duration">
+    1.631s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllPutApis.CreativeControllerPutApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  ReOrganizeHeroPlayListItems
+      </td>
+  <td class="duration">
+    1.612s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  UpdateHeroPlayListItems
+      </td>
+  <td class="duration">
+    1.677s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  reOrganizeFavors
+      </td>
+  <td class="duration">
+    1.568s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  updateBannerIdandEventId
+      </td>
+  <td class="duration">
+    1.717s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  updateFavors
+      </td>
+  <td class="duration">
+    1.624s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllPutApis.DiscussionControllerPutApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  updateAdminDiscussion
+      </td>
+  <td class="duration">
+    1.698s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllPutApis.DraftEventControllerPutApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  updateDraftEvent
+      </td>
+  <td class="duration">
+    1.487s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllPutApis.EventControllerPutApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  updateComment
+      </td>
+  <td class="duration">
+    1.881s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  updateEventPacksCount
+      </td>
+  <td class="duration">
+    1.635s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  updateEventSubscriptions
+      </td>
+  <td class="duration">
+    1.595s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllPutApis.EventDetailControllerPutApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  UpdateEventTarget
+      </td>
+  <td class="duration">
+    1.606s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  addEventBasicDetail
+      </td>
+  <td class="duration">
+    1.322s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  updateeventEventMileStones
+      </td>
+  <td class="duration">
+    1.604s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllPutApis.EventFeedControllerPutApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  likeAfeedById
+      </td>
+  <td class="duration">
+    1.699s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllPutApis.FAQSControllerPutApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  updateFAQ
+      </td>
+  <td class="duration">
+    1.613s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  updateFAQTopicItems
+      </td>
+  <td class="duration">
+    1.673s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  updateFAQTopics
+      </td>
+  <td class="duration">
+    1.662s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllPutApis.GameOptionsControllertPutApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  updateOptionById
+      </td>
+  <td class="duration">
+    1.660s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllPutApis.JobsControllerPutApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  updateJob
+      </td>
+  <td class="duration">
+    1.440s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllPutApis.LegalControllerPutrApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  updateLegalDisclaimer
+      </td>
+  <td class="duration">
+    1.320s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllPutApis.MarketingGoalsPutApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  updateMArketingGoalForEvent
+      </td>
+  <td class="duration">
+    1.768s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllPutApis.NotificationControllerPutApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  deleteFileUploadByCampaignId
+      </td>
+  <td class="duration">
+    1.670s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  resetNotificationReceipentId
+      </td>
+  <td class="duration">
+    1.661s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  resetNotificationRecepientData
+      </td>
+  <td class="duration">
+    1.667s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  resetNotificationStatus
+      </td>
+  <td class="duration">
+    1.658s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  sendPublishUnpublishNotification
+      </td>
+  <td class="duration">
+    1.579s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllPutApis.ProductControllerPutApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  ProductSyndication
+      </td>
+  <td class="duration">
+    1.525s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  updateEventproduct
+      </td>
+  <td class="duration">
+    1.627s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllPutApis.ReceiptControllerPutApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  UpdateAreceiptRecord
+      </td>
+  <td class="duration">
+    1.667s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  UpdateReceiptDatarecorder
+      </td>
+  <td class="duration">
+    1.560s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllPutApis.RecipientsControllerPutApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  deleteRecipientsByCampaignId
+      </td>
+  <td class="duration">
+    1.600s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllPutApis.RewardAllocationControllerPutApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  UpdateAllocatedRewardItemStatus
+      </td>
+  <td class="duration">
+    1.595s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  UpdateAllocatedRewardItemToReadyForDelevery
+      </td>
+  <td class="duration">
+    1.488s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  updateRewarditemAllocation
+      </td>
+  <td class="duration">
+    1.472s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllPutApis.RewardDeliveryControllerPutApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  UpdateDelveryitemstatus
+      </td>
+  <td class="duration">
+    1.556s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  createAndUpdateDeliverySystemAttributeValue
+      </td>
+  <td class="duration">
+    1.619s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  triggerReadyToDeliverAllocations
+      </td>
+  <td class="duration">
+    1.470s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllPutApis.RewardItemControllerPutApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  UpdateRewardIteams
+      </td>
+  <td class="duration">
+    1.584s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  UpdateRewardItemsSkuAlliases
+      </td>
+  <td class="duration">
+    1.625s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllPutApis.RewardPreferencePutApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  updaterewardPreference
+      </td>
+  <td class="duration">
+    1.597s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllPutApis.SegmentationDefinitionVersion2ControllerPutApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  UpdateASegment
+      </td>
+  <td class="duration">
+    1.493s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  refreshUserCountBySgment
+      </td>
+  <td class="duration">
+    1.607s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllPutApis.SegmentationFolderControllerPutApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  updateASegementfolder
+      </td>
+  <td class="duration">
+    1.679s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllPutApis.SegmentationJobControllerPutApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  createASegmentJob
+      </td>
+  <td class="duration">
+    1.501s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllPutApis.SponsorControllerPutApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  updateSponser
+      </td>
+  <td class="duration">
+    1.631s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllPutApis.TackableLinkControllerPutApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  updateLink
+      </td>
+  <td class="duration">
+    1.572s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllPutApis.TaskControllerPutApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  updateTask
+      </td>
+  <td class="duration">
+    1.641s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllPutApis.TrackerControllerGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  updateActivityTrackerstatuses
+      </td>
+  <td class="duration">
+    1.615s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllPutApis.TriggerControllerPutApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  updateTriggerDefinition
+      </td>
+  <td class="duration">
+    1.611s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllPutApis.optInsControllerPutApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  UpdateOtpIn
+      </td>
+  <td class="duration">
+    1.632s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.AllPutApis.templateControllerPutApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  updateTransactionalTemplate
+      </td>
+  <td class="duration">
+    1.522s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
           <tr>
         <td colspan="3" class="group">com.ripplestreet.FilterApis.BenefitControllerFiltersGetApi</td>
       </tr>
@@ -567,7 +4897,7 @@
                   getListOfBenefit
       </td>
   <td class="duration">
-    5.172s
+    5.159s
   </td>
   <td class="result">
         
@@ -585,7 +4915,7 @@
                   getAllAdressEntriesByPersonId
       </td>
   <td class="duration">
-    11.420s
+    11.486s
   </td>
   <td class="result">
         
@@ -599,7 +4929,7 @@
                   getAllUsersByEventAndParticipantType
       </td>
   <td class="duration">
-    11.260s
+    11.947s
   </td>
   <td class="result">
         
@@ -617,7 +4947,7 @@
                   DiscoverEventFilters
       </td>
   <td class="duration">
-    10.298s
+    8.889s
   </td>
   <td class="result">
         
@@ -626,12 +4956,52 @@
 
       </td>
 </tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.FilterApis.FeedControllerFiltersGetApi</td>
+      </tr>
+            
 <tr>
   <td class="method">
-                  geFilterdEvent
+                  getAllfeedForEvents
       </td>
   <td class="duration">
-    6.896s
+    5.030s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.FilterApis.GameControllerFiltersGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  getAllgames
+      </td>
+  <td class="duration">
+    8.434s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.FilterApis.NotificationControllerFiltersGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  getAllNotification
+      </td>
+  <td class="duration">
+    3.337s
   </td>
   <td class="result">
         
@@ -649,7 +5019,43 @@
                   getReceiptList
       </td>
   <td class="duration">
-    6.623s
+    6.674s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.FilterApis.RewardAllocationControllerFilterApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  getRewradAllocation
+      </td>
+  <td class="duration">
+    50.286s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.FilterApis.RewardDeliveryControllerFiltersGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  getRewardDeleviries
+      </td>
+  <td class="duration">
+    50.805s
   </td>
   <td class="result">
         
@@ -667,7 +5073,25 @@
                   getAllSegments
       </td>
   <td class="duration">
-    5.122s
+    5.067s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.ripplestreet.FilterApis.SponsorControlletFiltersGetApi</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  getAllSponsors
+      </td>
+  <td class="duration">
+    10.038s
   </td>
   <td class="result">
         

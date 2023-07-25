@@ -4,14 +4,14 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="27.508">
+           time="24.751">
   <properties />
   
   
-            <testcase name="getAllFeedsForEvent" time="7.503" classname="com.ripplestreet.AllGetApis.EventFeedControllerGetApi" />
-                <testcase name="getPhotoFeedByEventId" time="5.811" classname="com.ripplestreet.AllGetApis.EventFeedControllerGetApi" />
-                <testcase name="getFeedInfoById" time="1.087" classname="com.ripplestreet.AllGetApis.EventFeedControllerGetApi" />
-                <testcase name="getReviewFeedByEventId" time="6.566" classname="com.ripplestreet.AllGetApis.EventFeedControllerGetApi" />
-                <testcase name="getCommentFeedByEventId" time="6.541" classname="com.ripplestreet.AllGetApis.EventFeedControllerGetApi" />
+            <testcase name="getPhotoFeedByEventId" time="4.042" classname="com.ripplestreet.AllGetApis.EventFeedControllerGetApi" />
+                <testcase name="getFeedInfoById" time="1.552" classname="com.ripplestreet.AllGetApis.EventFeedControllerGetApi" />
+                <testcase name="getCommentFeedByEventId" time="7.083" classname="com.ripplestreet.AllGetApis.EventFeedControllerGetApi" />
+                <testcase name="getAllFeedsForEvent" time="7.494" classname="com.ripplestreet.AllGetApis.EventFeedControllerGetApi" />
+                <testcase name="getReviewFeedByEventId" time="4.580" classname="com.ripplestreet.AllGetApis.EventFeedControllerGetApi" />
       
 </testsuite>

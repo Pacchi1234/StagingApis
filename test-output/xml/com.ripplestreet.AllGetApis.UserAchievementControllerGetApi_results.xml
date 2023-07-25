@@ -4,11 +4,11 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="2.851">
+           time="3.281">
   <properties />
   
   
-            <testcase name="getUserProgramsDetailes" time="1.202" classname="com.ripplestreet.AllGetApis.UserAchievementControllerGetApi" />
-                <testcase name="getUserAchivmentsDetails" time="1.649" classname="com.ripplestreet.AllGetApis.UserAchievementControllerGetApi" />
+            <testcase name="getUserAchivmentsDetails" time="1.739" classname="com.ripplestreet.AllGetApis.UserAchievementControllerGetApi" />
+                <testcase name="getUserProgramsDetailes" time="1.542" classname="com.ripplestreet.AllGetApis.UserAchievementControllerGetApi" />
       
 </testsuite>

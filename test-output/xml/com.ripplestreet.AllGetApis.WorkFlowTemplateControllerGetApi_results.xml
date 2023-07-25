@@ -4,9 +4,9 @@
            failures="1"
            errors="0"
            skipped="0"
-           time="2.173">
+           time="3.058">
   <properties />
-            <testcase name="getStepFunctionByArn" time="0.011" classname="com.ripplestreet.AllGetApis.WorkFlowTemplateControllerGetApi">
+            <testcase name="getStepFunctionByArn" time="0.007" classname="com.ripplestreet.AllGetApis.WorkFlowTemplateControllerGetApi">
                 <failure type="java.lang.IllegalArgumentException"
                   message="Invalid number of path parameters. Expected 1, was 0. Undefined path parameters are: workflowTemplateId."
               >
@@ -23,7 +23,7 @@
   org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
   org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
   io.restassured.internal.RequestSpecificationImpl.assertCorrectNumberOfPathParams(RequestSpecificationImpl.groovy:1277)
-  jdk.internal.reflect.GeneratedMethodAccessor79.invoke(Unknown Source)
+  jdk.internal.reflect.GeneratedMethodAccessor72.invoke(Unknown Source)
   java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
   java.base/java.lang.reflect.Method.invoke(Method.java:568)
   org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
@@ -38,7 +38,7 @@
   org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:176)
   io.restassured.internal.RequestSpecificationImpl.sendRequest(RequestSpecificationImpl.groovy:1161)
   io.restassured.internal.RequestSpecificationImpl.this$2$sendRequest(RequestSpecificationImpl.groovy)
-  jdk.internal.reflect.GeneratedMethodAccessor76.invoke(Unknown Source)
+  jdk.internal.reflect.GeneratedMethodAccessor69.invoke(Unknown Source)
   java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
   java.base/java.lang.reflect.Method.invoke(Method.java:568)
   org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
@@ -69,7 +69,7 @@
   io.restassured.filter.FilterContext$next.call(Unknown Source)
   io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1704)
   io.restassured.internal.RequestSpecificationImpl.this$2$applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy)
-  jdk.internal.reflect.GeneratedMethodAccessor65.invoke(Unknown Source)
+  jdk.internal.reflect.GeneratedMethodAccessor58.invoke(Unknown Source)
   java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
   java.base/java.lang.reflect.Method.invoke(Method.java:568)
   org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
@@ -84,7 +84,7 @@
   org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
   io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1710)
   io.restassured.internal.RequestSpecificationImpl.this$2$applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy)
-  jdk.internal.reflect.GeneratedMethodAccessor64.invoke(Unknown Source)
+  jdk.internal.reflect.GeneratedMethodAccessor57.invoke(Unknown Source)
   java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
   java.base/java.lang.reflect.Method.invoke(Method.java:568)
   org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
@@ -134,7 +134,7 @@
           </testcase>
   
   
-            <testcase name="getEventWorkflowTemplateByEventId" time="1.049" classname="com.ripplestreet.AllGetApis.WorkFlowTemplateControllerGetApi" />
-                <testcase name="getListOfWorkFlowTemplates" time="1.113" classname="com.ripplestreet.AllGetApis.WorkFlowTemplateControllerGetApi" />
+            <testcase name="getEventWorkflowTemplateByEventId" time="1.560" classname="com.ripplestreet.AllGetApis.WorkFlowTemplateControllerGetApi" />
+                <testcase name="getListOfWorkFlowTemplates" time="1.491" classname="com.ripplestreet.AllGetApis.WorkFlowTemplateControllerGetApi" />
       
 </testsuite>

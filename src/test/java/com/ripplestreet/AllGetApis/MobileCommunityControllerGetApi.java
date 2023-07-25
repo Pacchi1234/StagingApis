@@ -7,7 +7,6 @@ import com.ripplestreet.genricUtilities.genricUtilities;
 import io.restassured.RestAssured;
 
 public class MobileCommunityControllerGetApi extends genricUtilities {
-	/// community-service/community/getAllEventsByUser/9593101?page=1&size=10
 	@Test(priority=36,groups="community-service")
 	public void getAllEventsByUserAndParticipantTypeApplicant() {
 		response = RestAssured.given().queryParams("page", page, "size", size).when()

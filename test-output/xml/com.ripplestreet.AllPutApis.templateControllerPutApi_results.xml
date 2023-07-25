@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="1.081">
+           time="1.522">
   <properties />
   
   
-            <testcase name="updateTransactionalTemplate" time="1.081" classname="com.ripplestreet.AllPutApis.templateControllerPutApi" />
+            <testcase name="updateTransactionalTemplate" time="1.522" classname="com.ripplestreet.AllPutApis.templateControllerPutApi" />
       
 </testsuite>

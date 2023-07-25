@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="1.122">
+           time="1.679">
   <properties />
   
   
-            <testcase name="updateASegementfolder" time="1.122" classname="com.ripplestreet.AllPutApis.SegmentationFolderControllerPutApi" />
+            <testcase name="updateASegementfolder" time="1.679" classname="com.ripplestreet.AllPutApis.SegmentationFolderControllerPutApi" />
       
 </testsuite>

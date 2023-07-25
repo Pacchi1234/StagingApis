@@ -14,8 +14,8 @@ public class SegmentaionDefinitionControllerVersion2FiltersGetApi extends genric
 	@Test
 	public void getAllSegments() throws NumberFormatException, IOException {
 		Testcase = 289;
-		List<String> statusTypeEnum = Arrays.asList("DRAFT", "PUBLISH", "UNPUBLISH");
-		for (String statusType : statusTypeEnum) {
+		
+		for (String statusType : segmentStatus) {
 			response = RestAssured
 					.get("/segmentation/v2/folder/" + folderId + "/segment/list?statusTypeEnum=" + statusType);
 			genricUtilities.StatusCode();

@@ -4,12 +4,12 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="3.469">
+           time="4.645">
   <properties />
   
   
-            <testcase name="createAndUpdateDeliverySystemAttributeValue" time="1.176" classname="com.ripplestreet.AllPutApis.RewardDeliveryControllerPutApi" />
-                <testcase name="UpdateDelveryitemstatus" time="1.160" classname="com.ripplestreet.AllPutApis.RewardDeliveryControllerPutApi" />
-                <testcase name="triggerReadyToDeliverAllocations" time="1.133" classname="com.ripplestreet.AllPutApis.RewardDeliveryControllerPutApi" />
+            <testcase name="triggerReadyToDeliverAllocations" time="1.470" classname="com.ripplestreet.AllPutApis.RewardDeliveryControllerPutApi" />
+                <testcase name="UpdateDelveryitemstatus" time="1.556" classname="com.ripplestreet.AllPutApis.RewardDeliveryControllerPutApi" />
+                <testcase name="createAndUpdateDeliverySystemAttributeValue" time="1.619" classname="com.ripplestreet.AllPutApis.RewardDeliveryControllerPutApi" />
       
 </testsuite>

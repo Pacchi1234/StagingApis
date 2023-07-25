@@ -4,11 +4,11 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="2.305">
+           time="3.152">
   <properties />
   
   
-            <testcase name="updateEventproduct" time="1.176" classname="com.ripplestreet.AllPutApis.ProductControllerPutApi" />
-                <testcase name="ProductSyndication" time="1.129" classname="com.ripplestreet.AllPutApis.ProductControllerPutApi" />
+            <testcase name="ProductSyndication" time="1.525" classname="com.ripplestreet.AllPutApis.ProductControllerPutApi" />
+                <testcase name="updateEventproduct" time="1.627" classname="com.ripplestreet.AllPutApis.ProductControllerPutApi" />
       
 </testsuite>
