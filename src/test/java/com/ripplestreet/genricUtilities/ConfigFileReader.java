@@ -7,7 +7,7 @@ import java.util.Properties;
 
 public class ConfigFileReader {
 	private Properties properties;
-	private final String propertyFilePath = "src//test//resources//config//Config.properties";
+	private final String propertyFilePath = "C:\\Users\\Prashanthchigarer\\Documents\\Workspace\\RippleStreet_API\\RippleStreet_API\\src\\test\\resources\\config\\Config.properties";
 	private static ConfigFileReader configFileReader = new ConfigFileReader();
 
 	private ConfigFileReader() {
@@ -900,6 +900,7 @@ public class ConfigFileReader {
 		else
 			throw new RuntimeException("targetId Is not mentioned in the configuration.properties file");
 	}
+
 	public String getPutFAQID() {
 		String PutFAQID = properties.getProperty("PutFAQID");
 		if (PutFAQID != null)
@@ -907,6 +908,7 @@ public class ConfigFileReader {
 		else
 			throw new RuntimeException("PutFAQID Is not mentioned in the configuration.properties file");
 	}
+
 	public String getgoalId() {
 		String goalId = properties.getProperty("goalId");
 		if (goalId != null)
@@ -914,6 +916,7 @@ public class ConfigFileReader {
 		else
 			throw new RuntimeException("goalId Is not mentioned in the configuration.properties file");
 	}
+
 	public String getpostApiPath() {
 		String postApipath = properties.getProperty("postApipath");
 		if (postApipath != null)
@@ -921,6 +924,63 @@ public class ConfigFileReader {
 		else
 			throw new RuntimeException("postApipath Is not mentioned in the configuration.properties file");
 	}
-	
+
+	public String getisNotificationSendRequired() {
+		String isNotificationSendRequired = properties.getProperty("isNotificationSendRequired");
+		if (isNotificationSendRequired != null) {
+			return isNotificationSendRequired;
+		} else {
+			throw new RuntimeException("isNotificationSendRequired in ot mentiioned in configuration.properties file");
+		}
+
+	}
+
+	public String getReserved() {
+		String reserved = properties.getProperty("reserved");
+		if (reserved != null) {
+			return reserved;
+		} else {
+			throw new RuntimeException("reserved in ot mentiioned in configuration.properties file");
+		}
+	}
+
+	public String getAudiencePromotionJobID() {
+		String AudiencePromotionJobID = properties.getProperty("AudiencePromotionJobID");
+		if (AudiencePromotionJobID != null) {
+			return AudiencePromotionJobID;
+		} else {
+			throw new RuntimeException("AudiencePromotionJobID in ot mentiioned in configuration.properties file");
+		}
+	}
+
+	public String getAudiencePromotionColumnName() {
+		String AudiencePromotionColumnName = properties.getProperty("AudiencePromotionColumnName");
+		if (AudiencePromotionColumnName != null) {
+			return AudiencePromotionColumnName;
+		} else {
+			throw new RuntimeException("AudiencePromotionColumnName in ot mentiioned in configuration.properties file");
+		}
+	}
+
+	public String getAudiencePromotionJobfailedPidsCount() {
+		String AudiencePromotionJobfailedPidsCount = properties.getProperty("AudiencePromotionJobfailedPidsCount");
+		if (AudiencePromotionJobfailedPidsCount != null) {
+			return AudiencePromotionJobfailedPidsCount;
+		} else {
+			throw new RuntimeException(
+					"AudiencePromotionJobfailedPidsCount in ot mentiioned in configuration.properties file");
+		}
+	}
+
+	public String getAudiencePromotionJobprocessedPidsCount() {
+		String AudiencePromotionJobprocessedPidsCount = properties
+				.getProperty("AudiencePromotionJobprocessedPidsCount");
+		if (AudiencePromotionJobprocessedPidsCount != null) {
+			return AudiencePromotionJobprocessedPidsCount;
+		} else {
+			throw new RuntimeException(
+					"AudiencePromotionJobprocessedPidsCount in ot mentiioned in configuration.properties file");
+		}
+	}
 
 }

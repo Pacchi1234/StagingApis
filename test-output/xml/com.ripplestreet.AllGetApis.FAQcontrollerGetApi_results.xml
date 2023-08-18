@@ -4,16 +4,16 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="10.585">
+           time="10.391">
   <properties />
   
   
-            <testcase name="getlistofFaqTopicbyFaqId" time="1.515" classname="com.ripplestreet.AllGetApis.FAQcontrollerGetApi" />
-                <testcase name="getFAQById" time="1.511" classname="com.ripplestreet.AllGetApis.FAQcontrollerGetApi" />
-                <testcase name="getFAQTopicitemsById" time="1.416" classname="com.ripplestreet.AllGetApis.FAQcontrollerGetApi" />
-                <testcase name="GetlistofFaqTopicItemsbyFaqTopicId" time="1.480" classname="com.ripplestreet.AllGetApis.FAQcontrollerGetApi" />
-                <testcase name="getFAQbyEventId" time="1.554" classname="com.ripplestreet.AllGetApis.FAQcontrollerGetApi" />
-                <testcase name="GetFAQDetailByEventIdforCommunity" time="1.512" classname="com.ripplestreet.AllGetApis.FAQcontrollerGetApi" />
-                <testcase name="FAQTopicByID" time="1.597" classname="com.ripplestreet.AllGetApis.FAQcontrollerGetApi" />
+            <testcase name="getFAQTopicitemsById" time="1.541" classname="com.ripplestreet.AllGetApis.FAQcontrollerGetApi" />
+                <testcase name="getFAQById" time="1.493" classname="com.ripplestreet.AllGetApis.FAQcontrollerGetApi" />
+                <testcase name="getFAQbyEventId" time="1.503" classname="com.ripplestreet.AllGetApis.FAQcontrollerGetApi" />
+                <testcase name="GetFAQDetailByEventIdforCommunity" time="1.505" classname="com.ripplestreet.AllGetApis.FAQcontrollerGetApi" />
+                <testcase name="getlistofFaqTopicbyFaqId" time="1.507" classname="com.ripplestreet.AllGetApis.FAQcontrollerGetApi" />
+                <testcase name="GetlistofFaqTopicItemsbyFaqTopicId" time="1.317" classname="com.ripplestreet.AllGetApis.FAQcontrollerGetApi" />
+                <testcase name="FAQTopicByID" time="1.525" classname="com.ripplestreet.AllGetApis.FAQcontrollerGetApi" />
       
 </testsuite>

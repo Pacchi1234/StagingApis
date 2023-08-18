@@ -15,11 +15,13 @@ import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 
 public class DiscussionControllerPutApi extends genricUtilities {
-	@Test(priority=196,groups="activityugcreview")
+	@Test(priority = 196, groups = "activityugcreview")
 	public void updateAdminDiscussion() throws Throwable {
-		Testcase =196;
+		RestAssured.baseURI = baseURI;
+		Testcase = 196;
 		File file = new File(devApiPath);
 		FileInputStream fis = new FileInputStream(file);
+		@SuppressWarnings("resource")
 		XSSFWorkbook workbook = new XSSFWorkbook(fis);
 
 		XSSFSheet sheet = workbook.getSheet(ExcelSheetPageName);
@@ -29,7 +31,7 @@ public class DiscussionControllerPutApi extends genricUtilities {
 
 		response = RestAssured.given().contentType(ContentType.JSON).body(PutBody).when()
 				.put("/activityugcreview/v1/discussions/" + commentId);
-System.out.println(PutBody);
+		System.out.println(PutBody);
 	}
 
 }

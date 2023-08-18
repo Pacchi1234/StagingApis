@@ -4,14 +4,14 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="7.504">
+           time="7.762">
   <properties />
   
   
-            <testcase name="GetUsersOfaSegment" time="1.391" classname="com.ripplestreet.AllGetApis.SegmentationDataControllerGetApi" />
-                <testcase name="FindIfUserExistInGivenSegment" time="1.443" classname="com.ripplestreet.AllGetApis.SegmentationDataControllerGetApi" />
-                <testcase name="GetUserDetailsOfaSegment" time="1.762" classname="com.ripplestreet.AllGetApis.SegmentationDataControllerGetApi" />
-                <testcase name="GetSegmentIdBySegmentName" time="1.351" classname="com.ripplestreet.AllGetApis.SegmentationDataControllerGetApi" />
-                <testcase name="GetSegmentsOfaUser" time="1.557" classname="com.ripplestreet.AllGetApis.SegmentationDataControllerGetApi" />
+            <testcase name="GetSegmentIdBySegmentName" time="1.631" classname="com.ripplestreet.AllGetApis.SegmentationDataControllerGetApi" />
+                <testcase name="GetUserDetailsOfaSegment" time="1.661" classname="com.ripplestreet.AllGetApis.SegmentationDataControllerGetApi" />
+                <testcase name="FindIfUserExistInGivenSegment" time="1.501" classname="com.ripplestreet.AllGetApis.SegmentationDataControllerGetApi" />
+                <testcase name="GetSegmentsOfaUser" time="1.504" classname="com.ripplestreet.AllGetApis.SegmentationDataControllerGetApi" />
+                <testcase name="GetUsersOfaSegment" time="1.465" classname="com.ripplestreet.AllGetApis.SegmentationDataControllerGetApi" />
       
 </testsuite>

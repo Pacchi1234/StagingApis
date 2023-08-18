@@ -18,14 +18,14 @@ import io.restassured.http.ContentType;
 
 public class EventFeedControllerPutApi extends genricUtilities {
 
-	@Test(priority=194,groups="event")
+	@Test(priority = 194, groups = "event")
 	public void likeAfeedById() throws InterruptedException, IOException, ParseException {
 
 		try {
-			Testcase=194;
-			
+			Testcase = 194;
 			File file = new File(devApiPath);
 			FileInputStream fis = new FileInputStream(file);
+			@SuppressWarnings("resource")
 			XSSFWorkbook workbook = new XSSFWorkbook(fis);
 
 			XSSFSheet sheet = workbook.getSheet(ExcelSheetPageName);
@@ -33,11 +33,6 @@ public class EventFeedControllerPutApi extends genricUtilities {
 			XSSFCell cell2 = row2.getCell(4);
 			PutBody = cell2.getStringCellValue();
 			System.out.println(PutBody);
-			
-			
-
-
-		
 			response = RestAssured.given().contentType(ContentType.JSON).body(PutBody).when()
 					.put("/event/events-feed/likeFeed");
 

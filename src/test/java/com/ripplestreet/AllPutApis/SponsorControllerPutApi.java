@@ -14,10 +14,10 @@ import com.ripplestreet.genricUtilities.genricUtilities;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 
-public class SponsorControllerPutApi extends genricUtilities{
-	@Test(priority=250,groups="event-campaign-manager")
- public void updateSponser() throws Throwable {
-		Testcase=250;
+public class SponsorControllerPutApi extends genricUtilities {
+	@Test(priority = 250, groups = "event-campaign-manager")
+	public void updateSponser() throws Throwable {
+		Testcase = 250;
 		File file = new File(devApiPath);
 		FileInputStream fis = new FileInputStream(file);
 		@SuppressWarnings("resource")
@@ -30,7 +30,7 @@ public class SponsorControllerPutApi extends genricUtilities{
 		System.out.println(PutBody);
 
 		response = RestAssured.given().contentType(ContentType.JSON).body(PutBody).when()
-				.put("/event-campaign-manager/v1/sponsor/"+sponsorId);
-	 
- }
+				.put("/event-campaign-manager/v1/sponsor/" + sponsorId);
+
+	}
 }

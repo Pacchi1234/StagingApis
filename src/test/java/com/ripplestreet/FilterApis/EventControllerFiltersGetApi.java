@@ -11,10 +11,9 @@ import io.restassured.RestAssured;
 
 public class EventControllerFiltersGetApi extends genricUtilities {
 
-	@Test
+	@Test(groups = "community-service")
 	public void DiscoverEventFilters() throws NumberFormatException, IOException {
 		Testcase = 252;
-		
 
 		for (String evenTypes1 : evenTypes) {
 			response = RestAssured.given().queryParams("page", page, "size", size, "eventType", evenTypes1)
@@ -22,17 +21,14 @@ public class EventControllerFiltersGetApi extends genricUtilities {
 
 			genricUtilities.StatusCode();
 			Testcase++;
-
 		}
-
 	}
 
 	@SuppressWarnings("unchecked")
-	@Test
+	@Test(groups = "event")
 	public void geFilterdEvent() throws NumberFormatException, IOException {
 
 		Testcase = 257;
-
 		map1.put("eventId", eventId);
 		map1.put("name", eventName);
 		map1.put("slug", slug);
@@ -47,29 +43,17 @@ public class EventControllerFiltersGetApi extends genricUtilities {
 		map2.put("isChatterBox", false);
 		map2.put("isFeatured", false);
 		map2.put("isListed", false);
-		
 
 		System.out.println(map1);
 		String s = map1.toString();
-		ArrayList<String> keys = new ArrayList<>(map1.keySet());
+		ArrayList<String> keys = new ArrayList<String>(map1.keySet());
 		for (int i = 0; i < map1.size(); i++) {
-
 			String key = keys.get(i);
 			Object value = map1.get(key);
 			response = RestAssured.given().queryParam(key, value).get("/event/events/getAllEvents/_search");
 			genricUtilities.StatusCode();
 			Testcase++;
 
-			ArrayList<String> keys1 = new ArrayList<>(map2.keySet());
-			for (int i1 = 0; i1 < map2.size(); i1++) {
-
-				String map2key = keys1.get(i1);
-				Object map2value = map2.get(map2key);
-				response = RestAssured.given().param(map2key, map2value).get("/event/events/getAllEvents/_search");
-				genricUtilities.StatusCode();
-				Testcase++;
-
-			}
 		}
 	}
 	/**

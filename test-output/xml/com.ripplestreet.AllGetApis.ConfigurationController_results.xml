@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="1.435">
+           time="1.553">
   <properties />
   
   
-            <testcase name="getAllconfigs" time="1.435" classname="com.ripplestreet.AllGetApis.ConfigurationController" />
+            <testcase name="getAllconfigs" time="1.553" classname="com.ripplestreet.AllGetApis.ConfigurationController" />
       
 </testsuite>

@@ -4,14 +4,14 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="7.541">
+           time="7.471">
   <properties />
   
   
-            <testcase name="getBasicEventDetailByEventID" time="1.536" classname="com.ripplestreet.AllGetApis.EventDetailControllerGetApi" />
-                <testcase name="getListoftargetsByEventId" time="1.492" classname="com.ripplestreet.AllGetApis.EventDetailControllerGetApi" />
-                <testcase name="findAllMilestonesTypeByEventtypes" time="1.510" classname="com.ripplestreet.AllGetApis.EventDetailControllerGetApi" />
-                <testcase name="findMileStoneById" time="1.547" classname="com.ripplestreet.AllGetApis.EventDetailControllerGetApi" />
-                <testcase name="findAllmileStonesByEvent" time="1.456" classname="com.ripplestreet.AllGetApis.EventDetailControllerGetApi" />
+            <testcase name="findAllmileStonesByEvent" time="1.572" classname="com.ripplestreet.AllGetApis.EventDetailControllerGetApi" />
+                <testcase name="findMileStoneById" time="1.483" classname="com.ripplestreet.AllGetApis.EventDetailControllerGetApi" />
+                <testcase name="getListoftargetsByEventId" time="1.485" classname="com.ripplestreet.AllGetApis.EventDetailControllerGetApi" />
+                <testcase name="findAllMilestonesTypeByEventtypes" time="1.341" classname="com.ripplestreet.AllGetApis.EventDetailControllerGetApi" />
+                <testcase name="getBasicEventDetailByEventID" time="1.590" classname="com.ripplestreet.AllGetApis.EventDetailControllerGetApi" />
       
 </testsuite>

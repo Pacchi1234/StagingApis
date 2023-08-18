@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="1.524">
+           time="1.451">
   <properties />
   
   
-            <testcase name="findAllEventTemplate" time="1.524" classname="com.ripplestreet.AllGetApis.EventTemplateControllerGetApi" />
+            <testcase name="findAllEventTemplate" time="1.451" classname="com.ripplestreet.AllGetApis.EventTemplateControllerGetApi" />
       
 </testsuite>

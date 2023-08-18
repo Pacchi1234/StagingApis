@@ -9,7 +9,7 @@ import io.restassured.RestAssured;
 public class CouponControllerGetApi extends genricUtilities {
 	@Test(priority=91,groups = "gamification")
 	public void getCouponsByActivityId() {
-		//RestAssured.baseURI=baseURI;
+		RestAssured.baseURI=baseURI;
 		response = RestAssured.get("/gamification/v1/coupons/getCouponsByActivityId/" + gamificationActivityId);
 		Testcase = 91;
 	}

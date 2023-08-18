@@ -4,17 +4,17 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="12.122">
+           time="11.820">
   <properties />
   
   
-            <testcase name="FinfAllfavousByEventId" time="1.538" classname="com.ripplestreet.AllGetApis.CreativeControllerGetApi" />
-                <testcase name="findHeroPlaylistById" time="1.547" classname="com.ripplestreet.AllGetApis.CreativeControllerGetApi" />
-                <testcase name="FindHeroplaylistitemById" time="1.441" classname="com.ripplestreet.AllGetApis.CreativeControllerGetApi" />
-                <testcase name="finAllBannerByEventId" time="1.514" classname="com.ripplestreet.AllGetApis.CreativeControllerGetApi" />
-                <testcase name="getFavorByEventIdAndId" time="1.558" classname="com.ripplestreet.AllGetApis.CreativeControllerGetApi" />
-                <testcase name="getBannerByEventIdandId" time="1.443" classname="com.ripplestreet.AllGetApis.CreativeControllerGetApi" />
-                <testcase name="findAllHeroPlaylistItemsByPlayListId" time="1.526" classname="com.ripplestreet.AllGetApis.CreativeControllerGetApi" />
-                <testcase name="findAllHeroPlaylistByModelId" time="1.555" classname="com.ripplestreet.AllGetApis.CreativeControllerGetApi" />
+            <testcase name="FinfAllfavousByEventId" time="1.523" classname="com.ripplestreet.AllGetApis.CreativeControllerGetApi" />
+                <testcase name="findHeroPlaylistById" time="1.516" classname="com.ripplestreet.AllGetApis.CreativeControllerGetApi" />
+                <testcase name="getBannerByEventIdandId" time="1.433" classname="com.ripplestreet.AllGetApis.CreativeControllerGetApi" />
+                <testcase name="FindHeroplaylistitemById" time="1.486" classname="com.ripplestreet.AllGetApis.CreativeControllerGetApi" />
+                <testcase name="findAllHeroPlaylistItemsByPlayListId" time="1.401" classname="com.ripplestreet.AllGetApis.CreativeControllerGetApi" />
+                <testcase name="finAllBannerByEventId" time="1.506" classname="com.ripplestreet.AllGetApis.CreativeControllerGetApi" />
+                <testcase name="findAllHeroPlaylistByModelId" time="1.523" classname="com.ripplestreet.AllGetApis.CreativeControllerGetApi" />
+                <testcase name="getFavorByEventIdAndId" time="1.432" classname="com.ripplestreet.AllGetApis.CreativeControllerGetApi" />
       
 </testsuite>

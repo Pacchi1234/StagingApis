@@ -1,16 +1,8 @@
 package com.ripplestreet.AllGetApis;
 
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
-
 import com.ripplestreet.genricUtilities.genricUtilities;
-
 import io.restassured.RestAssured;
-import io.restassured.response.Response;
 
 public class WorkFlowTemplateControllerGetApi<E> extends genricUtilities {
 	@Test(priority = 185, groups = "event-campaign-manager")

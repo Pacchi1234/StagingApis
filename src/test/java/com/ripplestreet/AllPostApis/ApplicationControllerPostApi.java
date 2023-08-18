@@ -16,7 +16,7 @@ import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 
 public class ApplicationControllerPostApi extends postApiutilities{
-	@Test
+	@Test(groups="community-service")
 	public void createApplication() throws IOException {
 		Testcase=6;
 		File file = new File(postApipath);

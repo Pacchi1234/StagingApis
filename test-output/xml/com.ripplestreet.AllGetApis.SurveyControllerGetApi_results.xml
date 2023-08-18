@@ -4,12 +4,12 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="4.251">
+           time="4.369">
   <properties />
   
   
-            <testcase name="getSurveyListByEventIdAndPid" time="1.503" classname="com.ripplestreet.AllGetApis.SurveyControllerGetApi" />
-                <testcase name="getAllLinksByEventId" time="1.282" classname="com.ripplestreet.AllGetApis.SurveyControllerGetApi" />
-                <testcase name="getSurveyStatusByEventIdAndPid" time="1.466" classname="com.ripplestreet.AllGetApis.SurveyControllerGetApi" />
+            <testcase name="getSurveyListByEventIdAndPid" time="1.375" classname="com.ripplestreet.AllGetApis.SurveyControllerGetApi" />
+                <testcase name="getAllLinksByEventId" time="1.481" classname="com.ripplestreet.AllGetApis.SurveyControllerGetApi" />
+                <testcase name="getSurveyStatusByEventIdAndPid" time="1.513" classname="com.ripplestreet.AllGetApis.SurveyControllerGetApi" />
       
 </testsuite>

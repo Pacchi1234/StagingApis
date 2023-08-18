@@ -4,12 +4,12 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="4.548">
+           time="4.413">
   <properties />
   
   
-            <testcase name="GetListofAchievementPrograms" time="1.521" classname="com.ripplestreet.AllGetApis.AchievementProgramControllerGetApi" />
-                <testcase name="GetAchievementProgram" time="1.579" classname="com.ripplestreet.AllGetApis.AchievementProgramControllerGetApi" />
-                <testcase name="GetListOfAchievementProgramsforAchievementId" time="1.448" classname="com.ripplestreet.AllGetApis.AchievementProgramControllerGetApi" />
+            <testcase name="GetListOfAchievementProgramsforAchievementId" time="1.469" classname="com.ripplestreet.AllGetApis.AchievementProgramControllerGetApi" />
+                <testcase name="GetListofAchievementPrograms" time="1.548" classname="com.ripplestreet.AllGetApis.AchievementProgramControllerGetApi" />
+                <testcase name="GetAchievementProgram" time="1.396" classname="com.ripplestreet.AllGetApis.AchievementProgramControllerGetApi" />
       
 </testsuite>

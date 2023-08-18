@@ -9,7 +9,7 @@ import com.ripplestreet.genricUtilities.genricUtilities;
 import io.restassured.RestAssured;
 
 public class RewardDeliveryControllerFiltersGetApi extends genricUtilities {
-	@Test
+	@Test(groups="reward-service")
 	public void getRewardDeleviries() throws NumberFormatException, IOException {
 		Testcase = 329;
 		for (String rewardTypes : rewardType) {

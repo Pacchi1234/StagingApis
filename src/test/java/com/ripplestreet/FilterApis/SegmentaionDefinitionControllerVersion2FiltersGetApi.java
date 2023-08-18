@@ -11,10 +11,10 @@ import com.ripplestreet.genricUtilities.genricUtilities;
 import io.restassured.RestAssured;
 
 public class SegmentaionDefinitionControllerVersion2FiltersGetApi extends genricUtilities {
-	@Test
+	@Test(groups="segmentation")
 	public void getAllSegments() throws NumberFormatException, IOException {
-		Testcase = 289;
-		
+		RestAssured.baseURI=baseURI;
+		Testcase = 289;	
 		for (String statusType : segmentStatus) {
 			response = RestAssured
 					.get("/segmentation/v2/folder/" + folderId + "/segment/list?statusTypeEnum=" + statusType);

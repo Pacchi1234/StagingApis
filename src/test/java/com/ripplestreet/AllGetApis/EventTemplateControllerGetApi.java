@@ -7,7 +7,7 @@ import com.ripplestreet.genricUtilities.genricUtilities;
 import io.restassured.RestAssured;
 
 public class EventTemplateControllerGetApi extends genricUtilities {
-	@Test(priority=167)
+	@Test(priority=167,groups="event-campaign-manager")
 	public void findAllEventTemplate() {
 		response=RestAssured.get("/event-campaign-manager/v1/event/getAllEventTemplates");
 		Testcase=162;

@@ -20,7 +20,6 @@ public class ActivityGroupControllerGetApi extends genricUtilities {
 		Testcase=71;
 		
 	}
-	//https://devapi-ecs.ripplestreet.com/activity-hub/v1/activity/group/cb50dabc-953c-4a0e-b45d-7083ea07f8b8
 	@Test(priority=72,groups = "activity-hub")
 	public void GetActivityGroup() {
 		response=RestAssured.get("/activity-hub/v1/activity/group/event/"+activitygroupId);

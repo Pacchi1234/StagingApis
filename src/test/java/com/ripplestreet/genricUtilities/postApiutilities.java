@@ -17,8 +17,12 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
+import org.testng.asserts.SoftAssert;
 
 import io.restassured.RestAssured;
+import io.restassured.http.ContentType;
+import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 
 public class postApiutilities {
@@ -135,47 +139,52 @@ public class postApiutilities {
 	public static String path = System.getProperty("user.dir")
 			+ "C:\\Users\\Prashanthchigarer\\Documents\\Workspace\\RippleStreet_API\\RippleStreet_API\\src\\test\\resources\\EventController.xlsx";
 	public static String Package1 = "com.ripplestreet.AllGetApis";
-	public static String postApipath=ConfigFileReader.getInstance().getpostApiPath();
-
+	public static String postApipath = ConfigFileReader.getInstance().getpostApiPath();
 	public static String PutBody;
-
 	public static Response response;
+	public String AccessToken;
 	public static int Testcase;
 	@SuppressWarnings("rawtypes")
 	public List ls = new ArrayList();
 	@SuppressWarnings("rawtypes")
-	public LinkedHashMap map1 = new LinkedHashMap<>();
+	public LinkedHashMap map1 = new LinkedHashMap<Object, Object>();
 	@SuppressWarnings("rawtypes")
-	public LinkedHashMap map2 = new LinkedHashMap<>();
+	public LinkedHashMap map2 = new LinkedHashMap<Object, Object>();
 	@SuppressWarnings("rawtypes")
-	public HashMap map3 = new HashMap<>();
-
+	public HashMap map3 = new HashMap<Object, Object>();
 	public List<String> rewardType = Arrays.asList("PACK", "REIMBURSEMENT", "HYBRID");
-
 	public List<String> RewardStatus = Arrays.asList("INITIATED", "INPROGRESS", "READY_FOR_DELIVERY", "DELIVERED",
 			"PARTIAL_DELIVERED", "FAILED", "PENDING_APPROVAL", "CANCELLED", "EXPIRED", "REWARDED");
-
 	public List<String> evenTypes = Arrays.asList("UPCOMINGEVENTS", "OPENEVENTS", "CURRENTEVENTS", "PASTEVENTS");
-
 	public List<String> booleanValues = Arrays.asList("TRUE", "FALSE");
-
 	public List<String> FeedTypes = Arrays.asList("Discussion", "SocialAsset", "Review");
-
 	public List<String> Benefittype = Arrays.asList("ALL", "BADGE", "STATUS");
-
 	public List<String> participantType = Arrays.asList("All", "Host", "Chatterbox", "Applicant", "Reserved", "Reject",
 			"Finalist");
-
 	public List<String> SourceType = Arrays.asList("STORE_GEO_CODING", "SEGMENT_STORE_GEO_CODING", "REWARD_ALLOCATION",
 			"EXPORT_AUDIENCE", "EXPORT_ACTIVITY_CONFIG", "EXPORT_REWARD_PREFERENCE", "EXPORT_REWARD_ALLOCATION",
 			"EXPORT_REWARD_DELIVERY", "EXPORT_SEGMENT_DATA", "EXPORT_COMMUNITY", "EXPORT_UGC_VIDEO", "EXPORT_UGC_PHOTO",
 			"EXPORT_UGC_DISCUSSION", "EXPORT_UGC_REVIEW", "EXPORT_UGC_EXTERNALREVIEW");
-
 	public List<String> segmentStatus = Arrays.asList("DRAFT", "PUBLISH", "UNPUBLISH");
+	public String body = "{\"clientId\":\"2a42a243ee3549fdf08368578be6b0a8dffed0e1\",\"email\":\"lalithac+11@nu10.co\",\"password\":\"L@litha123\"}";
+
+	@BeforeSuite
+	public void authToken() {
+		try {
+			response = RestAssured.given().contentType(ContentType.JSON).body(body)
+					.post("https://dev.ripplestreet.com/auth/login");
+			String responseBody = response.asString();
+			JsonPath jsonPath = new JsonPath(responseBody);
+			AccessToken = jsonPath.getString("accessToken");
+			System.out.println("Accesstoken is"+AccessToken);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+	}
 
 	@BeforeMethod
 	public void BaseURI() throws InterruptedException {
-
 		RestAssured.baseURI = baseURI;
 
 	}
@@ -183,11 +192,17 @@ public class postApiutilities {
 	@SuppressWarnings("unlikely-arg-type")
 	@AfterMethod
 	public static void StatusCode() throws IOException, NumberFormatException {
+		int statuscode = response.statusCode();
+		if (statuscode == 200 || statuscode == 201 || statuscode == 302 || statuscode==202) {
+			SoftAssert softAssert = new SoftAssert();
+			softAssert.assertEquals(statuscode, 200);
+			System.out.println("status code is" + statuscode);
 
-		/*
-		 * SoftAssert softAssert = new SoftAssert(); int statusCode = 200;
-		 * softAssert.assertEquals(200, statusCode);
-		 */
+		} else if (statuscode == 400) {
+			System.err.println("status code is 400");
+		} else {
+			System.err.println("status code is 500");
+		}
 		String ActualOutput = response.asString();
 		System.out.println("Actual output is" + ActualOutput);
 		File file = new File(postApipath);

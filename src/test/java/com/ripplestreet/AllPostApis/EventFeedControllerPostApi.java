@@ -16,7 +16,7 @@ import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 
 public class EventFeedControllerPostApi extends postApiutilities {
-	@Test
+	@Test(groups = "event")
 	public void getFeedComments() throws IOException {
 		Testcase = 3;
 		File file = new File(postApipath);
@@ -34,7 +34,7 @@ public class EventFeedControllerPostApi extends postApiutilities {
 				.post("/event/events-feed/feed/comments");
 	}
 
-	@Test
+	@Test(groups = "event")
 	public void getIfFeedAreReportedAndLikedByUserId() throws IOException {
 		Testcase = 4;
 		File file = new File(postApipath);
@@ -52,7 +52,7 @@ public class EventFeedControllerPostApi extends postApiutilities {
 				.post("/event/events-feed/feedIfReportedAndLiked/" + feedType + "?feedType=" + feedType);
 	}
 
-	@Test
+	@Test(groups ="event")
 	public void reportFeedById() throws IOException {
 		Testcase = 5;
 		File file = new File(postApipath);

@@ -11,12 +11,12 @@ import io.restassured.RestAssured;
 
 public class NotificationControllerFiltersGetApi extends genricUtilities {
 	@SuppressWarnings("unchecked")
-	@Test
+	@Test(groups="notification")
 	public void getAllNotification() throws NumberFormatException, IOException {
 		Testcase = 367;
 		map1.put("campaignName", "Event Based 1");
 		map1.put("eventId", "2128");
-		ArrayList<String> keys = new ArrayList<>(map1.keySet());
+		ArrayList<String> keys = new ArrayList<String>(map1.keySet());
 		for (int i = 0; i < map1.size(); i++) {
 			String key = keys.get(i);
 			Object value = map1.get(key);

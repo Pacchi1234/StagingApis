@@ -4,11 +4,11 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="3.085">
+           time="3.041">
   <properties />
   
   
-            <testcase name="getActiveEventsDetailForUser" time="1.527" classname="com.ripplestreet.AllGetApis.MobileCommunityControllerGetApi" />
-                <testcase name="getAllEventsByUserAndParticipantTypeApplicant" time="1.558" classname="com.ripplestreet.AllGetApis.MobileCommunityControllerGetApi" />
+            <testcase name="getActiveEventsDetailForUser" time="1.519" classname="com.ripplestreet.AllGetApis.MobileCommunityControllerGetApi" />
+                <testcase name="getAllEventsByUserAndParticipantTypeApplicant" time="1.522" classname="com.ripplestreet.AllGetApis.MobileCommunityControllerGetApi" />
       
 </testsuite>

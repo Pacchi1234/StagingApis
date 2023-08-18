@@ -12,6 +12,7 @@ public class RewardAllocationcontrollerGetApi extends genricUtilities {
 				.get("/reward-service/v1/event/" + eventId + "/allocation/list");
 		Testcase = 108;
 	}
+	@Test(groups="reward-service")
 	public void getRewardAllocations() {
 		response=RestAssured.get("/reward-service/v1/reward/"+rewardId+"/allocation/"+rewardAllocationId);
 		Testcase=109;

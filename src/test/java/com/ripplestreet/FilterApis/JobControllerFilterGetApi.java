@@ -11,7 +11,7 @@ import com.ripplestreet.genricUtilities.genricUtilities;
 import io.restassured.RestAssured;
 
 public class JobControllerFilterGetApi extends genricUtilities {
-	@Test
+	@Test(groups="common-service")
 	public void getListofJobsOfSourecType() throws NumberFormatException, IOException {
 		Testcase = 380;
 		for (String source : SourceType) {

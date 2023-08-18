@@ -15,7 +15,7 @@ import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 
 public class templateControllerPutApi extends genricUtilities {
-	@Test(priority=228)
+	@Test(priority=228,groups="notification")
 	public void updateTransactionalTemplate() throws Throwable {
 		Testcase = 228;
 		File file = new File(devApiPath);

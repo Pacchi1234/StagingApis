@@ -12,7 +12,6 @@ public class RecipientsController extends genricUtilities {
 		response = RestAssured.given().queryParams("notificationId", notificationId, "pageSize", size)
 				.get("/notification/v1/recipients/getAllRecipientsByCampaignId");
 		Testcase=140;
-
 	}
 
 }

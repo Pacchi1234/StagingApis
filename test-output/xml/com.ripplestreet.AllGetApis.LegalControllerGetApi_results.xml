@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="1.591">
+           time="1.527">
   <properties />
   
   
-            <testcase name="getLegalDesclaimer" time="1.591" classname="com.ripplestreet.AllGetApis.LegalControllerGetApi" />
+            <testcase name="getLegalDesclaimer" time="1.527" classname="com.ripplestreet.AllGetApis.LegalControllerGetApi" />
       
 </testsuite>

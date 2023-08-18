@@ -15,7 +15,7 @@ import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 
 public class ProductControllerPutApi extends genricUtilities {
-	@Test(priority=248)
+	@Test(priority=248,groups="event-campaign-manager")
 	public void updateEventproduct() throws Throwable {
 		Testcase=248;
 		File file = new File(devApiPath);
@@ -34,7 +34,7 @@ public class ProductControllerPutApi extends genricUtilities {
 		
 
 	}
-	@Test(priority=249)
+	@Test(priority=249,groups="event-campaign-manager")
 	public void ProductSyndication() throws Throwable {
 		Testcase=249;
 		File file = new File(devApiPath);

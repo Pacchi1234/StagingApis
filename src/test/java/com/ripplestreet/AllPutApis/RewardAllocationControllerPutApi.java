@@ -55,6 +55,7 @@ public class RewardAllocationControllerPutApi extends genricUtilities {
 
 	@Test(priority=217,groups="reward-service")
 	public void updateRewarditemAllocation() throws Throwable {
+		RestAssured.baseURI=baseURI;
 		Testcase = 217;
 		File file = new File(devApiPath);
 		FileInputStream fis = new FileInputStream(file);

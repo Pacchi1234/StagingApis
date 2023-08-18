@@ -18,7 +18,7 @@ import io.restassured.http.ContentType;
 public class AchivementControllerPutApi extends genricUtilities{
 	@Test(priority=202,groups="benefits-platform")
 	public void updateAchivement() throws Throwable {
-		String Pn=this.getClass().getPackageName();
+		
 		RestAssured.baseURI=baseURI;
 		Testcase = 202;
 		File file = new File(devApiPath);

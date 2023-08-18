@@ -9,7 +9,7 @@ import com.ripplestreet.genricUtilities.genricUtilities;
 import io.restassured.RestAssured;
 
 public class SponsorControlletFiltersGetApi extends genricUtilities {
-	@Test
+	@Test(groups = "event-campaign-manager")
 	public void getAllSponsors() throws NumberFormatException, IOException {
 		Testcase = 360;
 		for (String booleans : booleanValues) {
@@ -18,6 +18,7 @@ public class SponsorControlletFiltersGetApi extends genricUtilities {
 			genricUtilities.StatusCode();
 			Testcase++;
 		}
+		
 		for (String booleans : booleanValues) {
 			response = RestAssured.get("/event-campaign-manager/v1/sponsor/list?isDeleted=" + booleans + "&pageNo="
 					+ page + "&pageSize=" + size);
@@ -30,6 +31,7 @@ public class SponsorControlletFiltersGetApi extends genricUtilities {
 			genricUtilities.StatusCode();
 			Testcase++;
 		}
+		
 
 	}
 

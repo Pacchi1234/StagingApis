@@ -15,7 +15,7 @@ import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 
 public class JobsControllerPutApi  extends genricUtilities{
-	@Test(priority=211)
+	@Test(priority=211,groups="common-service")
 	public void updateJob() throws Throwable {
 		Testcase = 211;
 		File file = new File(devApiPath);

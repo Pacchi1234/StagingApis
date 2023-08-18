@@ -1,5 +1,7 @@
 package com.ripplestreet.genricUtilities;
 
+import java.awt.image.BufferedImage;
+import java.io.ByteArrayInputStream;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -10,6 +12,8 @@ import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;
 
+import javax.imageio.ImageIO;
+
 import org.apache.poi.ss.usermodel.CellType;
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
@@ -17,8 +21,13 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
+
+import com.ripplestreet.AllGetApis.UgcControllerGetApi;
 
 import io.restassured.RestAssured;
+import io.restassured.http.ContentType;
+import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 
 public class genricUtilities {
@@ -132,113 +141,177 @@ public class genricUtilities {
 	public String PutFAQID = ConfigFileReader.getInstance().getPutFAQID();
 	public String goalId = ConfigFileReader.getInstance().getgoalId();
 	public static String ExcelSheetPageName2 = ConfigFileReader.getInstance().getExcelSheetPageName2();
-	public static String path = System.getProperty("user.dir")
-			+ "C:\\Users\\Prashanthchigarer\\Documents\\Workspace\\RippleStreet_API\\RippleStreet_API\\src\\test\\resources\\EventController.xlsx";
+	public static String isNotificationSendRequired = ConfigFileReader.getInstance().getisNotificationSendRequired();
+	public static String reserved = ConfigFileReader.getInstance().getReserved();
+	public static String AudiencePromotionJobID = ConfigFileReader.getInstance().getAudiencePromotionJobID();
+	public static String AudiencePromotionColumnName = ConfigFileReader.getInstance().getAudiencePromotionColumnName();
+	public static String AudiencePromotionJobfailedPidsCount = ConfigFileReader.getInstance()
+			.getAudiencePromotionJobfailedPidsCount();
+	public static String AudiencePromotionJobprocessedPidsCount = ConfigFileReader.getInstance()
+			.getAudiencePromotionJobfailedPidsCount();
 
-	public static String PutBody;
-
+	public String PutBody;
 	public static Response response;
 	public static int Testcase;
 	@SuppressWarnings("rawtypes")
 	public List ls = new ArrayList();
 	@SuppressWarnings("rawtypes")
-	public LinkedHashMap map1 = new LinkedHashMap<>();
+	public LinkedHashMap map1 = new LinkedHashMap<Object, Object>();
 	@SuppressWarnings("rawtypes")
-	public LinkedHashMap map2 = new LinkedHashMap<>();
+	public LinkedHashMap map2 = new LinkedHashMap<Object, Object>();
 	@SuppressWarnings("rawtypes")
-	public HashMap map3 = new HashMap<>();
-
-	public List<String> rewardType = Arrays.asList("PACK", "REIMBURSEMENT", "HYBRID");
-
-	public List<String> RewardStatus = Arrays.asList("INITIATED", "INPROGRESS", "READY_FOR_DELIVERY", "DELIVERED",
-			"PARTIAL_DELIVERED", "FAILED", "PENDING_APPROVAL", "CANCELLED", "EXPIRED", "REWARDED");
-
-	public List<String> evenTypes = Arrays.asList("UPCOMINGEVENTS", "OPENEVENTS", "CURRENTEVENTS", "PASTEVENTS");
-
-	public List<String> booleanValues = Arrays.asList("TRUE", "FALSE");
-
-	public List<String> FeedTypes = Arrays.asList("Discussion", "SocialAsset", "Review");
-
-	public List<String> Benefittype = Arrays.asList("ALL", "BADGE", "STATUS");
-
-	public List<String> participantType = Arrays.asList("All", "Host", "Chatterbox", "Applicant", "Reserved", "Reject",
-			"Finalist");
-
+	public HashMap map3 = new HashMap<Object, Object>();
 	public List<String> SourceType = Arrays.asList("STORE_GEO_CODING", "SEGMENT_STORE_GEO_CODING", "REWARD_ALLOCATION",
 			"EXPORT_AUDIENCE", "EXPORT_ACTIVITY_CONFIG", "EXPORT_REWARD_PREFERENCE", "EXPORT_REWARD_ALLOCATION",
 			"EXPORT_REWARD_DELIVERY", "EXPORT_SEGMENT_DATA", "EXPORT_COMMUNITY", "EXPORT_UGC_VIDEO", "EXPORT_UGC_PHOTO",
 			"EXPORT_UGC_DISCUSSION", "EXPORT_UGC_REVIEW", "EXPORT_UGC_EXTERNALREVIEW");
-
+	public List<String> rewardType = Arrays.asList("PACK", "REIMBURSEMENT", "HYBRID");
+	public List<String> RewardStatus = Arrays.asList("INITIATED", "INPROGRESS", "READY_FOR_DELIVERY", "DELIVERED",
+			"PARTIAL_DELIVERED", "FAILED", "PENDING_APPROVAL", "CANCELLED", "EXPIRED", "REWARDED");
+	public List<String> receiptstatus = Arrays.asList("INITIATED", "APPROVED", "PENDING", "REJECTED");
+	public List<String> evenTypes = Arrays.asList("UPCOMINGEVENTS", "OPENEVENTS", "CURRENTEVENTS", "PASTEVENTS");
+	public List<String> booleanValues = Arrays.asList("TRUE", "FALSE");
+	public List<String> FeedTypes = Arrays.asList("Discussion", "SocialAsset", "Review");
+	public List<String> BenefitType = Arrays.asList("ALL", "BADGE", "STATUS");
+	public List<String> participantType = Arrays.asList("All", "Host", "Chatterbox", "Applicant", "Reserved", "Reject",
+			"Finalist");
 	public List<String> segmentStatus = Arrays.asList("DRAFT", "PUBLISH", "UNPUBLISH");
+	public String body = "{\"clientId\":\"2a42a243ee3549fdf08368578be6b0a8dffed0e1\",\"email\":\"lalithac@nu10.co\",\"password\":\"L@litha123\"}";
+	public List<String> mobileEventType = Arrays.asList("APPLY", "APPLIED", "SELECTED", "PAST");
+	public String AccessToken = null;
+
+	@BeforeSuite
+	public void authToken() {
+		try {
+			response = RestAssured.given().contentType(ContentType.JSON).body(body)
+					.post("https://stg.ripplestreet.com/auth/login");
+			String responseBody = response.asString();
+			JsonPath jsonPath = new JsonPath(responseBody);
+			AccessToken = jsonPath.getString("accessToken");
+			System.out.println("AccsessToken is =" + AccessToken);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+	}
 
 	@BeforeMethod
 	public void BaseURI() throws InterruptedException {
-
 		RestAssured.baseURI = baseURI;
-
 	}
 
 	@SuppressWarnings("unlikely-arg-type")
 	@AfterMethod
 	public static void StatusCode() throws IOException, NumberFormatException {
 
-		/*
-		 * SoftAssert softAssert = new SoftAssert(); int statusCode = 200;
-		 * softAssert.assertEquals(200, statusCode);
-		 */
-		String ActualOutput = response.asString();
-		System.out.println("Actual output is" + ActualOutput);
-		File file = new File(devApiPath);
-		FileInputStream fis = new FileInputStream(file);
-		XSSFWorkbook workbook = new XSSFWorkbook(fis);
-		XSSFSheet sheet = workbook.getSheet(ExcelSheetPageName);
-		XSSFRow row = sheet.getRow(Testcase);
-		XSSFCell cell = row.getCell(2);
-		System.out.println("Expected Output is" + cell);
-		XSSFSheet sheet1 = workbook.getSheet(ExcelSheetPageName);
-		XSSFRow row1 = sheet1.getRow(Testcase);
-		XSSFCell cell1 = row1.getCell(3);
-		cell1.setCellValue(ActualOutput);
-		FileOutputStream fio = new FileOutputStream(file);
-		workbook.write(fio);
-		workbook.close();
+		if (UgcControllerGetApi.flag == true) {
+			byte[] byteimage = response.getBody().asByteArray();
+			ByteArrayInputStream byteArray = new ByteArrayInputStream(byteimage);
+			BufferedImage image = ImageIO.read(byteArray);
+			Double hashcode = (double) image.hashCode();
+			if (hashcode != null) {
+				System.out.println("Actual Output is" + hashcode);
+				File file = new File(devApiPath);
+				FileInputStream fis = new FileInputStream(file);
+				XSSFWorkbook workbook = new XSSFWorkbook(fis);
+				XSSFSheet sheet = workbook.getSheet(ExcelSheetPageName);
+				XSSFRow row = sheet.getRow(Testcase);
+				XSSFCell cell = row.getCell(2);
+				System.out.println("Expected Output is" + cell);
+				XSSFSheet sheet1 = workbook.getSheet(ExcelSheetPageName);
+				XSSFRow row1 = sheet1.getRow(Testcase);
+				XSSFCell cell1 = row1.getCell(3);
+				cell1.setCellValue(hashcode);
+				FileOutputStream fio = new FileOutputStream(file);
+				workbook.write(fio);
+				workbook.close();
+				if (cell.getCellType() == CellType.STRING) {
+					String ExpectedOutput = cell.getStringCellValue();
+					if (ExpectedOutput.equals(hashcode)) {
+						System.err.println("TestCase" + " " + Testcase + " " + "has been passed");
+					} else {
+						System.err.println(
+								"TestCase" + " " + Testcase + " " + "Expected and actual output is Mismatching");
+					}
+				} else if (cell.getCellType() == CellType.NUMERIC) {
+					double ExpectedOutput = (double) cell.getNumericCellValue();
+					double Actual_output = hashcode;
 
-		if (cell.getCellType() == CellType.STRING) {
-			String ExpectedOutput = cell.getStringCellValue();
-			if (ExpectedOutput.equals(ActualOutput)) {
+					if (ExpectedOutput == Actual_output) {
+						System.err.println("TestCase" + " " + Testcase + " " + "has been passed");
 
-				System.err.println("TestCase" + " " + Testcase + " " + "has been passed");
+					} else {
+						System.err.println(
+								"TestCase" + " " + Testcase + " " + "Expected and actual output is Mismatching");
+					}
 
-			} else {
+				} else if (cell.getCellType() == CellType.BOOLEAN) {
+					Boolean ExpectedOutput = cell.getBooleanCellValue();
+					if (ExpectedOutput.equals(hashcode)) {
+						System.err.println("TestCase" + " " + Testcase + " " + "has been passed");
+					} else {
+						System.err.println(
+								"TestCase" + " " + Testcase + " " + "Expected and actual output is Mismatching");
+					}
 
-				System.err.println("TestCase" + " " + Testcase + " " + "Expected and actual output is Mismatching");
+				}
 
 			}
-		} else if (cell.getCellType() == CellType.NUMERIC) {
-			int ExpectedOutput = (int) cell.getNumericCellValue();
 
-			int Actual_output = Integer.parseInt(ActualOutput);
-
-			if (ExpectedOutput == Actual_output) {
-
-				System.err.println("TestCase" + " " + Testcase + " " + "has been passed"); //
-
+		} else {
+			int statuscode = response.statusCode();
+			if (statuscode == 200 || statuscode == 201 || statuscode == 302 || statuscode == 202) {
+				System.out.println("status code is" + statuscode);
+			} else if (statuscode == 400) {
+				System.err.println("status code is 400");
 			} else {
-				System.err.println("TestCase" + " " + Testcase + " " + "Expected and actual output is Mismatching");
+				System.err.println("status code is 500");
 			}
+			String ActualOutput = response.asString();
+			System.out.println("Actual output is" + ActualOutput);
+			File file = new File(devApiPath);
+			FileInputStream fis = new FileInputStream(file);
+			XSSFWorkbook workbook = new XSSFWorkbook(fis);
+			XSSFSheet sheet = workbook.getSheet(ExcelSheetPageName);
+			XSSFRow row = sheet.getRow(Testcase);
+			XSSFCell cell = row.getCell(2);
+			System.out.println("Expected Output is " + cell);
+			XSSFSheet sheet1 = workbook.getSheet(ExcelSheetPageName);
+			XSSFRow row1 = sheet1.getRow(Testcase);
+			XSSFCell cell1 = row1.getCell(3);
+			cell1.setCellValue(ActualOutput);
+			FileOutputStream fio = new FileOutputStream(file);
+			workbook.write(fio);
+			workbook.close();
+			if (cell.getCellType() == CellType.STRING) {
+				String ExpectedOutput = cell.getStringCellValue();
+				if (ExpectedOutput.equals(ActualOutput)) {
+					System.err.println("TestCase" + " " + Testcase + " " + "has been passed");
+				} else {
+					System.err.println("TestCase" + " " + Testcase + " " + "Expected and actual output is Mismatching");
+				}
+			} else if (cell.getCellType() == CellType.NUMERIC) {
+				int ExpectedOutput = (int) cell.getNumericCellValue();
+				int Actual_output = Integer.parseInt(ActualOutput);
 
-		} else if (cell.getCellType() == CellType.BOOLEAN) {
-			Boolean ExpectedOutput = cell.getBooleanCellValue();
+				if (ExpectedOutput == Actual_output) {
+					System.err.println("TestCase" + " " + Testcase + " " + "has been passed");
 
-			if (ExpectedOutput.equals(ActualOutput)) {
+				} else {
+					System.err.println("TestCase" + " " + Testcase + " " + "Expected and actual output is Mismatching");
+				}
+			} else if (cell.getCellType() == CellType.BOOLEAN) {
+				Boolean ExpectedOutput = cell.getBooleanCellValue();
+				if (ExpectedOutput.equals(ActualOutput)) {
+					System.err.println("TestCase" + " " + Testcase + " " + "has been passed");
+				} else {
+					System.err.println("TestCase" + " " + Testcase + " " + "Expected and actual output is Mismatching");
+				}
 
-				System.err.println("TestCase" + " " + Testcase + " " + "has been passed");
-
-			} else {
-				System.err.println("TestCase" + " " + Testcase + " " + "Expected and actual output is Mismatching");
 			}
 
 		}
 
 	}
+
 }

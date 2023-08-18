@@ -1,4 +1,4 @@
- <project xmlns="http://maven.apache.org/POM/4.0.0"
+<project xmlns="http://maven.apache.org/POM/4.0.0"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
@@ -113,7 +113,7 @@
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
-			<version>7.7.1</version>
+			<version>7.8.0</version>
 			<scope>test</scope>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
@@ -180,6 +180,10 @@
 							<name>listener</name>
 							<value>
 								org.testng.reporters.XMLReporter,org.testng.reporters.JUnitXMLReporter,org.testng.reporters.EmailableReporter</value>
+							<value>
+								org.uncommons.reportng.HTMLReporter,org.uncommons.reportng.JUnitXMLReporter</value>
+							<value>
+								org.uncommons.reportng.HTMLReporter,org.uncommons.reportng.JUnitXMLReporter,com.example.reportng.CustomReportListener</value>
 						</property>
 					</properties>
 				</configuration>

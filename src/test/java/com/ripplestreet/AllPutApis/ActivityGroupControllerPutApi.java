@@ -21,6 +21,7 @@ public class ActivityGroupControllerPutApi extends genricUtilities {
 		Testcase = 199;
 		File file = new File(devApiPath);
 		FileInputStream fis = new FileInputStream(file);
+		@SuppressWarnings("resource")
 		XSSFWorkbook workbook = new XSSFWorkbook(fis);
 
 		XSSFSheet sheet = workbook.getSheet(ExcelSheetPageName);

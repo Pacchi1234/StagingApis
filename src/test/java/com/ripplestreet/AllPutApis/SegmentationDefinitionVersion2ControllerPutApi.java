@@ -21,6 +21,7 @@ public class SegmentationDefinitionVersion2ControllerPutApi extends genricUtilit
 		Testcase = 205;
 		File file = new File(devApiPath);
 		FileInputStream fis = new FileInputStream(file);
+		@SuppressWarnings("resource")
 		XSSFWorkbook workbook = new XSSFWorkbook(fis);
 
 		XSSFSheet sheet = workbook.getSheet(ExcelSheetPageName);
@@ -37,6 +38,7 @@ public class SegmentationDefinitionVersion2ControllerPutApi extends genricUtilit
 		Testcase = 206;
 		File file = new File(devApiPath);
 		FileInputStream fis = new FileInputStream(file);
+		@SuppressWarnings("resource")
 		XSSFWorkbook workbook = new XSSFWorkbook(fis);
 
 		XSSFSheet sheet = workbook.getSheet(ExcelSheetPageName);

@@ -7,6 +7,7 @@ import io.restassured.RestAssured;
 public class gameOptionControllerGetApi extends genricUtilities {
 	@Test(priority=96,groups = "gamification")
 	public void getGameOptionBySlug() {
+		RestAssured.baseURI=baseURI;
 		response=RestAssured.get("/gamification/v1/game/"+gameId+"/option/"+gameSlug);
 		Testcase=96;
 		

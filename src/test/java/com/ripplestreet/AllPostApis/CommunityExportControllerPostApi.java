@@ -16,7 +16,7 @@ import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 
 public class CommunityExportControllerPostApi extends postApiutilities {
-	@Test
+	@Test(groups="community-service")
 	public void AudienceExport() throws IOException {
 		Testcase = 10;
 		File file = new File(postApipath);
@@ -34,7 +34,7 @@ public class CommunityExportControllerPostApi extends postApiutilities {
 				"/community-service/v1/export/audience");
 	}
 
-	@Test
+	@Test(groups="community-service")
 	public void communityExport() throws IOException {
 		Testcase = 11;
 		File file = new File(postApipath);

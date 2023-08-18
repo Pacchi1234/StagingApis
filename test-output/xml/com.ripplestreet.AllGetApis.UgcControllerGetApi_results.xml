@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="Test"
-           tests="5"
+           tests="6"
            failures="0"
            errors="0"
            skipped="0"
-           time="7.990">
+           time="9.370">
   <properties />
   
   
-            <testcase name="downloadAsset" time="1.605" classname="com.ripplestreet.AllGetApis.UgcControllerGetApi" />
-                <testcase name="getUgcDetailsById" time="1.628" classname="com.ripplestreet.AllGetApis.UgcControllerGetApi" />
-                <testcase name="getUgcDetailsByTaskId" time="1.783" classname="com.ripplestreet.AllGetApis.UgcControllerGetApi" />
-                <testcase name="getImageRecognitionResponse" time="1.472" classname="com.ripplestreet.AllGetApis.UgcControllerGetApi" />
-                <testcase name="downloadAssetByURL" time="1.502" classname="com.ripplestreet.AllGetApis.UgcControllerGetApi" />
+            <testcase name="downloadAssetByURL" time="1.540" classname="com.ripplestreet.AllGetApis.UgcControllerGetApi" />
+                <testcase name="getUgcDetailsByTaskId" time="1.484" classname="com.ripplestreet.AllGetApis.UgcControllerGetApi" />
+                <testcase name="getImageRecognitionResponse" time="1.530" classname="com.ripplestreet.AllGetApis.UgcControllerGetApi" />
+                <testcase name="getUgcDetailsById" time="1.397" classname="com.ripplestreet.AllGetApis.UgcControllerGetApi" />
+                <testcase name="getUserAsset" time="1.509" classname="com.ripplestreet.AllGetApis.UgcControllerGetApi" />
+                <testcase name="downloadAsset" time="1.910" classname="com.ripplestreet.AllGetApis.UgcControllerGetApi" />
       
 </testsuite>

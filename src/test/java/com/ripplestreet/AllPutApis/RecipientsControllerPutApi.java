@@ -15,7 +15,7 @@ import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 
 public class RecipientsControllerPutApi extends genricUtilities {
-	@Test(priority=213)
+	@Test(priority=213,groups="notification")
 	public void deleteRecipientsByCampaignId() throws Throwable {
 		Testcase=213;
 		File file = new File(devApiPath);

@@ -18,6 +18,7 @@ import io.restassured.http.ContentType;
 public class AgencyControllerPutApi extends genricUtilities{
 	@Test(priority=231,groups="event-campaign-manager")
 	public void updateAgency() throws IOException {
+		RestAssured.baseURI=baseURI;
 		Testcase=231;
 		File file = new File(devApiPath);
 		FileInputStream fis = new FileInputStream(file);
